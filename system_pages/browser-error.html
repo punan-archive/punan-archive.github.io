@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <title>无法显示网页</title>
+  <style>
+    body { margin: 48px; color: #222; background: #fff; font: 14px/1.7 Arial, "宋体", sans-serif; }
+    h1 { margin: 0 0 16px; padding-bottom: 12px; font-size: 22px; font-weight: normal; border-bottom: 1px solid #bbb; }
+    .icon { float: left; margin: 0 14px 20px 0; color: #b89500; font: bold 26px serif; }
+    .url { color: #666; word-break: break-all; }
+  </style>
+</head>
+<body>
+  <span class="icon">⚠</span>
+  <h1 id="heading">无法显示网页</h1>
+  <p id="detail">无法连接到该地址。请检查地址后重试。</p>
+  <p class="url" id="url"></p>
+  <script>
+    const params = new URLSearchParams(location.search);
+    const uncached = params.get('type') === 'uncached';
+    document.querySelector('#heading').textContent = uncached ? '该网页无法脱机使用' : '无法显示网页';
+    document.querySelector('#detail').textContent = uncached
+      ? '要查看此网页，请连接到 Internet。'
+      : '无法连接到该地址。请检查地址后重试。';
+    document.querySelector('#url').textContent = params.get('url') || '';
+    document.title = document.querySelector('#heading').textContent;
+  </script>
+</body>
+</html>

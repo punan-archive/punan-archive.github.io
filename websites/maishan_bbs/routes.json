@@ -1,0 +1,30 @@
+{
+  "routes": [
+    {"url":"http://bbs.ms-school.edu.cn/forum.php","file":"/websites/maishan_bbs/pages/forum.html","title":"盟杉中学校园论坛"},
+    {"url":"http://bbs.ms-school.edu.cn/forum.php?fid=2","file":"/websites/maishan_bbs/pages/board-campus.html","title":"校园茶馆 - 盟杉中学校园论坛"},
+    {"url":"http://bbs.ms-school.edu.cn/forum.php?fid=3","file":"/websites/maishan_bbs/pages/board-study.html","title":"学习互助 - 盟杉中学校园论坛"},
+    {"url":"http://bbs.ms-school.edu.cn/forum.php?fid=4","file":"/websites/maishan_bbs/pages/board-clubs.html","title":"社团活动 - 盟杉中学校园论坛"},
+    {"url":"http://bbs.ms-school.edu.cn/forum.php?fid=5","file":"/websites/maishan_bbs/pages/board-lost.html","title":"失物招领 - 盟杉中学校园论坛"},
+    {"url":"http://bbs.ms-school.edu.cn/forum.php?fid=6","file":"/websites/maishan_bbs/pages/board-games.html","title":"电脑与游戏 - 盟杉中学校园论坛"},
+    {"url":"http://bbs.ms-school.edu.cn/thread.php?tid=1847","file":"/websites/maishan_bbs/pages/thread-1847.html","title":"体育仓库那边是不是有人恶作剧？ - 校园茶馆"},
+    {"url":"http://bbs.ms-school.edu.cn/thread.php?tid=1842","file":"/websites/maishan_bbs/pages/thread-1842.html","title":"一食堂的糖醋排骨是不是换师傅了 - 校园茶馆"},
+    {"url":"http://bbs.ms-school.edu.cn/thread.php?tid=1836","file":"/websites/maishan_bbs/pages/thread-1836.html","title":"经五路那排银杏差不多黄了 - 校园茶馆"},
+    {"url":"http://bbs.ms-school.edu.cn/thread.php?tid=1831","file":"/websites/maishan_bbs/pages/thread-1831.html","title":"捡到一张饭卡，蓝色卡套 - 失物招领"},
+    {"url":"http://bbs.ms-school.edu.cn/thread.php?tid=1824","file":"/websites/maishan_bbs/pages/thread-1824.html","title":"今天数学周练最后一题怎么做 - 学习互助"},
+    {"url":"http://bbs.ms-school.edu.cn/thread.php?tid=1854","file":"/websites/maishan_bbs/pages/thread-1854.html","title":"谁给校门口那个“陆宝”画了条屁股缝 - 校园茶馆"},
+    {"url":"http://bbs.ms-school.edu.cn/thread.php?tid=1851","file":"/websites/maishan_bbs/pages/thread-1851.html","title":"文曲星《暗黑4》更新到第四部 - 电脑与游戏"},
+    {"url":"http://bbs.ms-school.edu.cn/thread.php?tid=1849","file":"/websites/maishan_bbs/pages/thread-1849.html","title":"官网写射箭部，所以我们学校到底有没有和弓部 - 社团活动"},
+    {"url":"http://bbs.ms-school.edu.cn/thread.php?tid=1845","file":"/websites/maishan_bbs/pages/thread-1845.html","title":"侦探社的能不能不要再拿手表滋人了 - 社团活动"},
+    {"url":"http://bbs.ms-school.edu.cn/thread.php?tid=1807","file":"/websites/maishan_bbs/pages/thread-1807.html","title":"南楼连廊那块玻璃是不是装反了 - 校园茶馆"},
+    {"url":"http://bbs.ms-school.edu.cn/thread.php?tid=1789","file":"/websites/maishan_bbs/pages/thread-1789.html","title":"高二（4）班门口到底是谁在叫我 - 校园茶馆"},
+    {"url":"http://bbs.ms-school.edu.cn/space.php?uid=227","file":"/websites/maishan_bbs/pages/user-227.html","title":"又忘带饭卡的个人资料 - 盟杉中学校园论坛"},
+    {"url":"http://bbs.ms-school.edu.cn/pm.php?action=view&pmid=512","file":"/websites/maishan_bbs/pages/pm-512.html","title":"站内短消息：又忘带饭卡 - 盟杉中学校园论坛"},
+    {"url":"http://bbs.ms-school.edu.cn/search.php","file":"/websites/maishan_bbs/pages/search.html","title":"论坛搜索 - 盟杉中学校园论坛"},
+    {"url":"http://bbs.ms-school.edu.cn/search.php?q=%E5%B9%BB%E8%A7%89","file":"/websites/maishan_bbs/pages/search-hallucination.html","title":"搜索：幻觉 - 盟杉中学校园论坛"},
+    {"url":"http://bbs.ms-school.edu.cn/search.php?q=%E6%81%B6%E4%BD%9C%E5%89%A7","file":"/websites/maishan_bbs/pages/search-prank.html","title":"搜索：恶作剧 - 盟杉中学校园论坛"},
+    {"url":"http://bbs.ms-school.edu.cn/search.php?q=%E5%BD%B1%E5%AD%90","file":"/websites/maishan_bbs/pages/search-shadow.html","title":"搜索：影子 - 盟杉中学校园论坛"},
+    {"url":"http://bbs.ms-school.edu.cn/search.php?q=%E4%BD%A0%E4%B8%8D%E8%A1%8C","file":"/websites/maishan_bbs/pages/search-notgood.html","title":"搜索：你不行 - 盟杉中学校园论坛"},
+    {"url":"http://bbs.ms-school.edu.cn/search.php?keyword=%E5%B9%BB%E8%A7%89%20%E6%81%B6%E4%BD%9C%E5%89%A7%20%E5%BD%B1%E5%AD%90%20%E4%BD%A0%E4%B8%8D%E8%A1%8C","file":"/websites/maishan_bbs/pages/search-combined.html","title":"搜索：幻觉 恶作剧 影子 你不行 - 盟杉中学校园论坛"},
+    {"url":"http://bbs.ms-school.edu.cn/help.php","file":"/websites/maishan_bbs/pages/help.html","title":"论坛帮助 - 盟杉中学校园论坛"}
+  ]
+}

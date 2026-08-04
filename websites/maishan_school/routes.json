@@ -1,0 +1,84 @@
+{
+  "routes": [
+    {
+      "url": "http://www.ms-school.edu.cn/",
+      "file": "/websites/maishan_school/pages/index.html",
+      "title": "盟杉中学"
+    },
+    {
+      "url": "http://www.ms-school.edu.cn/index.html",
+      "file": "/websites/maishan_school/pages/index.html",
+      "title": "盟杉中学"
+    },
+    {
+      "url": "http://www.ms-school.edu.cn/xxgk/index.html",
+      "file": "/websites/maishan_school/pages/about.html",
+      "title": "学校概况 - 盟杉中学"
+    },
+    {
+      "url": "http://www.ms-school.edu.cn/xxgk/xsyg.html",
+      "file": "/websites/maishan_school/pages/history.html",
+      "title": "校史沿革 - 盟杉中学"
+    },
+    {
+      "url": "http://www.ms-school.edu.cn/xwzx/index.html",
+      "file": "/websites/maishan_school/pages/news.html",
+      "title": "校园新闻 - 盟杉中学"
+    },
+    {
+      "url": "http://www.ms-school.edu.cn/xwzx/2010/1108/157.html",
+      "file": "/websites/maishan_school/pages/news_157.html",
+      "title": "我校举行世博志愿服务总结交流会 - 盟杉中学"
+    },
+    {
+      "url": "http://www.ms-school.edu.cn/sthd/index.html",
+      "file": "/websites/maishan_school/pages/clubs.html",
+      "title": "社团活动 - 盟杉中学"
+    },
+    {
+      "url": "http://www.ms-school.edu.cn/dyzc/index.html",
+      "file": "/websites/maishan_school/pages/ordinary.html",
+      "title": "德育之窗 - 盟杉中学"
+    },
+    {
+      "url": "http://www.ms-school.edu.cn/jxky/index.html",
+      "file": "/websites/maishan_school/pages/ordinary.html",
+      "title": "教学科研 - 盟杉中学"
+    },
+    {
+      "url": "http://www.ms-school.edu.cn/xstd/index.html",
+      "file": "/websites/maishan_school/pages/ordinary.html",
+      "title": "学生天地 - 盟杉中学"
+    },
+    {
+      "url": "http://www.ms-school.edu.cn/zsxx/index.html",
+      "file": "/websites/maishan_school/pages/ordinary.html",
+      "title": "招生信息 - 盟杉中学"
+    },
+    {
+      "url": "http://www.ms-school.edu.cn/xwgk/index.html",
+      "file": "/websites/maishan_school/pages/ordinary.html",
+      "title": "校务公开 - 盟杉中学"
+    },
+    {
+      "url": "http://www.ms-school.edu.cn/site/jianshezhong.html",
+      "status": "uncached",
+      "title": "该网页无法脱机使用"
+    },
+    {
+      "url": "http://www.ms-school.edu.cn/dangan/manage/login.asp",
+      "status": "uncached",
+      "title": "该网页无法脱机使用"
+    },
+    {
+      "url": "http://www.punan.gov.cn/",
+      "status": "uncached",
+      "title": "该网页无法脱机使用"
+    },
+    {
+      "url": "http://www.punan.gov.cn/jyj/",
+      "status": "uncached",
+      "title": "该网页无法脱机使用"
+    }
+  ]
+}

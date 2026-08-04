@@ -1,0 +1,35 @@
+{
+  "items": [
+    {
+      "id": "homework-folder",
+      "name": "学校",
+      "type": "folder"
+    },
+    {
+      "id": "downloads-folder",
+      "name": "下载",
+      "type": "folder"
+    },
+    {
+      "id": "duty-roster",
+      "name": "本周值日安排.txt",
+      "type": "text",
+      "modified": "2010-11-08 19:22",
+      "content": "高三一班第十一周值日安排（穆南自己抄的）\n\n周一　第一组\n周二　第二组\n周三　第三组\n周四　第四组\n周五　穆南、唐竹\n\n关窗、倒垃圾、擦黑板。走之前记得把门带上。"
+    },
+    {
+      "id": "bus-note",
+      "name": "末班车.txt",
+      "type": "text",
+      "modified": "2010-10-27 22:04",
+      "content": "19路　经六路方向　22:10\n31路　浦南文化馆方向　21:45\n\n别再把‘末班’看成‘末日’。"
+    },
+    {
+      "id": "reading-list",
+      "name": "待读.txt",
+      "type": "text",
+      "modified": "2010-11-11 00:17",
+      "content": "密室类：3\n不在场证明：2\n叙述性诡计：暂时不看剧透\n\n备注：借书证月底前续一次。"
+    }
+  ]
+}

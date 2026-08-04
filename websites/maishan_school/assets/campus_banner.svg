@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="120" viewBox="0 0 920 120">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7da7c3"/>
+      <stop offset="1" stop-color="#d6d9ba"/>
+    </linearGradient>
+    <linearGradient id="overlay" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#17496f" stop-opacity=".92"/>
+      <stop offset=".52" stop-color="#2b688f" stop-opacity=".42"/>
+      <stop offset="1" stop-color="#113d5c" stop-opacity=".1"/>
+    </linearGradient>
+  </defs>
+  <rect width="920" height="120" fill="url(#sky)"/>
+  <circle cx="790" cy="24" r="18" fill="#f2dd9b" opacity=".75"/>
+  <path d="M0 94L115 84 180 90 260 75 340 89 430 72 515 83 605 69 700 82 815 70 920 78V120H0Z" fill="#61754c"/>
+  <path d="M560 54h235v55H560z" fill="#d5c9a7" stroke="#7b735f"/>
+  <path d="M580 38h195v71H580z" fill="#d7d0b7" stroke="#817b69"/>
+  <path d="M574 35h207v7H574z" fill="#8c3b31"/>
+  <g fill="#55778b">
+    <path d="M598 51h22v16h-22zM633 51h22v16h-22zM668 51h22v16h-22zM703 51h22v16h-22zM738 51h22v16h-22z"/>
+    <path d="M598 77h22v16h-22zM633 77h22v16h-22zM668 77h22v16h-22zM703 77h22v16h-22zM738 77h22v16h-22z"/>
+  </g>
+  <g fill="#b6a236" opacity=".9">
+    <circle cx="525" cy="55" r="19"/><circle cx="538" cy="43" r="16"/><circle cx="548" cy="62" r="21"/>
+    <circle cx="825" cy="72" r="22"/><circle cx="844" cy="57" r="18"/><circle cx="851" cy="79" r="20"/>
+  </g>
+  <g stroke="#5b5748" stroke-width="4">
+    <path d="M536 64v50M840 74v40"/>
+  </g>
+  <rect width="920" height="120" fill="url(#overlay)"/>
+  <path d="M0 110H920" stroke="#e8cc62" stroke-width="2" opacity=".7"/>
+</svg>

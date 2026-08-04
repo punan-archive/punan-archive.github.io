@@ -1,0 +1,17 @@
+{
+  "releases": {
+    "ch01-msbbs-1847": {
+      "snapshots": ["MN-HOME-PC01-20101112-A"],
+      "initialUrl": "http://bbs.ms-school.edu.cn/thread.php?tid=1847"
+    }
+  },
+  "snapshots": [
+    {
+      "id": "MN-HOME-PC01-20101112-A",
+      "label": "第一章·校园论坛",
+      "shortDate": "11月12日",
+      "device": "穆南家用电脑",
+      "manifest": "/snapshots/MN-HOME-PC01-20101112-A/snapshot.json"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "MN-HOME-PC01-20101112-A",
+  "deviceLabel": "穆南家用电脑",
+  "captureTime": "2010年11月12日 23:48",
+  "captureIso": "2010-11-12T23:48:00+08:00",
+  "initialUrl": "http://bbs.ms-school.edu.cn/thread.php?tid=1847",
+  "browserHome": "http://www.ms-school.edu.cn/",
+  "routeSources": [
+    "/websites/maishan_bbs/routes.json",
+    "/websites/maishan_school/routes.json"
+  ],
+  "browserHistory": [
+    {
+      "time": "23:31",
+      "title": "盟杉中学校园论坛",
+      "url": "http://bbs.ms-school.edu.cn/forum.php"
+    },
+    {
+      "time": "23:33",
+      "title": "搜索：幻觉",
+      "url": "http://bbs.ms-school.edu.cn/search.php?q=%E5%B9%BB%E8%A7%89"
+    },
+    {
+      "time": "23:34",
+      "title": "搜索：恶作剧",
+      "url": "http://bbs.ms-school.edu.cn/search.php?q=%E6%81%B6%E4%BD%9C%E5%89%A7"
+    },
+    {
+      "time": "23:35",
+      "title": "搜索：影子",
+      "url": "http://bbs.ms-school.edu.cn/search.php?q=%E5%BD%B1%E5%AD%90"
+    },
+    {
+      "time": "23:36",
+      "title": "搜索：你不行",
+      "url": "http://bbs.ms-school.edu.cn/search.php?q=%E4%BD%A0%E4%B8%8D%E8%A1%8C"
+    },
+    {
+      "time": "23:39",
+      "title": "体育仓库那边是不是有人恶作剧？",
+      "url": "http://bbs.ms-school.edu.cn/thread.php?tid=1847"
+    },
+    {
+      "time": "23:44",
+      "title": "站内短消息：又忘带饭卡",
+      "url": "http://bbs.ms-school.edu.cn/pm.php?action=view&pmid=512"
+    }
+  ],
+  "data": {
+    "messenger": "/snapshots/MN-HOME-PC01-20101112-A/messenger.json",
+    "filesystem": "/snapshots/MN-HOME-PC01-20101112-A/filesystem.json"
+  }
+}
