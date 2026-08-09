@@ -148,7 +148,10 @@ a:hover { color: #b01f18; text-decoration: underline; }
 .article p { margin: 0 0 13px; font-size: 14px; line-height: 2; text-indent: 2em; }
 .legacy-photo { width: min(100%, 560px); margin: 8px auto 18px; padding: 6px; background: #eee; border: 1px solid #a8a8a8; }
 .legacy-photo img { display: block; width: 100%; height: 244px; object-fit: cover; background: #f8f8f5; border: 1px solid #c8c8c8; }
-.legacy-photo img.is-missing { object-fit: none; text-align: left; }
+.legacy-photo__placeholder { height: 244px; display: grid; place-content: center; gap: 5px; color: #777; text-align: center; background: #f4f1e8; border: 1px solid #c8c8c0; font-family: "宋体",SimSun,serif; }
+.legacy-photo__placeholder span { color: #aaa; font-size: 34px; line-height: 1; }
+.legacy-photo__placeholder strong { color: #666; font-size: 14px; font-weight: 400; }
+.legacy-photo__placeholder small { color: #999; }
 .legacy-photo figcaption { padding: 6px 3px 1px; color: #666; line-height: 1.55; }
 .legacy-photo .credit { margin-left: 8px; color: #777; }
 

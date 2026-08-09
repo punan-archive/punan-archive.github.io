@@ -245,9 +245,11 @@
 
   function photo(item) {
     const missing = item.image.status === 'missing';
-    const src = missing ? `/websites/punan_portal/assets/missing/${item.id}.jpg` : item.image.src;
+    const image = missing
+      ? '<div class="legacy-photo__placeholder" role="img" aria-label="图片未缓存"><span>□</span><strong>图片未缓存</strong><small>仅保存图注</small></div>'
+      : `<img src="${escapeAttr(item.image.src)}" alt="${escapeAttr(item.image.alt || '')}" width="560" height="244">`;
     return `<figure class="legacy-photo">
-      <img class="${missing ? 'is-missing' : ''}" src="${escapeAttr(src)}" alt="${escapeAttr(item.image.alt || '')}" width="560" height="244">
+      ${image}
       <figcaption>${escapeHtml(item.image.caption)}<span class="credit">${escapeHtml(item.image.credit)}</span></figcaption>
     </figure>`;
   }
