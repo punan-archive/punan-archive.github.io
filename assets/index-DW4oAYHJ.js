@@ -169,12 +169,12 @@
           <span>${m(s.shortDate)}</span>
           <strong>${m(s.label)}</strong>
           <small>${m(s.device)}</small>
-        </button>`).join("")}`,t.querySelectorAll("[data-snapshot]").forEach(s=>{s.addEventListener("click",()=>this.mount(s.dataset.snapshot))})}renderEmptyArchive(){const t=["localhost","127.0.0.1"].includes(location.hostname)?'<a class="empty-archive__preview" href="/?access=ch01-msbbs-1847">本地开发：挂载第一章镜像</a>':"";this.root.innerHTML=`
+        </button>`).join("")}`,t.querySelectorAll("[data-snapshot]").forEach(s=>{s.addEventListener("click",()=>this.mount(s.dataset.snapshot))})}renderEmptyArchive(){const t=["localhost","127.0.0.1"].includes(location.hostname)?'<a class="empty-archive__preview" href="/?access=ch01-msbbs-1847">本地预览：挂载测试镜像</a>':"";this.root.innerHTML=`
       <main class="empty-archive">
         <div class="empty-archive__mark">PN</div>
         <p class="eyebrow">PUNAN NETWORK ARCHIVE</p>
         <h1>未挂载任何介质</h1>
-        <p>请从《身后的呼唤》Replay章节中出现的档案链接进入。</p>
+        <p>未找到可读取的介质。请从已取得的档案链接重新进入。</p>
         ${t}
       </main>`}readAccess(){try{return JSON.parse(localStorage.getItem(P)||"[]")}catch{return[]}}persistAccess(){localStorage.setItem(P,JSON.stringify([...this.unlocked]))}}async function q(n){const t=await fetch(n);if(!t.ok)throw new Error(`无法读取 ${n}`);return t.json()}function m(n=""){return String(n).replaceAll("&","&amp;").replaceAll("<","&lt;").replaceAll(">","&gt;").replaceAll('"',"&quot;").replaceAll("'","&#039;")}const j=document.querySelector("#app"),st=new et(j);st.start().catch(n=>{console.error(n),j.innerHTML=`
     <main class="fatal-error">
