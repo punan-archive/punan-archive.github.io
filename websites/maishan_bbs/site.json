@@ -1,0 +1,10 @@
+{
+  "id": "maishan_bbs",
+  "name": "盟杉中学校园论坛",
+  "shortName": "盟杉论坛",
+  "defaultUrl": "http://bbs.ms-school.edu.cn/forum.php",
+  "era": "2010-11",
+  "maintainer": "盟杉中学学生会网络组",
+  "description": "由学生管理员维护的校内交流论坛。固定宽度、信息密集、带有轻微的模板拼接感。",
+  "entryUrl": "http://bbs.ms-school.edu.cn/thread.php?tid=1847"
+}

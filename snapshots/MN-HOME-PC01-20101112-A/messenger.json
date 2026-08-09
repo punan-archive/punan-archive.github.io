@@ -1,4 +1,9 @@
 {
+  "profile": {
+    "displayName": "穆南",
+    "signature": "先把事实列清楚",
+    "avatar": "穆"
+  },
   "conversations": [
     {
       "id": "group-after-school",
@@ -13,6 +18,35 @@
         { "time": "22:49", "sender": "裴小美", "text": "总之，一个人的时候遇到奇怪的事，还是赶快先去喊人好一点。-3-" },
         { "time": "22:50", "sender": "唐竹", "text": "知道了。" },
         { "time": "23:44", "sender": "裴小美", "text": "天黑，冷，害怕，不去。乖，摸摸。" }
+      ]
+    },
+    {
+      "id": "meimei-private",
+      "title": "裴小美",
+      "subtitle": "本地消息记录",
+      "avatar": "裴",
+      "preview": "每次要出事的人都这么说。",
+      "messages": [
+        { "time": "22:52", "sender": "裴小美", "text": "阿竹到家了吗？" },
+        { "time": "22:53", "sender": "穆南", "text": "到了。她刚在群里回我。" },
+        { "time": "22:53", "sender": "裴小美", "text": "那就好。你也别再一个人回学校。" },
+        { "time": "22:54", "sender": "穆南", "text": "我只是去确认一下。" },
+        { "time": "22:54", "sender": "裴小美", "text": "每次要出事的人都这么说。" }
+      ]
+    },
+    {
+      "id": "detective-club",
+      "title": "侦探社活动群（6）",
+      "subtitle": "本地记录停在20:37",
+      "avatar": "侦",
+      "preview": "下周谁也不许带水枪。",
+      "messages": [
+        { "time": "20:31", "sender": "社长", "text": "下周活动照常。先说好，谁也不许带水枪。" },
+        { "time": "20:32", "sender": "社员甲", "text": "主要是穆南不许带吧。" },
+        { "time": "20:33", "sender": "穆南", "text": "那次是器材测试时的意外。" },
+        { "time": "20:34", "sender": "社员乙", "text": "你意外了三次。" },
+        { "time": "20:35", "sender": "穆南", "text": "因为前两次没有取得足够数据。" },
+        { "time": "20:37", "sender": "社长", "text": "很好，这句话也写进禁止事项。" }
       ]
     },
     {

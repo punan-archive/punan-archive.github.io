@@ -1,13 +1,15 @@
 {
   "id": "MN-HOME-PC01-20101112-A",
   "deviceLabel": "穆南家用电脑",
+  "deviceNote": "家用电脑，Windows账户主要由穆南使用",
   "captureTime": "2010年11月12日 23:48",
   "captureIso": "2010-11-12T23:48:00+08:00",
   "initialUrl": "http://bbs.ms-school.edu.cn/thread.php?tid=1847",
   "browserHome": "http://www.ms-school.edu.cn/",
   "routeSources": [
     "/websites/maishan_bbs/routes.json",
-    "/websites/maishan_school/routes.json"
+    "/websites/maishan_school/routes.json",
+    "/websites/punan_portal/routes.json"
   ],
   "browserHistory": [
     {
@@ -37,7 +39,7 @@
     },
     {
       "time": "23:39",
-      "title": "体育仓库那边是不是有人恶作剧？",
+      "title": "体育仓库里是不是有人？",
       "url": "http://bbs.ms-school.edu.cn/thread.php?tid=1847"
     },
     {

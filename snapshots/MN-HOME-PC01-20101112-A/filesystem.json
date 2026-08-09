@@ -1,19 +1,20 @@
 {
+  "wallpaper": "/websites/punan_portal/assets/autumn-photo.png",
+  "desktopShortcuts": [
+    { "itemId": "detective-folder", "label": "侦探社" },
+    { "itemId": "tomorrow-note", "label": "明天要带的.txt" }
+  ],
   "items": [
-    {
-      "id": "homework-folder",
-      "name": "学校",
-      "type": "folder"
-    },
-    {
-      "id": "downloads-folder",
-      "name": "下载",
-      "type": "folder"
-    },
+    { "id": "school-folder", "name": "学校", "type": "folder", "parentId": null },
+    { "id": "detective-folder", "name": "侦探社", "type": "folder", "parentId": null },
+    { "id": "downloads-folder", "name": "下载", "type": "folder", "parentId": null },
+    { "id": "pictures-folder", "name": "图片收藏", "type": "folder", "parentId": null },
+
     {
       "id": "duty-roster",
       "name": "本周值日安排.txt",
       "type": "text",
+      "parentId": null,
       "modified": "2010-11-08 19:22",
       "content": "高三一班第十一周值日安排（穆南自己抄的）\n\n周一　第一组\n周二　第二组\n周三　第三组\n周四　第四组\n周五　穆南、唐竹\n\n关窗、倒垃圾、擦黑板。走之前记得把门带上。"
     },
@@ -21,6 +22,7 @@
       "id": "bus-note",
       "name": "末班车.txt",
       "type": "text",
+      "parentId": null,
       "modified": "2010-10-27 22:04",
       "content": "19路　经六路方向　22:10\n31路　浦南文化馆方向　21:45\n\n别再把‘末班’看成‘末日’。"
     },
@@ -28,8 +30,165 @@
       "id": "reading-list",
       "name": "待读.txt",
       "type": "text",
+      "parentId": null,
       "modified": "2010-11-11 00:17",
       "content": "密室类：3\n不在场证明：2\n叙述性诡计：暂时不看剧透\n\n备注：借书证月底前续一次。"
+    },
+    {
+      "id": "tomorrow-note",
+      "name": "明天要带的.txt",
+      "type": "text",
+      "parentId": null,
+      "modified": "2010-11-12 22:18",
+      "content": "政治卷子\n借书证\n值日要关窗\n\n手表不要带去社团。"
+    },
+
+    {
+      "id": "sports-retest",
+      "name": "体育补测通知.txt",
+      "type": "text",
+      "parentId": "school-folder",
+      "modified": "2010-11-05 18:41",
+      "content": "下周三放学后，高三年级体育补测。\n\n项目：1000米、立定跳远。\n地点：田径场。\n\n名单里真的有我。没有看错。"
+    },
+    {
+      "id": "politics-paper",
+      "name": "政治卷子答案（空白）.doc",
+      "type": "document",
+      "parentId": "school-folder",
+      "modified": "2010-11-12 21:36",
+      "content": "高三政治练习卷答题稿\n\n一、选择题\n1.　　2.　　3.　　4.\n\n二、材料分析题\n\n\n（以下空白）"
+    },
+    {
+      "id": "schedule-change",
+      "name": "第十一周课程调整.txt",
+      "type": "text",
+      "parentId": "school-folder",
+      "modified": "2010-11-07 20:03",
+      "content": "周四下午第二节政治课与周五上午第四节自习课对调。\n体育课照常。\n\n班长在群里发过一次，怕忘，抄在这里。"
+    },
+
+    {
+      "id": "club-log",
+      "name": "2010秋季活动记录.doc",
+      "type": "document",
+      "parentId": "detective-folder",
+      "modified": "2010-11-06 23:12",
+      "content": "盟杉中学侦探社　2010年秋季活动记录\n\n9月17日　新学期第一次活动，整理活动室。\n9月24日　观察练习：只写看见的，不写猜到的。\n10月15日　讨论旧教学楼雨伞拿错事件。\n10月29日　器材试用。手表式水枪暂时停用。\n11月5日　图书馆资料分类。\n\n下次：把已经解决的事情整理成统一格式。"
+    },
+    {
+      "id": "club-equipment",
+      "name": "社团器材清单.xls",
+      "type": "spreadsheet",
+      "parentId": "detective-folder",
+      "modified": "2010-10-30 12:44",
+      "content": "物品　　　　　　　数量　状态\n卷尺　　　　　　　2　　正常\n手电筒　　　　　　3　　其中一只接触不良\n透明胶　　　　　　1　　快用完\n放大镜　　　　　　2　　正常\n一次性相机　　　　1　　还剩七张\n手表式水枪　　　　1　　暂停使用\n催眠装置　　　　　0　　申请未通过",
+      "sheet": {
+        "name": "器材清单",
+        "columns": ["物品", "数量", "状态"],
+        "rows": [
+          ["卷尺", "2", "正常"],
+          ["手电筒", "3", "其中一只接触不良"],
+          ["透明胶", "1", "快用完"],
+          ["放大镜", "2", "正常"],
+          ["一次性相机", "1", "还剩七张"],
+          ["手表式水枪", "1", "暂停使用"],
+          ["催眠装置", "0", "申请未通过"]
+        ]
+      }
+    },
+    {
+      "id": "blue-umbrella-case",
+      "name": "旧案_七把蓝雨伞.doc",
+      "type": "document",
+      "parentId": "detective-folder",
+      "modified": "2010-10-18 00:26",
+      "content": "侦探社旧记录：七把蓝雨伞\n\n【事情】\n10月12日下雨。放学后，二楼伞架上七把深蓝色长柄伞被连续拿错。七把伞都是浦南化工系统前几年发的同款纪念伞，看起来几乎一样。\n\n【已经确认】\n1. 陈同学带回去的伞，伞柄内侧有一道白色油漆；他自己的没有。\n2. 白色油漆伞属于周同学。周同学带回去的伞套上残留半张“徐”字姓名贴。\n3. 徐同学拿到的伞少了一颗按扣。缺按扣的伞属于孙同学。\n4. 没有人拿到比原来更贵的新伞，也没人中途离开学校。\n\n【同学传言】\n有人专门偷好伞，再拿旧伞补上。\n门卫收走了一把。\n七个人里有人在说谎。\n\n【目前推测】\n不是偷伞，是第一个人拿错以后，后面的人只能继续拿剩下的同款伞，最后形成了一圈。\n\n【尚未解释】\n大家都说拿走了一把，为什么放学后伞架上还剩一把？\n\n【结果】\n第七位同学当天没有带伞。他在早上把上周遗留在教室的伞放回伞架，放学时以为那把就是自己的，又把它拿走了。留在伞架上的那把，才是第一位同学原来的伞。\n\n没有小偷。七个人按顺序把伞换回来以后，数量正好。\n\n记录原则：确认的事、别人说的事和自己的推测要分开写。否则线索一多，最先骗到的是自己。"
+    },
+    {
+      "id": "campus-locations",
+      "name": "校园地点记录.txt",
+      "type": "text",
+      "parentId": "detective-folder",
+      "modified": "2010-10-21 19:08",
+      "content": "教学楼到体育仓库：正常走四分半。\n图书馆侧门周五17:30锁。\n旧实验楼楼梯灯坏了两盏。\n广播室钥匙通常在团委。\n\n只记录公开地点。不要擅自进办公室。"
+    },
+    {
+      "id": "recruit-poster",
+      "name": "招新海报_最终版3.txt",
+      "type": "text",
+      "parentId": "detective-folder",
+      "modified": "2010-09-09 23:47",
+      "content": "盟杉中学侦探社招新\n\n需要：好奇心、耐心、能按时参加活动。\n不需要：风衣、烟斗、神秘身世。\n\n报名请到活动楼二层。\n\n（“解决一切不可能犯罪”被社长划掉了。）"
+    },
+
+    {
+      "id": "bus-map-old",
+      "name": "浦南公交线路图_旧版.txt",
+      "type": "text",
+      "parentId": "downloads-folder",
+      "modified": "2010-10-27 21:58",
+      "content": "文件原名：浦南公交线路图2008.jpg\n\n图片太大，保存失败。后来把要用的两条线路抄进了“末班车.txt”。"
+    },
+    {
+      "id": "dark-four-archive",
+      "name": "暗黑4试玩版.zip",
+      "type": "archive",
+      "parentId": "downloads-folder",
+      "modified": "2010-11-03 19:51",
+      "content": "压缩文件无法打开。\n\n文件大小：42 KB\n备注：从二年八班拷来的文曲星BASIC文字游戏，并不是那个《暗黑破坏神4》。"
+    },
+    {
+      "id": "mystery-books",
+      "name": "推理小说推荐书目.txt",
+      "type": "text",
+      "parentId": "downloads-folder",
+      "modified": "2010-11-10 23:09",
+      "content": "图书馆旧书架：\n密室主题两本\n不在场证明三本\n短篇集一本\n\n论坛推荐里有人直接把凶手写在标题上。以后先看回复再点链接。"
+    },
+
+    {
+      "id": "autumn-latitude-three",
+      "name": "秋天的纬三路.jpg",
+      "type": "image",
+      "parentId": "pictures-folder",
+      "modified": "2010-11-07 17:42",
+      "imageSrc": "/websites/punan_portal/assets/autumn-photo.png",
+      "caption": "从浦南摄影讨论区保存。原帖说是纬三路附近，拍摄者没有写具体路口。"
+    },
+    {
+      "id": "factory-night",
+      "name": "工厂夜景_转载.jpg",
+      "type": "image",
+      "parentId": "pictures-folder",
+      "modified": "2010-10-30 23:20",
+      "imageSrc": "/websites/punan_portal/assets/seawall.png",
+      "caption": "文件名是转载时自动生成的。评论里有人争论照片究竟是在经几路拍的。"
+    },
+    {
+      "id": "campus-autumn",
+      "name": "学校秋景.jpg",
+      "type": "image",
+      "parentId": "pictures-folder",
+      "modified": "2010-11-02 18:05",
+      "imageSrc": "/websites/maishan_school/assets/thumb_courtyard_autumn_2010.jpg",
+      "caption": "盟杉中学官网活动照片。穆南把它裁过一次，最后还是保存了原图。"
+    }
+  ],
+  "recycleBin": [
+    {
+      "id": "deleted-poster",
+      "name": "侦探社招新海报_真正最终版.txt",
+      "type": "text",
+      "modified": "2010-09-09 23:51",
+      "content": "侦探社招新！！！\n\n真相、勇气、智慧——\n\n（写到这里觉得太丢人，删了。）"
+    },
+    {
+      "id": "deleted-watch",
+      "name": "手表结构图_失败.txt",
+      "type": "text",
+      "modified": "2010-10-29 21:14",
+      "content": "按钮 → 软管 → 储水仓\n\n问题：\n1. 射程不够。\n2. 密封不好。\n3. 使用者容易先弄湿自己的袖口。\n\n结论：器材问题，下次不要站在教导主任背后测试。"
     }
   ]
 }

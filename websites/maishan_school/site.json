@@ -1,0 +1,9 @@
+{
+  "siteId": "maishan-school-official",
+  "name": "盟杉中学网站",
+  "virtualHost": "www.ms-school.edu.cn",
+  "defaultUrl": "http://www.ms-school.edu.cn/",
+  "period": "2010-11",
+  "maintainer": "盟杉中学信息技术组",
+  "description": "盟杉中学门户网站与校务信息目录。"
+}

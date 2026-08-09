@@ -223,5 +223,18 @@ a:hover { color: #b23a27; text-decoration: underline; }
 .offline-strip { margin-top: 6px; text-align: right; color: #89949c; font-size: 11px; }
 
 @media (max-width: 879px) {
-  .site-shell { margin-left: 0; }
+  .site-shell { width: 100%; margin: 0; padding-bottom: 12px; }
+  .utility { height: auto; min-height: 26px; }
+  .banner { height: 78px; }
+  .banner-note { display: none; }
+  .main-nav { height: auto; min-height: 31px; padding-left: 2px; }
+  .main-nav a { padding: 6px 7px 5px; }
+  .thread-list .nums, .thread-list .last { display: none; }
+  .thread-list .author { width: 82px; }
+  .post { grid-template-columns: 92px minmax(0, 1fr); }
+  .post-user { padding: 7px; }
+  .avatar { width: 58px; height: 58px; }
+  .post-body { padding: 11px 10px 18px; }
+  .topic-head .meta { float: none; display: block; margin-top: 4px; }
+  .search-input { width: min(62vw, 330px); }
 }

@@ -1,0 +1,9 @@
+{
+  "siteId": "punan-information-port",
+  "name": "浦南信息港",
+  "virtualHost": "www.punan.net",
+  "defaultUrl": "http://www.punan.net/",
+  "period": "2010-11",
+  "maintainer": "浦南信息港编辑部",
+  "description": "地方新闻、政务转载、生活服务、文化活动和旧闻归档共存的2010年综合门户。"
+}

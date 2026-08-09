@@ -21,8 +21,7 @@
   }
 
   document.addEventListener("DOMContentLoaded", function () {
-    // Unavailable entries look like ordinary old links. Only after opening one
-    // does the browser give the period-appropriate offline error.
+    // Older topic lists keep their original link behavior.
     document.querySelectorAll(".uncached-title").forEach(function (element) {
       var link = document.createElement("a");
       link.href = "#";
@@ -32,22 +31,6 @@
       );
       link.innerHTML = element.innerHTML;
       element.replaceWith(link);
-    });
-
-    document.querySelectorAll(".cache-note").forEach(function (element) {
-      element.remove();
-    });
-
-    document.querySelectorAll(".offline-strip").forEach(function (element) {
-      if (/镜像|缓存|当前设备访问过/.test(element.textContent || "")) {
-        element.remove();
-      }
-    });
-
-    document.querySelectorAll(".result-meta").forEach(function (element) {
-      element.textContent = element.textContent
-        .replace(/　(?:正文|附件|图片)未缓存/g, "")
-        .replace(/\s{2,}/g, " ");
     });
 
     document.querySelectorAll(".main-nav").forEach(function (nav) {
@@ -75,9 +58,6 @@
     }
 
     document.querySelectorAll("[data-old-alert]").forEach(function (element) {
-      if (/离线镜像|只读状态|只读镜像/.test(element.getAttribute("data-old-alert") || "")) {
-        element.setAttribute("data-old-alert", "网络连接中断，操作未完成。");
-      }
       element.addEventListener("click", function (event) {
         event.preventDefault();
         window.alert(element.getAttribute("data-old-alert"));
