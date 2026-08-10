@@ -74,9 +74,9 @@
 
   function notice() {
     return `<div class="crumb">当前位置：盟杉中学 &gt; 校园新闻 &gt; 通知</div>
-      <article class="notice"><h1>校史档案目录电子化进入内部试运行</h1><div class="meta">发布时间：2010-10-18　供稿：校办公室、档案室</div>
-        <p>学校档案目录电子化工作已完成阶段性整理。录入人员即日起在校园网内试用目录预览页，核对档号、题名和责任部门。</p>
-        <p>测试链接仅供档案室及信息技术组内部使用，纸质材料查阅仍按原流程申请。</p>
+      <article class="notice"><h1>校史档案目录电子化进入试运行</h1><div class="meta">发布时间：2010-10-18　供稿：校办公室、档案室</div>
+        <p>学校档案目录电子化工作已完成阶段性整理，即日起开放目录预览，供师生和校友检索档号、题名与责任部门。</p>
+        <p>当前仅提供目录信息与部分录入备注，不提供纸质原件、照片或完整正文；材料查阅仍按原流程申请。</p>
       </article>`;
   }
 
@@ -105,7 +105,7 @@
           <tr><th>录入状态</th><td colspan="3">${escapeHtml(item.access)}</td></tr>
         </tbody></table>
         <div class="record-summary">${escapeHtml(item.summary)}</div>
-        ${item.rows ? `<div class="scan-label">目录摘录／局部转写</div>${renderRows(item.rows)}` : ''}
+        ${item.rows ? `<div class="scan-label">目录备注／录入字段</div>${renderRows(item.rows)}` : ''}
         ${item.imageHeld ? '<div class="scan-label">图像文件</div><div class="image-unavailable">图像尚未录入，本批仅提供目录字段与原始编号。</div>' : ''}
         <p>${link('返回预览目录','http://www.ms-school.edu.cn/dangan/read/index.asp')}</p>
       </article>`;
@@ -146,7 +146,7 @@
       <nav class="archive-nav">${link('系统首页','http://www.ms-school.edu.cn/dangan/manage/login.asp',page === 'login' ? 'active' : '')}${link('目录录入预览','http://www.ms-school.edu.cn/dangan/read/index.asp',page !== 'login' ? 'active' : '')}${link('学校网站','http://www.ms-school.edu.cn/')}</nav>
       <div class="archive-status"><span>录入预览批次：2010-10</span>服务器时间：2010-11-12 23:48</div>`;
   }
-  function foot() { return '<footer class="archive-foot">盟杉中学档案室　系统维护：校信息技术组<br>预览数据仅供内部核对，纸质原件以档案室保存为准</footer>'; }
+  function foot() { return '<footer class="archive-foot">盟杉中学档案室　系统维护：校信息技术组<br>目录预览仅供核对，不提供纸质原件、照片或完整正文</footer>'; }
   function crumb(text) { return `<div class="crumb">当前位置：${text}</div>`; }
   function link(label,url,className='') { return `<a class="${className}" href="#" data-punan-url="${escapeAttr(url)}">${escapeHtml(label)}</a>`; }
   function escapeHtml(value='') { return String(value).replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;'); }

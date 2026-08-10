@@ -320,3 +320,6 @@ a:hover { color: #9d3827; }
   .archive-table,
   .course-table { min-width: 600px; }
 }
+.article-links { margin: 18px 0; padding: 8px 10px; border: 1px solid #c6c1aa; background: #f7f4e8; }
+.article-links strong { margin-right: 10px; }
+.article-links a { margin-right: 16px; }

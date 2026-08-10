@@ -162,6 +162,7 @@
           <div class="article-meta">${dateMeta}　来源：${escapeHtml(item.source)}　${oldRecord ? '资料整理' : metaLabel(item)}：${escapeHtml(item.editor || '信息港编辑部')}</div>
           ${item.image ? photo(item) : ''}
           ${item.body.map((paragraph) => `<p>${escapeHtml(paragraph)}</p>`).join('')}
+          ${item.links?.length ? `<div class="article-links"><strong>相关地址：</strong>${item.links.map((entry) => link(entry.label, entry.url)).join('')}</div>` : ''}
           ${isCommunity(item) ? discussion(item) : ''}
         </article>
       </div>`;
@@ -280,7 +281,8 @@
 
   function searchableText(item) {
     const replies = (item.replies || []).flatMap((reply) => [reply.author, reply.body]);
-    return [item.title, item.date, item.section, item.source, item.editor, ...(item.body || []), ...replies, item.image?.caption, item.image?.credit].filter(Boolean).join('\n');
+    const linked = (item.links || []).flatMap((entry) => [entry.label, entry.url]);
+    return [item.title, item.date, item.section, item.source, item.editor, ...(item.body || []), ...replies, ...linked, item.image?.caption, item.image?.credit].filter(Boolean).join('\n');
   }
 
   function displayUser(editor = '') { return String(editor).replace(/^用户[“"]|[”"]$/g, ''); }

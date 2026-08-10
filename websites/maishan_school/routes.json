@@ -1,6 +1,21 @@
 {
   "routes": [
     {
+      "url": "ftp://ftp.ms-school.edu.cn/pub/photo/old/",
+      "file": "/websites/maishan_school/ftp/root.html",
+      "title": "盟杉中学旧资料交换"
+    },
+    {
+      "url": "ftp://ftp.ms-school.edu.cn/pub/photo/old/92XF-MS-017/",
+      "file": "/websites/maishan_school/ftp/folder-92xf-ms-017.html",
+      "title": "92XF-MS-017 - 旧资料交换"
+    },
+    {
+      "url": "ftp://ftp.ms-school.edu.cn/pub/photo/old/92XF-MS-017/INDEX.TXT",
+      "file": "/websites/maishan_school/ftp/index-92xf-ms-017.html",
+      "title": "INDEX.TXT - 92XF-MS-017"
+    },
+    {
       "urlPattern": "http://www.ms-school.edu.cn/dangan/read/search.asp",
       "file": "/websites/maishan_school/pages/archive.html?page=search",
       "forwardQuery": true,

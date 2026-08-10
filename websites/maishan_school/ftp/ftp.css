@@ -1,0 +1,19 @@
+html, body { height: 100%; }
+body { margin: 0; color: #111; background: #fff; font: 12px Tahoma,"宋体",sans-serif; }
+.ftp-shell { min-height: 100%; padding: 14px 18px 28px; box-sizing: border-box; }
+.ftp-title { display: flex; align-items: center; gap: 10px; padding-bottom: 9px; border-bottom: 1px solid #9aa7b5; }
+.ftp-title svg { width: 34px; height: 34px; }
+.ftp-title h1 { margin: 0; color: #173f76; font-size: 18px; font-weight: 400; }
+.ftp-title p { margin: 3px 0 0; color: #5b5b5b; }
+.ftp-path { margin: 12px 0; padding: 6px 8px; border: 1px solid #aaa; background: #f2f2ed; font-family: Tahoma,"宋体",sans-serif; }
+.ftp-message { margin-top: 24px; padding: 18px 20px; border: 1px solid #b8b8ad; background: #faf9f2; }
+.ftp-message strong { display: block; margin-bottom: 10px; font-size: 14px; }
+.ftp-message pre { margin: 14px 0 0; padding: 10px; color: #333; background: #eeeee8; border: 1px solid #d1d1c8; font: 12px "Courier New",monospace; white-space: pre-wrap; }
+.ftp-hint { margin: 12px 0 0; color: #555; }
+.ftp-table { width: 100%; margin-top: 16px; border-collapse: collapse; }
+.ftp-table th { padding: 5px 8px; border-bottom: 1px solid #8d9cad; color: #273d55; background: #e8edf3; text-align: left; font-weight: 400; }
+.ftp-table td { padding: 7px 8px; border-bottom: 1px solid #ddd; }
+.ftp-table button, .ftp-table a { padding: 0; border: 0; color: #0645ad; background: none; font: inherit; text-decoration: underline; cursor: pointer; }
+.ftp-file-icon { display: inline-block; width: 18px; color: #6a7786; }
+.ftp-status { margin-top: 18px; color: #666; }
+.ftp-index { max-width: 720px; margin: 16px 0; padding: 18px; border: 1px solid #aaa; background: #f7f7f2; font: 13px/1.7 "Courier New","宋体",monospace; white-space: pre-wrap; }
