@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>访问统计说明</title>
+  <style>
+    body{max-width:720px;margin:48px auto;padding:0 24px;background:#f4f1e8;color:#24303a;font:15px/1.8 system-ui,"Microsoft YaHei",sans-serif}
+    h1{font-size:24px}.box{padding:18px 22px;border:1px solid #aab4bb;background:#fff}
+    button{padding:7px 16px;border:1px solid #708090;background:#e8edf0;color:#182433;cursor:pointer}
+    small{color:#687680}
+  </style>
+</head>
+<body>
+  <main class="box">
+    <h1>访问统计说明</h1>
+    <p>本站使用不含 Cookie 的匿名访问统计，了解有多少观众进入镜像，以及调查者整体抵达了哪些探索里程碑。统计不会上传模拟搜索词、QQ内容、文档内容、访问串或稳定设备指纹。</p>
+    <p>广告拦截、换设备、清除浏览器数据和他人分享深层链接都会令统计存在误差；统计结果只用于调整作品难度和内容安排。</p>
+    <button id="toggle" type="button"></button>
+    <p><small id="status"></small></p>
+  </main>
+  <script>
+    const key='punan.analytics.optout.v1';
+    const button=document.querySelector('#toggle');
+    const status=document.querySelector('#status');
+    function render(){
+      const off=localStorage.getItem(key)==='1';
+      button.textContent=off?'允许匿名统计':'退出匿名统计';
+      status.textContent=off?'这台浏览器已退出统计。':'这台浏览器目前允许匿名统计。';
+    }
+    button.addEventListener('click',()=>{localStorage.setItem(key,localStorage.getItem(key)==='1'?'0':'1');render();});
+    render();
+  </script>
+</body>
+</html>

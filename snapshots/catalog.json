@@ -1,7 +1,10 @@
 {
   "releases": {
     "ch01-msbbs-1847": {
-      "snapshots": ["MN-HOME-PC01-20101112-A"],
+      "snapshots": [
+        "MN-HOME-PC01-20101112-A"
+      ],
+      "defaultSnapshot": "MN-HOME-PC01-20101112-A",
       "initialUrl": "http://bbs.ms-school.edu.cn/thread.php?tid=1847"
     }
   },

@@ -163,7 +163,7 @@
           ${item.image ? photo(item) : ''}
           ${item.body.map((paragraph) => `<p>${escapeHtml(paragraph)}</p>`).join('')}
           ${item.links?.length ? `<div class="article-links"><strong>相关地址：</strong>${item.links.map((entry) => link(entry.label, entry.url)).join('')}</div>` : ''}
-          ${isCommunity(item) ? discussion(item) : ''}
+          ${(isCommunity(item) || item.replies?.length) ? discussion(item) : ''}
         </article>
       </div>`;
   }
