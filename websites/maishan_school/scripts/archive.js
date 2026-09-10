@@ -146,7 +146,7 @@
       <nav class="archive-nav">${link('系统首页','http://www.ms-school.edu.cn/dangan/manage/login.asp',page === 'login' ? 'active' : '')}${link('目录录入预览','http://www.ms-school.edu.cn/dangan/read/index.asp',page !== 'login' ? 'active' : '')}${link('学校网站','http://www.ms-school.edu.cn/')}</nav>
       <div class="archive-status"><span>录入预览批次：2010-10</span>服务器时间：2010-11-12 23:48</div>`;
   }
-  function foot() { return '<footer class="archive-foot">盟杉中学档案室　系统维护：校信息技术组<br>目录预览仅供核对，不提供纸质原件、照片或完整正文</footer>'; }
+  function foot() { return '<footer class="archive-foot">盟杉中学档案室　系统维护：校信息技术组<br>目录预览仅供核对</footer>'; }
   function crumb(text) { return `<div class="crumb">当前位置：${text}</div>`; }
   function link(label,url,className='') { return `<a class="${className}" href="#" data-punan-url="${escapeAttr(url)}">${escapeHtml(label)}</a>`; }
   function escapeHtml(value='') { return String(value).replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;'); }
