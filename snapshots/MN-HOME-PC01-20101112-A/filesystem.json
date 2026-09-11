@@ -9,6 +9,7 @@
     { "id": "detective-folder", "name": "侦探社", "type": "folder", "parentId": null },
     { "id": "downloads-folder", "name": "下载", "type": "folder", "parentId": null },
     { "id": "pictures-folder", "name": "图片收藏", "type": "folder", "parentId": null },
+    { "id": "qq-pictures-folder", "name": "QQ图片", "type": "folder", "parentId": "pictures-folder" },
 
     {
       "id": "duty-roster",
@@ -40,7 +41,7 @@
       "type": "text",
       "parentId": null,
       "modified": "2010-11-12 22:18",
-      "content": "政治卷子\n借书证\n值日要关窗\n\n手表不要带去社团。"
+      "content": "政治卷子\n借书证\n值日要关窗\n\n手表不要带去社团。\n美术社那件事归档"
     },
 
     {
@@ -74,7 +75,7 @@
       "type": "document",
       "parentId": "detective-folder",
       "modified": "2010-11-06 23:12",
-      "content": "盟杉中学侦探社　2010年秋季活动记录\n\n9月17日　新学期第一次活动，整理活动室。\n9月24日　观察练习：只写看见的，不写猜到的。\n10月15日　讨论旧教学楼雨伞拿错事件。\n10月29日　器材试用。手表式水枪暂时停用。\n11月5日　图书馆资料分类。\n\n下次：把已经解决的事情整理成统一格式。"
+      "content": "盟杉中学侦探社　2010年秋季活动记录\n\n9月17日　新学期第一次活动，整理活动室。\n9月24日　观察练习：只写看见的，不写猜到的。\n10月15日　讨论旧教学楼雨伞拿错事件。\n10月29日　器材试用。手表式水枪暂时停用。\n11月5日　图书馆资料分类。\n11月10日　美术社窗外咨询，已回话。\n\n下次：把已经解决的事情整理成统一格式。"
     },
     {
       "id": "club-equipment",
@@ -98,12 +99,12 @@
       }
     },
     {
-      "id": "blue-umbrella-case",
-      "name": "旧案_七把蓝雨伞.doc",
-      "type": "document",
+      "id": "art-club-cat-case",
+      "name": "美术社来问的.txt",
+      "type": "text",
       "parentId": "detective-folder",
-      "modified": "2010-10-18 00:26",
-      "content": "侦探社旧记录：七把蓝雨伞\n\n【事情】\n10月12日下雨。放学后，二楼伞架上七把深蓝色长柄伞被连续拿错。七把伞都是浦南化工系统前几年发的同款纪念伞，看起来几乎一样。\n\n【已经确认】\n1. 陈同学带回去的伞，伞柄内侧有一道白色油漆；他自己的没有。\n2. 白色油漆伞属于周同学。周同学带回去的伞套上残留半张“徐”字姓名贴。\n3. 徐同学拿到的伞少了一颗按扣。缺按扣的伞属于孙同学。\n4. 没有人拿到比原来更贵的新伞，也没人中途离开学校。\n\n【同学传言】\n有人专门偷好伞，再拿旧伞补上。\n门卫收走了一把。\n七个人里有人在说谎。\n\n【目前推测】\n不像偷伞。\n\n【尚未解释】\n大家都说拿走了一把，为什么放学后伞架上还剩一把？\n\n【结果】\n第七位同学当天没有带伞。他在早上把上周遗留在教室的伞放回伞架，放学时以为那把就是自己的，又把它拿走了。留在伞架上的那把，才是第一位同学原来的伞。\n\n没有小偷。七个人按顺序把伞换回来以后，数量正好。\n\n记录原则：确认的事、别人说的事和自己的推测要分开写。否则线索一多，最先骗到的是自己。"
+      "modified": "2010-11-08 20:14",
+      "content": "美术社来问的\n\n小黑上周被周恬带回家。\n周一又回到美术室里面那间的窗外。\n\n和以前不一样：\n不理人，伸手还会抓。\n\n顾遥怀疑周恬家里不让养，又偷偷把猫送回学校。\n顾遥和周恬都在QQ里说过话。先把事问清楚。\n\n不要直接去问“为什么送回来”。"
     },
     {
       "id": "campus-locations",
@@ -173,6 +174,24 @@
       "modified": "2010-11-02 18:05",
       "imageSrc": "/websites/maishan_school/assets/thumb_courtyard_autumn_2010.jpg",
       "caption": "盟杉中学官网活动照片。穆南把它裁过一次，最后还是保存了原图。"
+    },
+    {
+      "id": "cat-window-photo",
+      "name": "DSC00317.JPG",
+      "type": "image",
+      "parentId": "qq-pictures-folder",
+      "modified": "2010-11-08 17:06",
+      "imageSrc": "/snapshots/MN-HOME-PC01-20101112-A/DSC00317.JPG",
+      "caption": "从顾遥的QQ消息中接收。照片很暗，窗边几乎什么也看不清。"
+    },
+    {
+      "id": "cat-home-capture",
+      "name": "CameraCapture_20101108_1658.bmp",
+      "type": "image",
+      "parentId": "qq-pictures-folder",
+      "modified": "2010-11-08 16:58",
+      "imageSrc": "/snapshots/MN-HOME-PC01-20101112-A/CameraCapture_20101108_1658.bmp",
+      "caption": "QQ摄像头抓拍。周恬家的书桌。"
     }
   ],
   "recycleBin": [
