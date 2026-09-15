@@ -1,5 +1,5 @@
 (() => {
-  fetch('/websites/maishan_school/data/school-news.json')
+  fetch('/websites/maishan_school/data/school-news.json', { cache: 'no-store' })
     .then((response) => response.json())
     .then((data) => {
       renderList(data.items);

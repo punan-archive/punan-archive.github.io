@@ -3,7 +3,7 @@
   const params = new URLSearchParams(location.search);
   const page = params.get('page') || 'home';
 
-  fetch('/websites/punan_portal/data/articles.json')
+  fetch('/websites/punan_portal/data/articles.json', { cache: 'no-store' })
     .then((response) => response.json())
     .then((data) => render(data))
     .catch(() => { root.innerHTML = '<div class="empty">页面数据读取失败。</div>'; });

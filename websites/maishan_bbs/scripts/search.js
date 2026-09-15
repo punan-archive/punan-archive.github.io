@@ -7,7 +7,7 @@
   var root = document.querySelector("#forum-search-results");
   if (input) { input.value = query; }
 
-  fetch("/websites/maishan_bbs/data/search-index.json")
+  fetch("/websites/maishan_bbs/data/search-index.json", { cache: "no-store" })
     .then(function (response) { return response.json(); })
     .then(function (data) { render(data.items || []); })
     .catch(function () { root.innerHTML = '<div class="result">搜索索引读取失败。</div>'; });

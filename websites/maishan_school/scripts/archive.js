@@ -3,7 +3,7 @@
   const params = new URLSearchParams(location.search);
   const page = params.get('page') || 'login';
 
-  fetch('/websites/maishan_school/data/archive-records.json')
+  fetch('/websites/maishan_school/data/archive-records.json', { cache: 'no-store' })
     .then((response) => response.json())
     .then((data) => render(data))
     .catch(() => { root.innerHTML = '<div class="empty">档案目录数据读取失败。</div>'; });
