@@ -218,7 +218,7 @@
   function renderLibrary(data) {
     const rows = data.articles.filter((item) => item.title.includes('图书馆')).filter((item) => !/委托培养|预录/.test(item.title));
     return `${crumb('文化教育 &gt; 区图书馆')}<div class="two-column">${sideNav()}<section class="article">
-      <h1>浦南区图书馆</h1><div class="article-meta">位于生活区文化设施集中区域　咨询电话：021-5793 5216</div>
+      <h1>浦南区图书馆</h1><div class="article-meta">位于生活区文化设施集中区域　咨询电话：021-5XXX-5216</div>
       <p>成人借阅室、少儿阅览室和报刊室对外开放。地方文献室工作日接受目录查询，旧报刊缩微资料需提前登记。</p>
       <h2>开放与活动信息</h2><ul class="headline-list">${rows.slice(0, 12).map(newsLine).join('')}</ul>
       <p>地方文献卡片目录正在分批录入，尚未录入的题名请到二楼服务台查询。</p>
@@ -246,10 +246,11 @@
 
   function photo(item) {
     const missing = item.image.status === 'missing';
+    const fitClass = item.image.fit === 'contain' ? ' is-contain' : '';
     const image = missing
       ? '<div class="legacy-photo__placeholder" role="img" aria-label="图片未缓存"><span>□</span><strong>图片未缓存</strong><small>仅保存图注</small></div>'
       : `<img src="${escapeAttr(item.image.src)}" alt="${escapeAttr(item.image.alt || '')}" width="560" height="244">`;
-    return `<figure class="legacy-photo">
+    return `<figure class="legacy-photo${fitClass}">
       ${image}
       <figcaption>${escapeHtml(item.image.caption)}<span class="credit">${escapeHtml(item.image.credit)}</span></figcaption>
     </figure>`;
@@ -316,13 +317,13 @@
 
   function footer() {
     return `<div class="friend-links"><strong>友情链接：</strong>${link('盟杉中学','http://www.ms-school.edu.cn/')}${link('浦南政务公开','http://www.punan.net/gov/index.html')}${link('浦南文化活动','http://www.punan.net/culture/index.html')}</div>
-      <footer class="footer">浦南信息港 版权所有　主办：浦南信息港编辑部　新闻热线：021-5793 2041<br>建议使用 IE6.0 以上浏览器　1024×768 分辨率　页面更新：2010-11-12</footer>`;
+      <footer class="footer">浦南信息港 版权所有　主办：浦南信息港编辑部　新闻热线：021-5XXX-2041<br>建议使用 IE6.0 以上浏览器　1024×768 分辨率　页面更新：2010-11-12</footer>`;
   }
 
   function sideNav() {
     return `<aside class="portal-sidebar">
       <section class="side-box"><h2>便民导航</h2>${link('浦南新闻','http://www.punan.net/news/index.html')}${link('生活服务','http://www.punan.net/service/index.html')}${link('社区讨论','http://www.punan.net/community/index.html')}${link('公交出行','http://www.punan.net/bus/index.html')}${link('文化教育','http://www.punan.net/culture/index.html')}${link('政务公开','http://www.punan.net/gov/index.html')}</section>
-      <section class="side-box side-info"><h2>常用电话</h2><p>新闻热线<br><strong>021-5793 2041</strong></p><p>图书馆咨询<br><strong>021-5793 5216</strong></p><p>紧急情况请拨110、119或120</p></section>
+      <section class="side-box side-info"><h2>常用电话</h2><p>新闻热线<br><strong>021-5XXX-2041</strong></p><p>图书馆咨询<br><strong>021-5XXX-5216</strong></p><p>紧急情况请拨110、119或120</p></section>
       <section class="side-box side-info"><h2>今日提示</h2><p>北部旧区咨询点晚间接待至20时；周末中心医院增开流感接种窗口。</p></section>
     </aside>`;
   }

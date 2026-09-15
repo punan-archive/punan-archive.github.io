@@ -222,6 +222,23 @@ a:hover { color: #b23a27; text-decoration: underline; }
 
 .offline-strip { margin-top: 6px; text-align: right; color: #89949c; font-size: 11px; }
 
+.g250-shot { width: 560px; max-width: 100%; margin: 14px auto 5px; border: 2px solid #6b922d; color: #30452b; background: #eef5e8; box-shadow: 1px 2px 4px #0004; font: 12px Tahoma,"宋体",sans-serif; }
+.g250-shot-head { display: flex; align-items: baseline; gap: 7px; padding: 7px 11px; color: #fff; background: linear-gradient(#9bd64d,#5b9b1e); }
+.g250-shot-head b { color: #fff12c; font: italic 900 27px Arial Black,Arial,sans-serif; letter-spacing: -3px; text-shadow: 0 1px #315d16; }
+.g250-shot-head strong { font-size: 16px; }
+.g250-shot-head span { margin-left: auto; color: #eaffc8; font-size: 11px; }
+.g250-shot-tabs { display: grid; grid-template-columns: repeat(5,1fr); border-bottom: 1px solid #b7c7a9; background: linear-gradient(#fff,#e4ebdc); }
+.g250-shot-tabs i { padding: 9px 4px; border-right: 1px solid #d4ddcc; font-style: normal; text-align: center; }
+.g250-shot-tabs i.active { color: #326b12; background: #eefbdc; box-shadow: inset 0 -3px #65aa25; font-weight: bold; }
+.g250-shot-main { display: grid; grid-template-columns: 115px 1fr; min-height: 120px; padding: 14px; gap: 17px; }
+.g250-shot-side { padding: 16px 8px; border: 1px solid #bfd0ae; background: #f8fbf5; text-align: center; }
+.g250-shot-side em { display: block; margin: 6px 0; color: #5a9d1d; font: normal 700 27px Arial,sans-serif; }
+.g250-shot-main h3 { margin: 3px 0 8px; color: #42771d; font-size: 17px; }
+.g250-shot-main p { margin: 0 0 12px; }
+.g250-shot-button { display: inline-block; padding: 5px 14px; border: 1px solid #4c8c13; color: #fff; background: linear-gradient(#96dc3f,#5cad18); }
+.g250-shot-main small { display: block; margin-top: 13px; color: #7d8678; }
+.g250-shot-ad { padding: 5px 10px; border-top: 1px solid #d4b953; color: #754908; background: #fff3a7; text-align: right; }
+
 @media (max-width: 879px) {
   .site-shell { width: 100%; margin: 0; padding-bottom: 12px; }
   .utility { height: auto; min-height: 26px; }

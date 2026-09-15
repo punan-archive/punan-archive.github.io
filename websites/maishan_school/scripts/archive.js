@@ -34,25 +34,25 @@
   }
 
   function bindSearch() {
-    const form = root.querySelector('form[data-punan-search]');
-    if (!form) return;
-    const input = form.querySelector('input[name="keyword"]');
-    const button = form.querySelector('button');
-    const navigate = (event) => {
-      event.preventDefault();
-      event.stopPropagation();
-      const keyword = input?.value.trim() || '';
-      if (!keyword) { input?.focus(); return; }
-      parent.postMessage({ source: 'punan-web', type: 'navigate', url: `http://www.ms-school.edu.cn/dangan/read/search.asp?keyword=${encodeURIComponent(keyword)}` }, '*');
-    };
-    form.addEventListener('submit', navigate);
-    if (button) { button.type = 'button'; button.addEventListener('click', navigate); }
-    input?.addEventListener('keydown', (event) => { if (event.key === 'Enter') navigate(event); });
+    root.querySelectorAll('form[data-punan-search]').forEach((form) => {
+      const input = form.querySelector('input[name="keyword"]');
+      const button = form.querySelector('button');
+      const navigate = (event) => {
+        event.preventDefault();
+        event.stopPropagation();
+        const keyword = input?.value.trim() || '';
+        if (!keyword) { input?.focus(); return; }
+        const mode = form.dataset.searchMode === 'responsible' ? '&mode=responsible' : '';
+        parent.postMessage({ source: 'punan-web', type: 'navigate', url: `http://www.ms-school.edu.cn/dangan/read/search.asp?keyword=${encodeURIComponent(keyword)}${mode}` }, '*');
+      };
+      form.addEventListener('submit', navigate);
+      if (button) { button.type = 'button'; button.addEventListener('click', navigate); }
+      input?.addEventListener('keydown', (event) => { if (event.key === 'Enter') navigate(event); });
+    });
   }
 
   function renderPage(data) {
     if (page === 'login') return login();
-    if (page === 'notice') return notice();
     if (page === 'catalog') return catalog(data);
     if (page === 'record') return record(data);
     if (page === 'search') return search(data);
@@ -70,14 +70,6 @@
         <div class="login-assist"><strong>录入辅助</strong><span>本批目录数据已提交核对。</span>${link('查看目录','http://www.ms-school.edu.cn/dangan/read/index.asp')}</div>
       </section>
     </div>`;
-  }
-
-  function notice() {
-    return `<div class="crumb">当前位置：盟杉中学 &gt; 校园新闻 &gt; 通知</div>
-      <article class="notice"><h1>校史档案目录电子化进入试运行</h1><div class="meta">发布时间：2010-10-18　供稿：校办公室、档案室</div>
-        <p>学校档案目录电子化工作已完成阶段性整理，即日起开放目录预览，供师生和校友检索档号、题名与责任部门。</p>
-        <p>当前仅提供目录信息与部分录入备注，不提供纸质原件、照片或完整正文；材料查阅仍按原流程申请。</p>
-      </article>`;
   }
 
   function catalog(data) {
@@ -103,19 +95,27 @@
           <tr><th>形成日期</th><td>${escapeHtml(item.date)}</td><th>责任部门</th><td>${escapeHtml(item.department)}</td></tr>
           <tr><th>门类</th><td>${item.code}　${escapeHtml(data.categories[item.code])}</td><th>保管期限</th><td>${escapeHtml(item.retention)}</td></tr>
           <tr><th>录入状态</th><td colspan="3">${escapeHtml(item.access)}</td></tr>
+          ${item.responsible?.length ? `<tr><th>责任者</th><td colspan="3">${item.responsible.map(escapeHtml).join('；')}</td></tr>` : ''}
         </tbody></table>
         <div class="record-summary">${escapeHtml(item.summary)}</div>
         ${item.rows ? `<div class="scan-label">目录备注／录入字段</div>${renderRows(item.rows)}` : ''}
+        ${item.preview?.type === 'graduation-layout' ? graduationPreview(item.preview) : ''}
+        ${item.image ? recordImage(item.image) : ''}
         ${item.imageHeld ? '<div class="scan-label">图像文件</div><div class="image-unavailable">图像尚未录入，本批仅提供目录字段与原始编号。</div>' : ''}
+        ${renderRelations(item.references, '引用档号')}
+        ${renderRelations(item.citedBy, '被引用于')}
         <p>${link('返回预览目录','http://www.ms-school.edu.cn/dangan/read/index.asp')}</p>
       </article>`;
   }
 
   function search(data) {
     const keyword = (params.get('keyword') || '').trim();
-    const rows = keyword ? data.records.filter((item) => searchableText(item).includes(keyword)) : [];
+    const mode = params.get('mode') === 'responsible' ? 'responsible' : 'all';
+    const rows = keyword ? data.records
+      .filter((item) => mode === 'responsible' ? responsibleText(item).includes(keyword) : searchableText(item).includes(keyword))
+      .sort((a, b) => String(a.date).localeCompare(String(b.date), 'zh-CN') || a.no.localeCompare(b.no, 'zh-CN')) : [];
     return `${crumb('档案目录录入预览 &gt; 目录检索')}<div class="catalog-layout">${filters(data)}
-      <section class="catalog-panel"><div class="catalog-title">目录检索：${escapeHtml(keyword)}</div><div class="catalog-summary">${keyword ? `共找到 ${rows.length} 条分散目录。系统不自动合并同名人物记录。` : '请输入题名、责任部门或人名。'}</div>
+      <section class="catalog-panel"><div class="catalog-title">${mode === 'responsible' ? '按责任者检索' : '目录检索'}：${escapeHtml(keyword)}</div><div class="catalog-summary">${keyword ? `共找到 ${rows.length} 条分散目录。系统不自动合并同名人物记录。` : '请输入检索内容。'}</div>
         <table class="catalog-table"><thead><tr><th>档号</th><th>年度</th><th>门类</th><th>题名</th><th>录入状态</th></tr></thead><tbody>
           ${rows.map((item) => `<tr><td class="no">${escapeHtml(item.no)}</td><td>${item.year}</td><td>${item.code}</td><td>${link(item.title,item.virtualUrl)}</td><td class="access">${escapeHtml(item.access)}</td></tr>`).join('')}
         </tbody></table>
@@ -123,12 +123,13 @@
   }
 
   function filters(data, year = '', code = '') {
-    const years = [2010,2009,1994,1993,1992,1991,1990,1988];
+    const years = [2010,2009,2004,1994,1993,1992,1991,1990,1988];
     const codes = ['XZ','JX','XJ','ZS','RS','XC','ST','SC','XS'];
     return `<aside>
       <section class="filter-box"><h2>形成年度</h2>${years.map((value) => link(`${value}年度`,`http://www.ms-school.edu.cn/dangan/read/browse.asp?year=${value}`,year === String(value) ? 'active' : '')).join('')}</section>
       <section class="filter-box"><h2>档案门类</h2>${codes.map((value) => link(`${value}　${data.categories[value]}`,`http://www.ms-school.edu.cn/dangan/read/browse.asp?code=${value}`,code === value ? 'active' : '')).join('')}</section>
       <section class="filter-box"><h2>目录检索</h2><div class="query-box"><form data-punan-search="http://www.ms-school.edu.cn/dangan/read/search.asp"><input name="keyword"><button>检索</button></form></div><p>可输入题名、责任部门或人名。老档案题名尚未建立统一人物索引。</p></section>
+      <section class="filter-box"><h2>按责任者检索</h2><div class="query-box"><form data-punan-search="http://www.ms-school.edu.cn/dangan/read/search.asp" data-search-mode="responsible"><input name="keyword"><button>检索</button></form></div><p>检索经办、负责人、摄影及材料形成部门等责任者字段。</p></section>
     </aside>`;
   }
 
@@ -138,7 +139,31 @@
   }
 
   function searchableText(item) {
-    return [item.no, item.date, item.department, item.title, item.summary, ...(item.rows ? item.rows.flatMap((row) => Object.values(row)) : [])].filter(Boolean).join('\n');
+    return [item.no, item.date, item.department, item.title, ...(!item.excludeSummaryFromSearch ? [item.summary] : []), ...responsibleValues(item), ...(!item.excludeRowsFromSearch && item.rows ? item.rows.flatMap((row) => Object.values(row)) : [])].filter(Boolean).join('\n');
+  }
+
+  function responsibleText(item) { return [item.department, ...responsibleValues(item)].filter(Boolean).join('\n'); }
+  function responsibleValues(item) { return Array.isArray(item.responsible) ? item.responsible : []; }
+
+  function renderRelations(entries, title) {
+    if (!entries?.length) return '';
+    return `<section class="record-relations"><strong>${escapeHtml(title)}</strong><div>${entries.map((entry) => {
+      const url = entry.url || `http://www.ms-school.edu.cn/dangan/read/record.asp?id=${encodeURIComponent(entry.recordId || '')}`;
+      return link(entry.label, url);
+    }).join('')}</div></section>`;
+  }
+
+  function recordImage(image) {
+    return `<div class="scan-label">照片预览</div><figure class="record-photo"><img src="${escapeAttr(image.src)}" alt="${escapeAttr(image.alt || '')}"><figcaption>${escapeHtml(image.caption || '')}</figcaption></figure>`;
+  }
+
+  function graduationPreview(preview) {
+    const portraits = ['吴敏','罗海燕','钱澄','周立新','何青','叶帆'];
+    return `<div class="scan-label">纪念图版低清校样</div><figure class="graduation-preview"><div class="graduation-preview__title">一九九三届高中毕业纪念</div><div class="graduation-preview__grid">${portraits.slice(0,3).map((name, index) => portraitTile(name,index)).join('')}<div class="graduation-preview__tile is-mixed"><span style="background-image:url('${escapeAttr(preview.source)}')"></span><small>林美心</small></div>${portraits.slice(3).map((name,index) => portraitTile(name,index+3)).join('')}</div><figcaption>录入用缩略校样。缺席及转出学生图像另行补配，来源见编制说明。</figcaption></figure>`;
+  }
+
+  function portraitTile(name, index) {
+    return `<div class="graduation-preview__tile"><span class="portrait-placeholder p${index % 4}"></span><small>${escapeHtml(name)}</small></div>`;
   }
 
   function head() {

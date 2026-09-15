@@ -22,7 +22,10 @@
       "access": "目录＋摘要",
       "title": "计算机教室设备盘点及开学前维护记录",
       "summary": "计算机教室两间，共登记学生机 86 台、教师机 2 台、交换机 4 台和投影设备 2 套。暑期更换硬盘 6 块、键盘 9 个，保留 Windows XP 教学环境；最后一排 12 台因配置较低继续使用 IE6。陆鸣完成系统还原测试，机器编号未作调整。",
-      "virtualUrl": "http://www.ms-school.edu.cn/dangan/read/record.asp?id=MS-2010-SC-01-001"
+      "virtualUrl": "http://www.ms-school.edu.cn/dangan/read/record.asp?id=MS-2010-SC-01-001",
+      "references": [
+        {"label": "档案扫描仪测试及电子文件命名规则记录", "recordId": "MS-2009-XZ-01-002"}
+      ]
     },
     {
       "id": "MS-2010-XC-01-001",
@@ -36,6 +39,9 @@
       "title": "第二十六届秋季田径运动会数码照片系列",
       "summary": "数码照片 328 张，校网选用 48 张。文件按入场式、径赛、田赛、教工项目和闭幕整理，另有校刊编辑组学生提交的看台与饮水点照片。苏婧在饮水点值班照中出现，曹乐添负责的成绩录入桌有两张工作照。重复连拍 61 张保留于原始目录但不入展。",
       "virtualUrl": "http://www.ms-school.edu.cn/dangan/read/record.asp?id=MS-2010-XC-01-001",
+      "references": [
+        {"label": "第二十六届秋季田径运动会顺利举行", "url": "http://www.ms-school.edu.cn/xwzx/view.asp?id=MS-002"}
+      ],
       "imageHeld": true
     },
     {
@@ -53,6 +59,28 @@
       "imageHeld": true
     },
     {
+      "id": "MS-2010-XC-01-004",
+      "no": "MS-2010-XC-01-004",
+      "year": 2010,
+      "code": "XC",
+      "date": "2010-02-28",
+      "department": "高三年级组、校办公室",
+      "retention": "长期",
+      "access": "目录＋照片预览",
+      "title": "2010届高三年级百日动员会照片系列",
+      "summary": "数码照片 46 张，记录学生入场、年级工作说明、教师与学生代表发言及会后班级合影。照片用于校内新闻与年级宣传栏。",
+      "virtualUrl": "http://www.ms-school.edu.cn/dangan/read/record.asp?id=MS-2010-XC-01-004",
+      "responsible": ["杨文斌", "高三年级组", "校办公室"],
+      "image": {
+        "src": "/websites/maishan_school/assets/archive/yangwenbin-2010-senior-mobilization-v02.png",
+        "alt": "杨文斌在2010届高三百日动员会上讲话",
+        "caption": "教导主任杨文斌作毕业年级动员讲话。"
+      },
+      "references": [
+        {"label": "校园新闻采用稿", "url": "http://www.ms-school.edu.cn/xwzx/view.asp?id=MS-018"}
+      ]
+    },
+    {
       "id": "MS-2010-XJ-01-001",
       "no": "MS-2010-XJ-01-001",
       "year": 2010,
@@ -66,6 +94,28 @@
       "virtualUrl": "http://www.ms-school.edu.cn/dangan/read/record.asp?id=MS-2010-XJ-01-001"
     },
     {
+      "id": "MS-2010-JX-01-006",
+      "no": "MS-2010-JX-01-006",
+      "year": 2010,
+      "code": "JX",
+      "date": "2010-10-25",
+      "department": "教务处",
+      "retention": "10年",
+      "access": "目录＋分工表",
+      "title": "高中部期中教学检查听课分工表",
+      "summary": "按年级和学科安排随堂听课、备课本抽查及学生作业量访谈。各项意见由对应教研组汇总，不作教师个人排名。",
+      "virtualUrl": "http://www.ms-school.edu.cn/dangan/read/record.asp?id=MS-2010-JX-01-006",
+      "responsible": ["杨文斌", "顾文岚", "林志远", "教务处"],
+      "references": [
+        {"label": "我校公布本学期期中教学检查安排", "url": "http://www.ms-school.edu.cn/xwzx/view.asp?id=MS-001"}
+      ],
+      "rows": [
+        {"检查项目": "高中部随堂听课", "负责人": "杨文斌", "协办": "各教研组长"},
+        {"检查项目": "语文备课本抽查", "负责人": "顾文岚", "协办": "语文教研组"},
+        {"检查项目": "数学作业量访谈", "负责人": "林志远", "协办": "数学教研组"}
+      ]
+    },
+    {
       "id": "MS-2010-XS-01-001",
       "no": "MS-2010-XS-01-001",
       "year": 2010,
@@ -76,7 +126,10 @@
       "access": "仅目录",
       "title": "2010 年秋季学生志愿服务与校内岗位时数登记",
       "summary": "电子表打印件 12 页，按活动名称登记图书整架、运动会饮水点、世博照片布展和广播站值班时数。唐歆、苏婧参加图书整架，何远帆参加照片布展，周墨参加广播站值班，魏航参加运动会后场地清理。时数仅用于校内综合记录，不折抵课程。",
-      "virtualUrl": "http://www.ms-school.edu.cn/dangan/read/record.asp?id=MS-2010-XS-01-001"
+      "virtualUrl": "http://www.ms-school.edu.cn/dangan/read/record.asp?id=MS-2010-XS-01-001",
+      "references": [
+        {"label": "我校举行世博志愿服务总结交流会", "url": "http://www.ms-school.edu.cn/xwzx/2010/1108/157.html"}
+      ]
     },
     {
       "id": "MS-XS-1001",
@@ -128,7 +181,10 @@
       "access": "目录＋摘要",
       "title": "1988—1999年照片档案数字化整理工作记录",
       "summary": "对照片相册、底片袋和接触样进行编号核对；褪色彩照只作基础色阶校正，不改动内容。",
-      "virtualUrl": "http://www.ms-school.edu.cn/dangan/read/record.asp?id=MS-XZ-1002"
+      "virtualUrl": "http://www.ms-school.edu.cn/dangan/read/record.asp?id=MS-XZ-1002",
+      "references": [
+        {"label": "原底片及扫描附件编号核对表（第三批）", "recordId": "MS-XC-0401"}
+      ]
     },
     {
       "id": "MS-XZ-1003",
@@ -197,6 +253,20 @@
       "virtualUrl": "http://www.ms-school.edu.cn/dangan/read/record.asp?id=MS-2009-XZ-01-002"
     },
     {
+      "id": "MS-2009-XZ-01-009",
+      "no": "MS-2009-XZ-01-009",
+      "year": 2009,
+      "code": "XZ",
+      "date": "2009-11-20",
+      "department": "高三年级组、总务处",
+      "retention": "10年",
+      "access": "仅目录",
+      "title": "高三年级家长会会场及值班安排",
+      "summary": "报告厅设置年级说明席、饮水点和失物暂存处，各班家长会结束后由班主任留场答疑。杨文斌负责年级说明，韩庆平负责会场桌椅与扩音设备。",
+      "virtualUrl": "http://www.ms-school.edu.cn/dangan/read/record.asp?id=MS-2009-XZ-01-009",
+      "responsible": ["杨文斌", "韩庆平", "高三年级组", "总务处"]
+    },
+    {
       "id": "MS-XZ-0901",
       "no": "MS-2009-XZ-03-006",
       "year": 2009,
@@ -208,6 +278,110 @@
       "title": "盟杉中学档案目录电子化试点工作方案",
       "summary": "按既有整编盒次，分批录入1985—1999年行政、教学、学籍、人事和照片档案目录；暂不扫描全部正文。",
       "virtualUrl": "http://www.ms-school.edu.cn/dangan/read/record.asp?id=MS-XZ-0901"
+    },
+    {
+      "id": "MS-XZ-0401",
+      "no": "MS-2004-XZ-01-004",
+      "year": 2004,
+      "code": "XZ",
+      "date": "2004-08-24",
+      "department": "信息技术组、总务处",
+      "retention": "10年",
+      "access": "目录＋摘要",
+      "title": "校园网机房暑期线路整理与设备登记",
+      "summary": "暑期更换机房交换设备一台，重新标注教学楼信息点编号；报废网线、接头和旧集线器按校产手续登记。",
+      "virtualUrl": "http://www.ms-school.edu.cn/dangan/read/record.asp?id=MS-XZ-0401"
+    },
+    {
+      "id": "MS-JX-0401",
+      "no": "MS-2004-JX-03-016",
+      "year": 2004,
+      "code": "JX",
+      "date": "2004-09-06",
+      "department": "教务处、教研组",
+      "retention": "长期",
+      "access": "仅目录",
+      "title": "秋季青年教师校内公开课周安排",
+      "summary": "按学科列出公开课教师、班级、教室和评课地点；两节课程因多媒体教室检修调整时段。",
+      "virtualUrl": "http://www.ms-school.edu.cn/dangan/read/record.asp?id=MS-JX-0401"
+    },
+    {
+      "id": "MS-XC-0401",
+      "no": "MS-2004-XC-03-006",
+      "year": 2004,
+      "code": "XC",
+      "date": "2004-09-17",
+      "department": "档案室、信息技术组",
+      "retention": "长期",
+      "access": "核对字段局部转写",
+      "title": "原底片及扫描附件编号核对表（第三批）",
+      "summary": "第三批核对表记录原底片号、扫描件附件号和资料交换目录。姓名、活动题名仍以原档案目录为准，本表不重复转写。",
+      "virtualUrl": "http://www.ms-school.edu.cn/dangan/read/record.asp?id=MS-XC-0401",
+      "responsible": ["档案室", "信息技术组"],
+      "citedBy": [
+        {"label": "1988—1999年照片档案数字化整理工作记录", "recordId": "MS-XZ-1002"}
+      ],
+      "rows": [
+        {"原底片号": "SY-88-012", "影像附件号": "88XF-MS-006", "交换目录": "/pub/photo/old/"},
+        {"原底片号": "SY-88-031", "影像附件号": "88XF-MS-014", "交换目录": "/pub/photo/old/"},
+        {"原底片号": "SY-89-007", "影像附件号": "89XF-MS-002", "交换目录": "/pub/photo/old/"},
+        {"原底片号": "SY-89-026", "影像附件号": "89XF-MS-011", "交换目录": "/pub/photo/old/"},
+        {"原底片号": "SY-89-044", "影像附件号": "89XF-MS-019", "交换目录": "/pub/photo/old/"},
+        {"原底片号": "SY-90-009", "影像附件号": "90XF-MS-004", "交换目录": "/pub/photo/old/"},
+        {"原底片号": "SY-90-018", "影像附件号": "90XF-MS-009", "交换目录": "/pub/photo/old/"},
+        {"原底片号": "SY-90-037", "影像附件号": "90XF-MS-016", "交换目录": "/pub/photo/old/"},
+        {"原底片号": "SY-91-003", "影像附件号": "91XF-MS-001", "交换目录": "/pub/photo/old/"},
+        {"原底片号": "SY-91-016", "影像附件号": "91XF-MS-007", "交换目录": "/pub/photo/old/"},
+        {"原底片号": "SY-91-029", "影像附件号": "91XF-MS-013", "交换目录": "/pub/photo/old/"},
+        {"原底片号": "SY-91-052", "影像附件号": "91XF-MS-024", "交换目录": "/pub/photo/old/"},
+        {"原底片号": "SY-92-006", "影像附件号": "92XF-MS-003", "交换目录": "/pub/photo/old/"},
+        {"原底片号": "SY-92-010", "影像附件号": "92XF-MS-005", "交换目录": "/pub/photo/old/"},
+        {"原底片号": "SY-92-013", "影像附件号": "92XF-MS-006", "交换目录": "/pub/photo/old/"},
+        {"原底片号": "SY-92-019", "影像附件号": "92XF-MS-008", "交换目录": "/pub/photo/old/"},
+        {"原底片号": "SY-92-027", "影像附件号": "92XF-MS-010", "交换目录": "/pub/photo/old/"},
+        {"原底片号": "SY-92-031", "影像附件号": "92XF-MS-011", "交换目录": "/pub/photo/old/"},
+        {"原底片号": "SY-92-034", "影像附件号": "92XF-MS-013", "交换目录": "/pub/photo/old/"},
+        {"原底片号": "SY-92-038", "影像附件号": "92XF-MS-012", "交换目录": "/pub/photo/old/"},
+        {"原底片号": "SY-92-041", "影像附件号": "92XF-MS-017", "交换目录": "/pub/photo/old/"},
+        {"原底片号": "SY-92-045", "影像附件号": "92XF-MS-021", "交换目录": "/pub/photo/old/"},
+        {"原底片号": "SY-92-049", "影像附件号": "92XF-MS-022", "交换目录": "/pub/photo/old/"},
+        {"原底片号": "SY-92-053", "影像附件号": "92XF-MS-024", "交换目录": "/pub/photo/old/"},
+        {"原底片号": "SY-92-057", "影像附件号": "92XF-MS-026", "交换目录": "/pub/photo/old/"},
+        {"原底片号": "SY-92-060", "影像附件号": "92XF-MS-028", "交换目录": "/pub/photo/old/"},
+        {"原底片号": "SY-92-063", "影像附件号": "92XF-MS-029", "交换目录": "/pub/photo/old/"},
+        {"原底片号": "SY-93-011", "影像附件号": "93XF-MS-005", "交换目录": "/pub/photo/old/"},
+        {"原底片号": "SY-93-024", "影像附件号": "93XF-MS-010", "交换目录": "/pub/photo/old/"},
+        {"原底片号": "SY-93-046", "影像附件号": "93XF-MS-020", "交换目录": "/pub/photo/old/"},
+        {"原底片号": "SY-94-008", "影像附件号": "94XF-MS-004", "交换目录": "/pub/photo/old/"},
+        {"原底片号": "SY-94-027", "影像附件号": "94XF-MS-012", "交换目录": "/pub/photo/old/"},
+        {"原底片号": "SY-94-051", "影像附件号": "94XF-MS-023", "交换目录": "/pub/photo/old/"}
+      ]
+    },
+    {
+      "id": "MS-ST-0401",
+      "no": "MS-2004-ST-02-011",
+      "year": 2004,
+      "code": "ST",
+      "date": "2004-09-21",
+      "department": "团委、学生会",
+      "retention": "长期",
+      "access": "目录＋摘要",
+      "title": "秋季学生社团活动教室借用汇总",
+      "summary": "登记文学社、广播站、模型组和篮球社的固定活动时段；临时借用须由指导教师在值班室补签。",
+      "virtualUrl": "http://www.ms-school.edu.cn/dangan/read/record.asp?id=MS-ST-0401"
+    },
+    {
+      "id": "MS-SC-0401",
+      "no": "MS-2004-SC-01-007",
+      "year": 2004,
+      "code": "SC",
+      "date": "2004-10-14",
+      "department": "总务处",
+      "retention": "10年",
+      "access": "仅目录",
+      "title": "教学楼门窗、黑板及窗帘维修验收单",
+      "summary": "验收普通教室木门锁、铝合金窗扣、黑板滑轮与遮光窗帘维修项目，未结事项转入下月零星维修单。",
+      "virtualUrl": "http://www.ms-school.edu.cn/dangan/read/record.asp?id=MS-SC-0401"
     },
     {
       "id": "MS-1994-JX-01-001",
@@ -268,7 +442,10 @@
       "access": "目录＋摘要",
       "title": "陆鸣、韩庆平指导计算机兴趣组制作课程表查询程序材料",
       "summary": "纸质 9 页，含活动计划、学生报名表、BASIC 程序打印纸和结项说明。陆鸣负责程序语句讲解，韩庆平协助制作键盘防尘罩木框。程序可按班级编号显示当日课程，数据由学生手工录入，结项时在计算机教室作内部演示。",
-      "virtualUrl": "http://www.ms-school.edu.cn/dangan/read/record.asp?id=MS-1994-ST-01-002"
+      "virtualUrl": "http://www.ms-school.edu.cn/dangan/read/record.asp?id=MS-1994-ST-01-002",
+      "citedBy": [
+        {"label": "计算机兴趣组活动及校内演示照片系列", "recordId": "MS-1994-XC-01-001"}
+      ]
     },
     {
       "id": "MS-ST-9401",
@@ -295,6 +472,9 @@
       "title": "计算机兴趣组活动及校内演示照片系列",
       "summary": "彩色照片 21 张，记录学生两人共用一台计算机录入课程表、陆鸣讲解程序流程、韩庆平调整防尘罩木框，以及结项时在屏幕前演示查询结果。教室墙面贴有上机座次表，桌边集中放置软盘盒。照片背面按活动周次编号。",
       "virtualUrl": "http://www.ms-school.edu.cn/dangan/read/record.asp?id=MS-1994-XC-01-001",
+      "references": [
+        {"label": "陆鸣、韩庆平指导计算机兴趣组制作课程表查询程序材料", "recordId": "MS-1994-ST-01-002"}
+      ],
       "imageHeld": true
     },
     {
@@ -399,7 +579,11 @@
       "access": "目录＋摘要",
       "title": "刘江源辞职申请及人事手续办结目录",
       "summary": "刘江源于1993年7月提出辞职，8月完成人事、器材和班主任材料移交，并从新学年岗位表中除名。辞职申请正文未录入本批预览数据。",
-      "virtualUrl": "http://www.ms-school.edu.cn/dangan/read/record.asp?id=MS-RS-9302"
+      "virtualUrl": "http://www.ms-school.edu.cn/dangan/read/record.asp?id=MS-RS-9302",
+      "responsible": ["刘江源", "人事室", "校办公室"],
+      "references": [
+        {"label": "1992—1993学年教职工岗位及班主任安排", "recordId": "MS-RS-9201"}
+      ]
     },
     {
       "id": "MS-1993-SC-02-006",
@@ -466,6 +650,7 @@
       "title": "1993届毕业合影拍摄登记与底片索引",
       "summary": "按班登记拍摄日期、应到人数、实到人数和底片卷号。高三（3）班实到名单不含林美心。",
       "virtualUrl": "http://www.ms-school.edu.cn/dangan/read/record.asp?id=MS-XC-9301",
+      "excludeSummaryFromSearch": true,
       "imageHeld": true,
       "rows": [
         {
@@ -510,6 +695,17 @@
       "title": "1993届毕业纪念图版编制说明",
       "summary": "缺席学生资料栏使用学校已有证件照或宣传照；林美心资料栏交叉引用1992年宣传肖像底片SY-92-041。",
       "virtualUrl": "http://www.ms-school.edu.cn/dangan/read/record.asp?id=MS-XC-9302",
+      "responsible": ["校办公室", "许嘉禾"],
+      "excludeSummaryFromSearch": true,
+      "excludeRowsFromSearch": true,
+      "preview": {
+        "type": "graduation-layout",
+        "source": "/websites/maishan_school/assets/archive/sy-92-041-preview.jpg"
+      },
+      "references": [
+        {"label": "1993届毕业合影拍摄登记与底片索引", "recordId": "MS-XC-9301"},
+        {"label": "1992年优秀学生宣传肖像底片索引", "recordId": "MS-XC-9201"}
+      ],
       "rows": [
         {
           "姓名": "钱澄",
@@ -554,6 +750,13 @@
       "title": "1993届学籍异动登记（高三三班局部）",
       "summary": "林美心：1993年5月起离校失联，已报有关部门；学籍手续未办结。",
       "virtualUrl": "http://www.ms-school.edu.cn/dangan/read/record.asp?id=MS-XJ-9301",
+      "responsible": ["教务处学籍组"],
+      "excludeSummaryFromSearch": true,
+      "excludeRowsFromSearch": true,
+      "citedBy": [
+        {"label": "委培预录推荐名单变更表", "recordId": "MS-ZS-9301"},
+        {"label": "1993届毕业资格审核异常情况表", "recordId": "MS-XJ-9302"}
+      ],
       "rows": [
         {
           "姓名": "林美心",
@@ -581,6 +784,14 @@
       "title": "1993届毕业资格审核异常情况表",
       "summary": "按班记录本届未完成毕业资格审核学生的原因、材料状态和后续处理。",
       "virtualUrl": "http://www.ms-school.edu.cn/dangan/read/record.asp?id=MS-XJ-9302",
+      "responsible": ["教务处", "毕业年级组"],
+      "excludeRowsFromSearch": true,
+      "references": [
+        {"label": "1993届学籍异动登记（高三三班局部）", "recordId": "MS-XJ-9301"}
+      ],
+      "citedBy": [
+        {"label": "1993届毕业纪念图版编制说明", "recordId": "MS-XC-9302"}
+      ],
       "rows": [
         {
           "姓名": "董一帆",
@@ -720,6 +931,33 @@
       "virtualUrl": "http://www.ms-school.edu.cn/dangan/read/record.asp?id=MS-1993-XZ-05-031"
     },
     {
+      "id": "MS-ZS-9300",
+      "no": "MS-1993-ZS-01-003",
+      "year": 1993,
+      "code": "ZS",
+      "date": "1993-02-19",
+      "department": "教务处、毕业年级组",
+      "retention": "永久",
+      "access": "登记行局部转写",
+      "title": "委培预录送审材料预核登记",
+      "summary": "对校内拟推荐学生的成绩证明、操行鉴定、体检预约单和企业方向确认页作送审前核对。材料齐全者由教务处统一装袋，等待企业复核通知。",
+      "virtualUrl": "http://www.ms-school.edu.cn/dangan/read/record.asp?id=MS-ZS-9300",
+      "responsible": ["教务处", "毕业年级组"],
+      "excludeRowsFromSearch": true,
+      "references": [
+        {"label": "1993届委培预录校内推荐候选人初排表", "recordId": "MS-ZS-9201"},
+        {"label": "浦南化工联合公司1993届委培方向需求回函", "recordId": "MS-ZS-9200"}
+      ],
+      "citedBy": [
+        {"label": "委培预录推荐名单变更表", "recordId": "MS-ZS-9301"}
+      ],
+      "rows": [
+        {"姓名": "林美心", "委托单位": "浦南化工联合公司", "方向": "化工仪表与检验", "材料状态": "四项齐全，已装袋", "校内经办": "教务处"},
+        {"姓名": "周立新", "委托单位": "浦南化工联合公司", "方向": "设备维护", "材料状态": "体检预约单待补", "校内经办": "毕业年级组"},
+        {"姓名": "陆海峰", "委托单位": "浦南化工联合公司", "方向": "运输调度", "材料状态": "四项齐全，已装袋", "校内经办": "教务处"}
+      ]
+    },
+    {
       "id": "MS-ZS-9301",
       "no": "MS-1993-ZS-01-008",
       "year": 1993,
@@ -731,6 +969,17 @@
       "title": "委培预录推荐名单变更表",
       "summary": "浦南化工联合公司“化工仪表与检验”方向中，林美心原推荐状态因故取消，张慧按原有校内顺位递补；递补后仍须企业与院校复核。",
       "virtualUrl": "http://www.ms-school.edu.cn/dangan/read/record.asp?id=MS-ZS-9301",
+      "responsible": ["教务处", "校办公室"],
+      "excludeSummaryFromSearch": true,
+      "excludeRowsFromSearch": true,
+      "references": [
+        {"label": "1993届委培预录校内推荐候选人初排表", "recordId": "MS-ZS-9201"},
+        {"label": "委培预录送审材料预核登记", "recordId": "MS-ZS-9300"},
+        {"label": "1993届学籍异动登记（高三三班局部）", "recordId": "MS-XJ-9301"}
+      ],
+      "citedBy": [
+        {"label": "委培预录递补材料复核回执", "recordId": "MS-ZS-9302"}
+      ],
       "rows": [
         {
           "委托单位": "浦南化工联合公司",
@@ -753,7 +1002,11 @@
       "access": "目录＋摘要",
       "title": "委培预录递补材料复核回执",
       "summary": "张慧按校内原顺位递补浦南化工联合公司“化工仪表与检验”方向后，完成材料复核、面谈和体检，相关回执归入委培送审材料。",
-      "virtualUrl": "http://www.ms-school.edu.cn/dangan/read/record.asp?id=MS-ZS-9302"
+      "virtualUrl": "http://www.ms-school.edu.cn/dangan/read/record.asp?id=MS-ZS-9302",
+      "responsible": ["教务处", "企业联络"],
+      "references": [
+        {"label": "委培预录推荐名单变更表", "recordId": "MS-ZS-9301"}
+      ]
     },
     {
       "id": "MS-ZS-9303",
@@ -786,13 +1039,28 @@
       "no": "MS-1992-JX-02-008",
       "year": 1992,
       "code": "JX",
-      "date": "1992-05-22",
+      "date": "1992-03-14",
       "department": "教务处、教研组",
       "retention": "长期",
-      "access": "仅目录",
+      "access": "获奖登记局部转写",
       "title": "高中部学科竞赛及课外小论文活动获奖登记",
-      "summary": "含数学、物理、化学、语文和地方工业史小论文活动登记。",
-      "virtualUrl": "http://www.ms-school.edu.cn/dangan/read/record.asp?id=MS-JX-9201"
+      "summary": "含数学、物理、化学、语文和地方工业史小论文活动登记。所列为当年度校外获奖及代表学校送评项目，不是全年级成绩册。",
+      "virtualUrl": "http://www.ms-school.edu.cn/dangan/read/record.asp?id=MS-JX-9201",
+      "responsible": ["教务处", "化学教研组", "刘江源"],
+      "image": {
+        "src": "/websites/maishan_school/assets/archive/linmeixin-1992-chemistry-award-group-v04.png",
+        "alt": "1992年浦南区中学生化学竞赛获奖学生合影",
+        "caption": "区化学竞赛颁奖后合影。照片背面只登记学校与姓氏，本页获奖登记可核对其中部分人员。摄影、冲印：刘江源。"
+      },
+      "citedBy": [
+        {"label": "1993届委培预录校内推荐候选人初排表", "recordId": "MS-ZS-9201"}
+      ],
+      "rows": [
+        {"项目": "浦南区中学生化学竞赛", "组别": "高中组", "姓名": "林美心", "班级": "高二（3）班", "结果": "二等奖"},
+        {"项目": "浦南区中学生数学竞赛", "组别": "高中组", "姓名": "赵维", "班级": "高二（1）班", "结果": "三等奖"},
+        {"项目": "浦南区中学生物理竞赛", "组别": "高中组", "姓名": "周立新", "班级": "高二（2）班", "结果": "三等奖"},
+        {"项目": "地方工业史小论文", "组别": "高中组", "姓名": "罗海燕", "班级": "高二（3）班", "结果": "入选交流"}
+      ]
     },
     {
       "id": "MS-RS-9201",
@@ -806,6 +1074,7 @@
       "title": "1992—1993学年教职工岗位及班主任安排",
       "summary": "刘江源继续任高中物理教师、高三（3）班班主任；同表另列各班任课与班主任。",
       "virtualUrl": "http://www.ms-school.edu.cn/dangan/read/record.asp?id=MS-RS-9201",
+      "responsible": ["刘江源", "杨文斌", "林志远", "许嘉禾", "人事室", "教务处"],
       "rows": [
         {
           "姓名": "刘江源",
@@ -840,7 +1109,14 @@
       "access": "目录＋摘要",
       "title": "教职工校内兼职及宣传工作分工",
       "summary": "刘江源兼任活动摄影、暗房冲印和照片底片整理；其他教师分别兼管校刊、电教、实验室和广播。",
-      "virtualUrl": "http://www.ms-school.edu.cn/dangan/read/record.asp?id=MS-RS-9202"
+      "virtualUrl": "http://www.ms-school.edu.cn/dangan/read/record.asp?id=MS-RS-9202",
+      "responsible": ["刘江源", "校办公室", "人事室"],
+      "references": [
+        {"label": "校办照相器材与暗房设备登记", "recordId": "MS-SC-9001"}
+      ],
+      "citedBy": [
+        {"label": "优秀学生宣传肖像底片索引", "recordId": "MS-XC-9201"}
+      ]
     },
     {
       "id": "MS-SC-9201",
@@ -853,7 +1129,10 @@
       "access": "仅目录",
       "title": "暗房耗材领用与年末盘点",
       "summary": "相纸、显影液、定影液和底片袋按活动登记领用，年末由总务与摄影经办共同盘点。",
-      "virtualUrl": "http://www.ms-school.edu.cn/dangan/read/record.asp?id=MS-SC-9201"
+      "virtualUrl": "http://www.ms-school.edu.cn/dangan/read/record.asp?id=MS-SC-9201",
+      "references": [
+        {"label": "校办照相器材与暗房设备登记", "recordId": "MS-SC-9001"}
+      ]
     },
     {
       "id": "MS-XC-9201",
@@ -867,13 +1146,17 @@
       "title": "优秀学生宣传肖像底片索引",
       "summary": "区校共建活动优秀学生宣传肖像，含被摄者、班级、原始底片号、摄影经办和使用去向。2004年扫描核对时另编影像附件号，图像本身未录入本目录。",
       "virtualUrl": "http://www.ms-school.edu.cn/dangan/read/record.asp?id=MS-XC-9201",
+      "excludeRowsFromSearch": true,
+      "responsible": ["刘江源", "许嘉禾", "校办公室"],
+      "citedBy": [
+        {"label": "1993届毕业纪念图版编制说明", "recordId": "MS-XC-9302"}
+      ],
       "imageHeld": true,
       "rows": [
         {
           "被摄者": "何青",
           "班级": "高三（3）班",
           "底片号": "SY-92-038",
-          "影像附件号": "92XF-MS-012",
           "摄影／经办": "刘江源",
           "使用去向": "校内宣传图版"
         },
@@ -881,7 +1164,6 @@
           "被摄者": "林美心",
           "班级": "高三（3）班",
           "底片号": "SY-92-041",
-          "影像附件号": "92XF-MS-017",
           "摄影／经办": "刘江源",
           "使用去向": "校内宣传图版、区校共建材料"
         },
@@ -889,7 +1171,6 @@
           "被摄者": "周立新",
           "班级": "高三（2）班",
           "底片号": "SY-92-045",
-          "影像附件号": "92XF-MS-021",
           "摄影／经办": "许嘉禾",
           "使用去向": "校内宣传图版"
         }
@@ -947,6 +1228,11 @@
       "title": "1992—1993学年度学校岗位及毕业年级工作分工表",
       "summary": "杨文斌任高中政治教师兼教务处副主任，分管高中部学籍、毕业资格审核和推荐材料汇总。",
       "virtualUrl": "http://www.ms-school.edu.cn/dangan/read/record.asp?id=MS-XZ-9201",
+      "responsible": ["杨文斌", "校办公室", "教务处"],
+      "citedBy": [
+        {"label": "1993届委培预录校内推荐候选人初排表", "recordId": "MS-ZS-9201"},
+        {"label": "1993届毕业资格审核异常情况表", "recordId": "MS-XJ-9302"}
+      ],
       "rows": [
         {
           "工作项目": "高中部学籍核验",
@@ -981,7 +1267,35 @@
       "access": "仅目录",
       "title": "区校共建接待活动工作安排",
       "summary": "含接待流程、优秀学生发言、校园参观和宣传照片报送安排，附件照片另归XC门类。",
-      "virtualUrl": "http://www.ms-school.edu.cn/dangan/read/record.asp?id=MS-XZ-9202"
+      "virtualUrl": "http://www.ms-school.edu.cn/dangan/read/record.asp?id=MS-XZ-9202",
+      "citedBy": [
+        {"label": "优秀学生宣传肖像底片索引", "recordId": "MS-XC-9201"}
+      ]
+    },
+    {
+      "id": "MS-ZS-9200",
+      "no": "MS-1992-ZS-01-009",
+      "year": 1992,
+      "code": "ZS",
+      "date": "1992-10-28",
+      "department": "校办公室、教务处",
+      "retention": "长期",
+      "access": "回函要目局部转写",
+      "title": "浦南化工联合公司1993届委培方向需求回函",
+      "summary": "企业根据下一年度化验室与仪表岗位补充计划，向试点学校确认培养方向、拟送审人数和候补顺序。推荐不等同录取，仍须完成企业与院校复核。",
+      "virtualUrl": "http://www.ms-school.edu.cn/dangan/read/record.asp?id=MS-ZS-9200",
+      "responsible": ["浦南化工联合公司", "校办公室", "教务处"],
+      "references": [
+        {"label": "国企紧缺岗位委托培养预录试点文件汇编", "recordId": "MS-ZS-9101"}
+      ],
+      "citedBy": [
+        {"label": "1993届委培预录校内推荐候选人初排表", "recordId": "MS-ZS-9201"}
+      ],
+      "rows": [
+        {"培养方向": "化工仪表与检验", "拟送审": "1人", "候补": "1人", "参考条件": "化学、物理基础；无色觉异常"},
+        {"培养方向": "设备维护", "拟送审": "1人", "候补": "1人", "参考条件": "物理基础；动手能力"},
+        {"培养方向": "运输调度", "拟送审": "1人", "候补": "1人", "参考条件": "数学基础；表达清楚"}
+      ]
     },
     {
       "id": "MS-ZS-9201",
@@ -995,6 +1309,15 @@
       "title": "1993届委培预录校内推荐候选人初排表",
       "summary": "1993届委培预录候选人按委托单位、培养方向和校内送审顺位登记；本页局部转写为浦南化工联合公司名额。",
       "virtualUrl": "http://www.ms-school.edu.cn/dangan/read/record.asp?id=MS-ZS-9201",
+      "responsible": ["杨文斌", "毕业年级组", "教务处"],
+      "excludeRowsFromSearch": true,
+      "references": [
+        {"label": "浦南化工联合公司1993届委培方向需求回函", "recordId": "MS-ZS-9200"},
+        {"label": "高中部学科竞赛及课外小论文活动获奖登记", "recordId": "MS-JX-9201"}
+      ],
+      "citedBy": [
+        {"label": "委培预录送审材料预核登记", "recordId": "MS-ZS-9300"}
+      ],
       "rows": [
         {
           "委托单位": "浦南化工联合公司",
@@ -1103,7 +1426,17 @@
       "access": "目录＋摘要",
       "title": "国企紧缺岗位委托培养预录试点文件汇编",
       "summary": "浦南化工联合公司等区属国企为具体委托单位。学校按成绩、操行和专业需求提出校内推荐顺位；企业与行业院校仍须完成材料复核、面谈和体检。确认进入试点的学生不参加当年普通高考。",
-      "virtualUrl": "http://www.ms-school.edu.cn/dangan/read/record.asp?id=MS-ZS-9101"
+      "virtualUrl": "http://www.ms-school.edu.cn/dangan/read/record.asp?id=MS-ZS-9101",
+      "responsible": ["校办公室", "教务处", "浦南化工联合公司"],
+      "citedBy": [
+        {"label": "浦南化工联合公司1993届委培方向需求回函", "recordId": "MS-ZS-9200"}
+      ],
+      "rows": [
+        {"环节": "校内初排", "办理方": "学校", "说明": "依成绩、操行与专业方向提出推荐顺位"},
+        {"环节": "材料复核", "办理方": "委托企业、行业院校", "说明": "核验成绩证明、操行鉴定与报名材料"},
+        {"环节": "面谈、体检", "办理方": "委托企业", "说明": "通过后方可列入确认名单"},
+        {"环节": "毕业衔接", "办理方": "学校", "说明": "确认进入试点者不参加当年普通高考"}
+      ]
     },
     {
       "id": "MS-JX-9001",
@@ -1169,6 +1502,7 @@
       "title": "刘江源教学岗位与班主任工作备案",
       "summary": "刘江源任高中物理教师，并自1990级入学起担任高一（3）班班主任。",
       "virtualUrl": "http://www.ms-school.edu.cn/dangan/read/record.asp?id=MS-RS-9003",
+      "responsible": ["刘江源", "人事室", "教务处"],
       "rows": [
         {
           "姓名": "刘江源",
@@ -1189,7 +1523,11 @@
       "access": "目录＋摘要",
       "title": "校办照相器材与暗房设备登记",
       "summary": "登记胶片相机、三脚架、放大机、安全灯、显影盘和底片袋，借用须由校办公室登记。",
-      "virtualUrl": "http://www.ms-school.edu.cn/dangan/read/record.asp?id=MS-SC-9001"
+      "virtualUrl": "http://www.ms-school.edu.cn/dangan/read/record.asp?id=MS-SC-9001",
+      "citedBy": [
+        {"label": "教职工校内兼职及宣传工作分工", "recordId": "MS-RS-9202"},
+        {"label": "暗房耗材领用与年末盘点", "recordId": "MS-SC-9201"}
+      ]
     },
     {
       "id": "MS-XC-9001",
@@ -1219,53 +1557,6 @@
       "virtualUrl": "http://www.ms-school.edu.cn/dangan/read/record.asp?id=MS-1990-XJ-01-001"
     },
     {
-      "id": "MS-XJ-9001",
-      "no": "MS-1990-XJ-01-012",
-      "year": 1990,
-      "code": "XJ",
-      "date": "1990-09-01",
-      "department": "教务处学籍组",
-      "retention": "永久",
-      "access": "经审核局部转写",
-      "title": "1990级高中部新生花名册（三班局部）",
-      "summary": "预览字段含姓名、出生日期、入学时间和编班；家庭地址、监护人及原始登记卡未录入。",
-      "virtualUrl": "http://www.ms-school.edu.cn/dangan/read/record.asp?id=MS-XJ-9001",
-      "rows": [
-        {
-          "学号": "0307",
-          "姓名": "何青",
-          "性别": "女",
-          "出生日期": "1976-02-11",
-          "入学日期": "1990-09",
-          "班级": "高一（3）班"
-        },
-        {
-          "学号": "0308",
-          "姓名": "林美心",
-          "性别": "女",
-          "出生日期": "1976-04-30",
-          "入学日期": "1990-09",
-          "班级": "高一（3）班"
-        },
-        {
-          "学号": "0309",
-          "姓名": "罗海燕",
-          "性别": "女",
-          "出生日期": "1975-12-18",
-          "入学日期": "1990-09",
-          "班级": "高一（3）班"
-        },
-        {
-          "学号": "0310",
-          "姓名": "钱澄",
-          "性别": "男",
-          "出生日期": "1976-06-02",
-          "入学日期": "1990-09",
-          "班级": "高一（3）班"
-        }
-      ]
-    },
-    {
       "id": "MS-XJ-9002",
       "no": "MS-1990-XJ-01-019",
       "year": 1990,
@@ -1290,6 +1581,7 @@
       "title": "1990—1991学年度机构及岗位分工表",
       "summary": "登记校长室、教务、政教、总务、图书和年级组常规分工。刘江源列高中物理教师，杨文斌列高中政治教师。",
       "virtualUrl": "http://www.ms-school.edu.cn/dangan/read/record.asp?id=MS-XZ-9001",
+      "responsible": ["顾文岚", "刘江源", "杨文斌", "沈慧琴", "校办公室"],
       "rows": [
         {
           "姓名": "顾文岚",

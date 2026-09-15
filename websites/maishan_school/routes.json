@@ -22,6 +22,62 @@
       "title": "档案目录录入预览 - 盟杉中学"
     },
     {
+      "urlPattern": "http://www.ms-school.edu.cn/dangan/read/record.asp",
+      "file": "/websites/maishan_school/pages/archive.html?page=record",
+      "forwardQuery": true,
+      "title": "档案目录录入预览 - 盟杉中学"
+    },
+    {
+      "url": "http://www.ms-school.edu.cn/dangan/read/record.asp?id=MS-2010-XC-01-004",
+      "file": "/websites/maishan_school/pages/archive.html?page=record&id=MS-2010-XC-01-004",
+      "title": "档案目录录入预览 - 盟杉中学"
+    },
+    {
+      "url": "http://www.ms-school.edu.cn/dangan/read/record.asp?id=MS-2010-JX-01-006",
+      "file": "/websites/maishan_school/pages/archive.html?page=record&id=MS-2010-JX-01-006",
+      "title": "档案目录录入预览 - 盟杉中学"
+    },
+    {
+      "url": "http://www.ms-school.edu.cn/dangan/read/record.asp?id=MS-2009-XZ-01-009",
+      "file": "/websites/maishan_school/pages/archive.html?page=record&id=MS-2009-XZ-01-009",
+      "title": "档案目录录入预览 - 盟杉中学"
+    },
+    {
+      "url": "http://www.ms-school.edu.cn/dangan/read/record.asp?id=MS-XC-0401",
+      "file": "/websites/maishan_school/pages/archive.html?page=record&id=MS-XC-0401",
+      "title": "档案目录录入预览 - 盟杉中学"
+    },
+    {
+      "url": "http://www.ms-school.edu.cn/dangan/read/record.asp?id=MS-XZ-0401",
+      "file": "/websites/maishan_school/pages/archive.html?page=record&id=MS-XZ-0401",
+      "title": "档案目录录入预览 - 盟杉中学"
+    },
+    {
+      "url": "http://www.ms-school.edu.cn/dangan/read/record.asp?id=MS-JX-0401",
+      "file": "/websites/maishan_school/pages/archive.html?page=record&id=MS-JX-0401",
+      "title": "档案目录录入预览 - 盟杉中学"
+    },
+    {
+      "url": "http://www.ms-school.edu.cn/dangan/read/record.asp?id=MS-ST-0401",
+      "file": "/websites/maishan_school/pages/archive.html?page=record&id=MS-ST-0401",
+      "title": "档案目录录入预览 - 盟杉中学"
+    },
+    {
+      "url": "http://www.ms-school.edu.cn/dangan/read/record.asp?id=MS-SC-0401",
+      "file": "/websites/maishan_school/pages/archive.html?page=record&id=MS-SC-0401",
+      "title": "档案目录录入预览 - 盟杉中学"
+    },
+    {
+      "url": "http://www.ms-school.edu.cn/dangan/read/record.asp?id=MS-ZS-9200",
+      "file": "/websites/maishan_school/pages/archive.html?page=record&id=MS-ZS-9200",
+      "title": "档案目录录入预览 - 盟杉中学"
+    },
+    {
+      "url": "http://www.ms-school.edu.cn/dangan/read/record.asp?id=MS-ZS-9300",
+      "file": "/websites/maishan_school/pages/archive.html?page=record&id=MS-ZS-9300",
+      "title": "档案目录录入预览 - 盟杉中学"
+    },
+    {
       "url": "http://www.ms-school.edu.cn/",
       "file": "/websites/maishan_school/pages/index.html",
       "title": "盟杉中学"
@@ -50,6 +106,11 @@
       "url": "http://www.ms-school.edu.cn/xwzx/2010/1108/157.html",
       "file": "/websites/maishan_school/pages/news_157.html",
       "title": "我校举行世博志愿服务总结交流会 - 盟杉中学"
+    },
+    {
+      "url": "http://www.ms-school.edu.cn/xwzx/view.asp?id=MS-018",
+      "file": "/websites/maishan_school/pages/news_dynamic.html?id=MS-018",
+      "title": "我校举行2010届高三年级百日动员会 - 盟杉中学"
     },
     {
       "url": "http://www.ms-school.edu.cn/sthd/index.html",
@@ -92,11 +153,6 @@
       "title": "盟杉中学档案电子化管理系统"
     },
     {
-      "url": "http://www.ms-school.edu.cn/xwzx/2010/1018/149.html",
-      "file": "/websites/maishan_school/pages/archive.html?page=notice",
-      "title": "档案目录录入预览 - 盟杉中学"
-    },
-    {
       "url": "http://www.ms-school.edu.cn/dangan/read/index.asp",
       "file": "/websites/maishan_school/pages/archive.html?page=catalog",
       "title": "档案目录录入预览 - 盟杉中学"
@@ -109,6 +165,11 @@
     {
       "url": "http://www.ms-school.edu.cn/dangan/read/browse.asp?year=2009",
       "file": "/websites/maishan_school/pages/archive.html?page=catalog&year=2009",
+      "title": "档案目录录入预览 - 盟杉中学"
+    },
+    {
+      "url": "http://www.ms-school.edu.cn/dangan/read/browse.asp?year=2004",
+      "file": "/websites/maishan_school/pages/archive.html?page=catalog&year=2004",
       "title": "档案目录录入预览 - 盟杉中学"
     },
     {
@@ -244,11 +305,6 @@
     {
       "url": "http://www.ms-school.edu.cn/dangan/read/record.asp?id=MS-JX-9301",
       "file": "/websites/maishan_school/pages/archive.html?page=record&id=MS-JX-9301",
-      "title": "档案目录录入预览 - 盟杉中学"
-    },
-    {
-      "url": "http://www.ms-school.edu.cn/dangan/read/record.asp?id=MS-XJ-9001",
-      "file": "/websites/maishan_school/pages/archive.html?page=record&id=MS-XJ-9001",
       "title": "档案目录录入预览 - 盟杉中学"
     },
     {
