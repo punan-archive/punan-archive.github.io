@@ -1,6 +1,7 @@
 {
   "userName": "刘江源",
   "wallpaper": "/snapshots/LJ-HOME-PC01-FORENSIC-A/wallpaper-punan-coast-v06.png",
+  "wallpaperPreview": "/snapshots/LJ-HOME-PC01-FORENSIC-A/wallpaper-punan-coast-v06-preview.jpg",
   "desktopShortcuts": [
     {
       "itemId": "culture-palace-folder",
@@ -1507,17 +1508,6 @@
       "content": "照片600。底片2400。自动锐化关掉。"
     },
     {
-      "id": "deleted-lamp-test-photo",
-      "name": "台灯试拍_2.jpg",
-      "type": "image",
-      "modified": "2010-10-03 19:22",
-      "deletedAt": "2010-10-03 19:29",
-      "originalPath": "C:\\Documents and Settings\\刘江源\\我的文档\\照片\\2010年",
-      "size": "276 KB",
-      "imageSrc": "/websites/maishan_school/assets/thumb_courtyard_autumn_2010.jpg",
-      "caption": "台灯色温试拍。正式照片未采用。"
-    },
-    {
       "id": "deleted-roster-temp",
       "name": "报名名单_临时.xls",
       "type": "spreadsheet",
@@ -1770,6 +1760,7 @@
       "deletedAt": "2010-10-29 23:22",
       "originalPath": "C:\\Documents and Settings\\刘江源\\我的文档\\下载\\电子宠物\\邮购目录",
       "size": "1.7 MB",
+      "imagePreviewSrc": "/snapshots/LJ-HOME-PC01-FORENSIC-A/catalog-1997-img-0001-preview.jpg",
       "imageSrc": "/snapshots/LJ-HOME-PC01-FORENSIC-A/catalog-1997-img-0001.png",
       "caption": "邮购目录封面扫描。"
     },
@@ -1781,6 +1772,7 @@
       "deletedAt": "2010-10-29 23:23",
       "originalPath": "C:\\Documents and Settings\\刘江源\\我的文档\\下载\\电子宠物\\邮购目录",
       "size": "1.5 MB",
+      "imagePreviewSrc": "/snapshots/LJ-HOME-PC01-FORENSIC-A/catalog-1997-img-0037-preview.jpg",
       "imageSrc": "/snapshots/LJ-HOME-PC01-FORENSIC-A/catalog-1997-img-0037.png",
       "caption": "邮购目录第37页。"
     },
@@ -1792,6 +1784,7 @@
       "deletedAt": "2010-10-29 23:24",
       "originalPath": "C:\\Documents and Settings\\刘江源\\我的文档\\下载\\电子宠物\\邮购目录",
       "size": "1.6 MB",
+      "imagePreviewSrc": "/snapshots/LJ-HOME-PC01-FORENSIC-A/catalog-1997-img-0062-v2-preview.jpg",
       "imageSrc": "/snapshots/LJ-HOME-PC01-FORENSIC-A/catalog-1997-img-0062-v2.png",
       "caption": "邮购目录第62页。"
     },
@@ -1803,6 +1796,7 @@
       "deletedAt": "2010-10-29 23:25",
       "originalPath": "C:\\Documents and Settings\\刘江源\\我的文档\\照片\\扫描",
       "size": "1.2 MB",
+      "imagePreviewSrc": "/snapshots/LJ-HOME-PC01-FORENSIC-A/old-news-1997-electronic-pet-preview.jpg",
       "imageSrc": "/snapshots/LJ-HOME-PC01-FORENSIC-A/old-news-1997-electronic-pet.png",
       "caption": "1997年8月4日旧报剪页，5版。"
     },
