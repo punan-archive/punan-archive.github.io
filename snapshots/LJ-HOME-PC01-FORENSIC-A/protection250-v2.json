@@ -1,0 +1,760 @@
+{
+  "product": {
+    "name": "250电脑卫士",
+    "version": "3.6.0.250",
+    "installedAt": "2010-09-18 21:42",
+    "installSource": "万能读卡器驱动安装程序",
+    "lastServiceRun": "2010-11-12 21:39",
+    "healthScore": 25
+  },
+  "registeredMirrors": [
+    {
+      "id": "PB-20101031-2204",
+      "label": "2010-10-31 22:04",
+      "reason": "误删文件保护",
+      "sourcePath": "C:\\Documents and Settings\\刘江源\\我的文档\\少年宫\\学生作业",
+      "status": "registered",
+      "depth": 0,
+      "primaryItemId": "student-empty-classroom-photo",
+      "items": [
+        {
+          "id": "student-empty-classroom-photo",
+          "name": "沈一帆_空教室.JPG",
+          "type": "image",
+          "parentId": "student-work-folder",
+          "modified": "2010-05-29 16:37",
+          "deletedAt": "2010-10-31 22:03",
+          "imageSrc": "/snapshots/LJ-HOME-PC01-FORENSIC-A/shen-yifan-empty-classroom.png",
+          "caption": "沈一帆，春季摄影班作业《空教室》。原登记表注明：横幅、家长确认已收。"
+        }
+      ]
+    },
+    {
+      "id": "PB-20101026-0912",
+      "label": "2010-10-26 09:12",
+      "reason": "同名文件覆盖保护",
+      "sourcePath": "C:\\Documents and Settings\\刘江源\\我的文档\\先放这里",
+      "status": "registered",
+      "depth": 0,
+      "primaryItemId": "old-registration-copy",
+      "items": [
+        {
+          "id": "old-registration-copy",
+          "name": "报名名单_旧的.txt",
+          "type": "text",
+          "parentId": "loose-files-folder",
+          "modified": "2010-09-23 18:20",
+          "content": "摄影班补报名：周昊、钱佳、沈一帆。\n这份人数没有改，交办公室的看Excel。"
+        }
+      ]
+    },
+    {
+      "id": "PB-20101018-2042",
+      "label": "2010-10-18 20:42",
+      "reason": "临时文件清理保护",
+      "sourcePath": "C:\\Documents and Settings\\刘江源\\我的文档\\照片\\扫描",
+      "status": "registered",
+      "depth": 0,
+      "primaryItemId": "old-scan-setting-copy",
+      "items": [
+        {
+          "id": "old-scan-setting-copy",
+          "name": "扫描参数_旧.txt",
+          "type": "text",
+          "parentId": "negative-scan-folder",
+          "modified": "2010-07-03 23:09",
+          "content": "照片600。底片2400。\n自动锐化关掉，预览另存，不要盖原图。"
+        }
+      ]
+    }
+  ],
+  "hiddenMirrors": [
+    {
+      "id": "PB-20101029-2316",
+      "label": "2010-10-29 23:16",
+      "reason": "文档覆盖前保护",
+      "sourcePath": "C:\\Documents and Settings\\刘江源\\我的文档\\先放这里",
+      "sourcePaths": [
+        "C:\\Documents and Settings\\刘江源\\我的文档\\先放这里"
+      ],
+      "status": "unregistered",
+      "depth": 1,
+      "primaryItemId": "liu-main-investigation-doc",
+      "match": {
+        "date": "2010-10-29",
+        "pathTerms": [
+          "旧资料核对",
+          "先放这里"
+        ],
+        "keywordTerms": [
+          "核对",
+          "年代",
+          "电子宠物"
+        ],
+        "types": [
+          "文档"
+        ],
+        "minimumCriteria": 2
+      },
+      "items": [
+        {
+          "id": "liu-main-investigation-doc",
+          "name": "电子宠物年代.doc",
+          "type": "document",
+          "parentId": "loose-files-folder",
+          "modified": "2010-10-29 23:11",
+          "replaceExisting": true,
+          "blocks": [
+            {
+              "type": "title",
+              "text": "电子宠物年代"
+            },
+            {
+              "type": "paragraph",
+              "text": "来信写的是九三年。以前查过，下面几份东西又找不到了。先留文件名。"
+            },
+            {
+              "type": "attachment",
+              "refId": "bandai-2009-cache",
+              "label": "091006tamagotchiID.pdf",
+              "path": "C:\\Documents and Settings\\刘江源\\我的文档\\下载\\电子宠物\\091006tamagotchiID.pdf",
+              "modifiedHint": "2010-10-12"
+            },
+            {
+              "type": "attachment",
+              "refId": "old-news-1997-clipping",
+              "label": "旧报970804_5版.jpg",
+              "path": "C:\\Documents and Settings\\刘江源\\我的文档\\照片\\扫描\\旧报970804_5版.jpg",
+              "modifiedHint": "2010-10-12"
+            },
+            {
+              "type": "missing-image",
+              "refId": "catalog-cover-1997",
+              "label": "邮购目录封面",
+              "path": "C:\\Documents and Settings\\刘江源\\我的文档\\下载\\电子宠物\\邮购目录\\IMG_0001.JPG",
+              "modifiedHint": "2010-10-12"
+            },
+            {
+              "type": "missing-image",
+              "refId": "catalog-generic-p37",
+              "label": "目录第37页",
+              "path": "C:\\Documents and Settings\\刘江源\\我的文档\\下载\\电子宠物\\邮购目录\\IMG_0037.JPG",
+              "modifiedHint": "2010-10-12"
+            },
+            {
+              "type": "missing-image",
+              "refId": "catalog-close-p62",
+              "label": "目录第62页",
+              "path": "C:\\Documents and Settings\\刘江源\\我的文档\\下载\\电子宠物\\邮购目录\\IMG_0062.JPG",
+              "modifiedHint": "2010-10-12"
+            },
+            {
+              "type": "paragraph",
+              "text": "原物若是后来坏了，寄件时换成相似的，也不是完全说不通。十几年以后才寄，记错哪一件也有可能。"
+            },
+            {
+              "type": "paragraph",
+              "text": "她若不肯再被问，先不要往群里转。等我把——"
+            }
+          ]
+        },
+        {
+          "id": "knowledge-range-late",
+          "name": "知情范围_改.doc",
+          "type": "document",
+          "parentId": "loose-files-folder",
+          "modified": "2010-10-28 21:36",
+          "blocks": [
+            {
+              "type": "title",
+              "text": "知情范围"
+            },
+            {
+              "type": "paragraph",
+              "text": "八月底开始向旧同事问照片。学校办公室知道以后转给杨主任处理。"
+            },
+            {
+              "type": "paragraph",
+              "text": "九月上旬同杨通话。他担心旧学生隐私和报社误写，让我先等学校统一回复。这一点不算反常。"
+            },
+            {
+              "type": "paragraph",
+              "text": "之后赵清波提过，杨也向他问过是不是要写校史。时间前后只差几天，可能都是校办收到查询后的正常核实。"
+            },
+            {
+              "type": "paragraph",
+              "text": "九月十三日收到旧友来信。寄件人可能从旧同学之间听到寻访，也可能早就知道文化宫地址。"
+            },
+            {
+              "type": "paragraph",
+              "text": "目前没有材料证明杨知道包裹，更没有材料证明寄件人认识杨。"
+            },
+            {
+              "type": "paragraph",
+              "text": "旧学生的事不要往外传。年份问题单独核。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "PB-20101012-2248",
+      "label": "2010-10-12 22:48",
+      "reason": "临时资料清理前保护",
+      "sourcePath": "C:\\Documents and Settings\\刘江源\\我的文档\\先放这里",
+      "sourcePaths": [
+        "C:\\Documents and Settings\\刘江源\\我的文档\\下载\\电子宠物",
+        "C:\\Documents and Settings\\刘江源\\我的文档\\照片\\扫描",
+        "C:\\Documents and Settings\\刘江源\\我的文档\\先放这里"
+      ],
+      "status": "unregistered",
+      "depth": 2,
+      "primaryItemId": "liu-main-investigation-doc",
+      "match": {
+        "date": "2010-10-12",
+        "pathTerms": [
+          "网上下载",
+          "电子宠物",
+          "邮购目录",
+          "10月核对"
+        ],
+        "keywordTerms": [
+          "IMG",
+          "目录",
+          "广告页",
+          "初代",
+          "旧报"
+        ],
+        "types": [
+          "文档",
+          "图片"
+        ],
+        "minimumCriteria": 2
+      },
+      "items": [
+        {
+          "id": "catalog-cover-1997",
+          "name": "IMG_0001.JPG",
+          "type": "image",
+          "parentId": "downloads-folder",
+          "modified": "2010-10-12 22:38",
+          "imageSrc": "/snapshots/LJ-HOME-PC01-FORENSIC-A/catalog-1997-img-0001.png",
+          "caption": "同一批扫描的目录封面。文件名：IMG_0001.JPG。"
+        },
+        {
+          "id": "catalog-generic-p37",
+          "name": "IMG_0037.JPG",
+          "type": "image",
+          "parentId": "downloads-folder",
+          "modified": "2010-10-12 22:39",
+          "imageSrc": "/snapshots/LJ-HOME-PC01-FORENSIC-A/catalog-1997-img-0037.png",
+          "caption": "邮购目录第37页。文件名：IMG_0037.JPG。"
+        },
+        {
+          "id": "catalog-close-p62",
+          "name": "IMG_0062.JPG",
+          "type": "image",
+          "parentId": "downloads-folder",
+          "modified": "2010-10-12 22:40",
+          "imageSrc": "/snapshots/LJ-HOME-PC01-FORENSIC-A/catalog-1997-img-0062-v2.png",
+          "caption": "邮购目录第62页。文件名：IMG_0062.JPG。"
+        },
+        {
+          "id": "bandai-2009-cache",
+          "name": "091006tamagotchiID.pdf",
+          "type": "webarchive",
+          "parentId": "downloads-folder",
+          "modified": "2010-10-12 22:41",
+          "language": "ja",
+          "url": "http://www.bandai.co.jp/releases/images/3/53295.pdf",
+          "sourceLabel": "保存日期：2010年10月12日　原资料：2009年10月6日",
+          "webTitle": "新商品資料『Tamagotchi iD』",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "株式会社バンダイ"
+            },
+            {
+              "type": "heading",
+              "text": "「たまごっち」とは？"
+            },
+            {
+              "type": "paragraph",
+              "text": "1996年に初代が発売された携帯型育成ゲーム「たまごっち」は、全世界で4,000万個を販売する大ヒット商品になりました。"
+            },
+            {
+              "type": "paragraph",
+              "text": "2004年に「かえってきた！たまごっちプラス」として復活。現在では本体だけでなくキャラクターとしての人気も定着しています。"
+            },
+            {
+              "type": "note",
+              "text": "（第5頁・商品沿革）初代たまごっち（1996年発売）"
+            }
+          ]
+        },
+        {
+          "id": "old-news-1997-clipping",
+          "name": "旧报970804_5版.jpg",
+          "type": "image",
+          "parentId": "negative-scan-folder",
+          "modified": "2010-10-12 22:42",
+          "imageSrc": "/snapshots/LJ-HOME-PC01-FORENSIC-A/old-news-1997-electronic-pet.png",
+          "caption": "1997年8月4日旧报剪页，5版。"
+        },
+        {
+          "id": "liu-main-investigation-doc",
+          "name": "电子宠物年代.doc",
+          "type": "document",
+          "parentId": "loose-files-folder",
+          "modified": "2010-10-12 22:45",
+          "replaceExisting": true,
+          "blocks": [
+            {
+              "type": "title",
+              "text": "电子宠物年代"
+            },
+            {
+              "type": "paragraph",
+              "text": "信里：1993。"
+            },
+            {
+              "type": "attachment",
+              "refId": "bandai-2009-cache",
+              "label": "万代2009年资料",
+              "path": "C:\\Documents and Settings\\刘江源\\我的文档\\下载\\电子宠物\\091006tamagotchiID.pdf"
+            },
+            {
+              "type": "attachment",
+              "refId": "old-news-1997-clipping",
+              "label": "1997年旧报剪页",
+              "path": "C:\\Documents and Settings\\刘江源\\我的文档\\照片\\扫描\\旧报970804_5版.jpg"
+            },
+            {
+              "type": "resolved-image",
+              "refId": "catalog-cover-1997",
+              "label": "同批扫描：目录封面",
+              "path": "C:\\Documents and Settings\\刘江源\\我的文档\\下载\\电子宠物\\邮购目录\\IMG_0001.JPG"
+            },
+            {
+              "type": "resolved-image",
+              "refId": "catalog-generic-p37",
+              "label": "目录第37页",
+              "path": "C:\\Documents and Settings\\刘江源\\我的文档\\下载\\电子宠物\\邮购目录\\IMG_0037.JPG"
+            },
+            {
+              "type": "resolved-image",
+              "refId": "catalog-close-p62",
+              "label": "目录第62页",
+              "path": "C:\\Documents and Settings\\刘江源\\我的文档\\下载\\电子宠物\\邮购目录\\IMG_0062.JPG"
+            },
+            {
+              "type": "paragraph",
+              "text": "万代资料：初代1996。国内旧报：“今年春季”。"
+            },
+            {
+              "type": "paragraph",
+              "text": "这只不是当年那只。别的另算。"
+            },
+            {
+              "type": "heading",
+              "text": "以前那几页"
+            },
+            {
+              "type": "attachment",
+              "refId": "knowledge-range-doc",
+              "label": "知情范围_改.doc",
+              "path": "C:\\Documents and Settings\\刘江源\\我的文档\\先放这里\\知情范围_改.doc",
+              "modifiedHint": "2010-09-21"
+            },
+            {
+              "type": "attachment",
+              "refId": "old-contact-note",
+              "label": "IMG_5411.JPG",
+              "path": "C:\\Documents and Settings\\刘江源\\我的文档\\照片\\扫描\\IMG_5411.JPG",
+              "modifiedHint": "2010-09-21"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "PB-20100921-1908",
+      "label": "2010-09-21 19:08",
+      "reason": "相机导入与临时文档保护",
+      "sourcePath": "C:\\Documents and Settings\\刘江源\\我的文档\\先放这里",
+      "sourcePaths": [
+        "C:\\Documents and Settings\\刘江源\\我的文档\\照片\\扫描\\联系本扫描",
+        "C:\\Documents and Settings\\刘江源\\我的文档\\先放这里",
+        "C:\\Documents and Settings\\刘江源\\我的文档\\下载\\浦南信息港",
+        "C:\\Documents and Settings\\刘江源\\我的文档\\照片\\2010年\\9月杂片",
+        "C:\\Documents and Settings\\刘江源\\我的文档\\照片"
+      ],
+      "status": "unregistered",
+      "depth": 3,
+      "primaryItemId": "liu-main-investigation-doc",
+      "match": {
+        "date": "2010-09-21",
+        "pathTerms": [
+          "待确认",
+          "旧资料",
+          "联系本",
+          "扫描"
+        ],
+        "keywordTerms": [
+          "知情范围",
+          "外部联系",
+          "9月",
+          "邱",
+          "184"
+        ],
+        "types": [
+          "文档",
+          "图片",
+          "文本"
+        ],
+        "minimumCriteria": 2
+      },
+      "items": [
+        {
+          "id": "old-contact-note",
+          "name": "IMG_5411.JPG",
+          "type": "image",
+          "parentId": "negative-scan-folder",
+          "modified": "2010-09-20 17:48",
+          "imageSrc": "/snapshots/LJ-HOME-PC01-FORENSIC-A/IMG_5411.JPG",
+          "caption": "旧校务联系本照片。相机导入文件名：IMG_5411.JPG。"
+        },
+        {
+          "id": "equipment-register-scan",
+          "name": "IMG_5412.JPG",
+          "type": "image",
+          "parentId": "negative-scan-folder",
+          "modified": "2010-09-20 17:51",
+          "imageSrc": "/snapshots/LJ-HOME-PC01-FORENSIC-A/IMG_5412.JPG",
+          "caption": "同批导入的旧器材借还登记照片。"
+        },
+        {
+          "id": "failed-address-visit-note",
+          "name": "梅溪弄_9月19日.txt",
+          "type": "text",
+          "parentId": "loose-files-folder",
+          "modified": "2010-09-19 22:08",
+          "content": "9月19日\n\n10:20　梅溪弄14号\n现在是永丰五金仓储。老板06年才租，不认识周岚。\n\n10:45　隔壁修鞋摊\n说门牌以前换过，旧14号不是现在这幢。问哪一年，答不清。\n\n11:30　旧城居委电话\n不凭证件查住户。只确认这一带02年前后换过一次牌。\n\n14:05　打57××184\n空号。\n\n不要拿现在的14号替旧14号。\n周岚仍未核。"
+        },
+        {
+          "id": "postal-07-cache",
+          "name": "post_20080627.mht",
+          "type": "webarchive",
+          "parentId": "downloads-folder",
+          "modified": "2010-09-18 23:26",
+          "url": "http://www.punan.net/service/post/20080627.html",
+          "sourceLabel": "浦南信息港　2008年6月27日　脱机缓存",
+          "webTitle": "旧城区营业部周日起迁至东河街临时窗口",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "因原址管线维修，浦南旧城区邮政第07揽投段自本周日起暂迁东河街38号办理。"
+            },
+            {
+              "type": "paragraph",
+              "text": "原服务范围不变，包括东河街、梅溪弄、白鹤弄、老人民路及周边旧里弄。已投寄邮件仍按原邮编和投递段处理，居民无需变更地址。"
+            },
+            {
+              "type": "heading",
+              "text": "相关信息"
+            },
+            {
+              "type": "paragraph",
+              "text": "夏季高温时段营业时间调整　／　挂号信逾期领取须带身份证件　／　纬零路窗口新增水电费代缴"
+            }
+          ]
+        },
+        {
+          "id": "knowledge-range-doc",
+          "name": "知情范围_改.doc",
+          "type": "document",
+          "parentId": "loose-files-folder",
+          "modified": "2010-09-21 18:54",
+          "blocks": [
+            {
+              "type": "title",
+              "text": "知情范围"
+            },
+            {
+              "type": "heading",
+              "text": "1993年"
+            },
+            {
+              "type": "paragraph",
+              "text": "我先向杨口头说过。杨后来单独找林。"
+            },
+            {
+              "type": "paragraph",
+              "text": "吴老师知道到哪里，暂时不问。不要把后来听见的传闻算成当时知道。"
+            },
+            {
+              "type": "heading",
+              "text": "8月31日"
+            },
+            {
+              "type": "paragraph",
+              "text": "寻访说明发给旧同事和旧学生。只问毕业图版、手续和照片目录，没有写邱纲，也没有写报社要报道。"
+            },
+            {
+              "type": "heading",
+              "text": "9月2日—3日"
+            },
+            {
+              "type": "paragraph",
+              "text": "赵清波说，杨已经问我是不是准备给报社写校史。"
+            },
+            {
+              "type": "paragraph",
+              "text": "赵说“昨天”。我当时还没有找过杨。"
+            },
+            {
+              "type": "heading",
+              "text": "9月7日"
+            },
+            {
+              "type": "paragraph",
+              "text": "杨回电。问的是报社、用途和扩散范围。让我等学校统一回复，不要再扩大。"
+            },
+            {
+              "type": "heading",
+              "text": "9月13日"
+            },
+            {
+              "type": "paragraph",
+              "text": "挂号邮包送到文化宫。寄件人周岚。信说是旧友，东西是1993年留下的。"
+            },
+            {
+              "type": "paragraph",
+              "text": "从7日算太快。从31日算，寄件人必须很早知道寻访内容。"
+            },
+            {
+              "type": "missing-image",
+              "refId": "watch-crop-4689",
+              "label": "9月16日　文化宫侧门　4689裁",
+              "path": "C:\\Documents and Settings\\刘江源\\我的文档\\照片\\9月杂片\\4689裁.jpg"
+            },
+            {
+              "type": "missing-image",
+              "refId": "watch-crop-4724",
+              "label": "9月17日　浦南五村　4724裁",
+              "path": "C:\\Documents and Settings\\刘江源\\我的文档\\照片\\9月杂片\\4724裁.jpg"
+            },
+            {
+              "type": "paragraph",
+              "text": "两张只可说衣着和体态相近。原片要保留环境。"
+            },
+            {
+              "type": "attachment",
+              "refId": "old-photo-check-0920",
+              "label": "旧照片日期核对.doc",
+              "path": "C:\\Documents and Settings\\刘江源\\我的文档\\照片\\旧照片日期核对.doc",
+              "modifiedHint": "Word菜单里仍有名字，原文件打不开"
+            },
+            {
+              "type": "paragraph",
+              "text": "知道，不等于寄。"
+            },
+            {
+              "type": "paragraph",
+              "text": "先把日期、原片和来信地址分开留。不要在这里替任何人下结论。"
+            }
+          ]
+        },
+        {
+          "id": "liu-main-investigation-doc",
+          "name": "电子宠物年代.doc",
+          "type": "document",
+          "parentId": "loose-files-folder",
+          "modified": "2010-09-21 18:59",
+          "replaceExisting": true,
+          "blocks": [
+            {
+              "type": "title",
+              "text": "电子宠物年代"
+            },
+            {
+              "type": "paragraph",
+              "text": "信里这只，九三不对。"
+            },
+            {
+              "type": "paragraph",
+              "text": "周岚未核。"
+            },
+            {
+              "type": "paragraph",
+              "text": "9月13日太快。"
+            },
+            {
+              "type": "paragraph",
+              "text": "我还没找杨；杨先向赵问了“报社写校史”。"
+            },
+            {
+              "type": "paragraph",
+              "text": "邱民——184是同一个号码？"
+            },
+            {
+              "type": "paragraph",
+              "text": "知道，不等于寄。"
+            },
+            {
+              "type": "attachment",
+              "refId": "knowledge-range-doc",
+              "label": "知情范围_改.doc",
+              "path": "C:\\Documents and Settings\\刘江源\\我的文档\\先放这里\\知情范围_改.doc"
+            },
+            {
+              "type": "attachment",
+              "refId": "failed-address-visit-note",
+              "label": "梅溪弄_9月19日.txt",
+              "path": "C:\\Documents and Settings\\刘江源\\我的文档\\先放这里\\梅溪弄_9月19日.txt"
+            }
+          ]
+        },
+        {
+          "id": "watch-photo-4689",
+          "name": "DSC_4689.JPG",
+          "type": "image",
+          "parentId": "september-photo-folder",
+          "modified": "2010-09-16 17:26",
+          "imageSrc": "/snapshots/LJ-HOME-PC01-FORENSIC-A/DSC_4689.JPG",
+          "caption": "2010/09/16 17:26　文化宫侧门。原片，未裁。"
+        },
+        {
+          "id": "watch-crop-4689",
+          "name": "4689裁.jpg",
+          "type": "image",
+          "parentId": "september-photo-folder",
+          "modified": "2010-09-18 19:12",
+          "imageSrc": "/snapshots/LJ-HOME-PC01-FORENSIC-A/DSC_4689_crop.jpg",
+          "caption": "从DSC_4689.JPG另存的局部。"
+        },
+        {
+          "id": "watch-photo-4724",
+          "name": "DSC_4724.JPG",
+          "type": "image",
+          "parentId": "september-photo-folder",
+          "modified": "2010-09-17 17:48",
+          "imageSrc": "/snapshots/LJ-HOME-PC01-FORENSIC-A/DSC_4724.JPG",
+          "caption": "2010/09/17 17:48　浦南五村。原片，未裁。"
+        },
+        {
+          "id": "watch-crop-4724",
+          "name": "4724裁.jpg",
+          "type": "image",
+          "parentId": "september-photo-folder",
+          "modified": "2010-09-18 19:15",
+          "imageSrc": "/snapshots/LJ-HOME-PC01-FORENSIC-A/DSC_4724_crop.jpg",
+          "caption": "从DSC_4724.JPG另存的局部。"
+        },
+        {
+          "id": "old-photo-check-0920",
+          "name": "旧照片日期核对.doc",
+          "type": "document",
+          "parentId": "photo-folder",
+          "modified": "2010-09-20 23:18",
+          "content": "旧照片日期核对\n\n一、原来要核的照片\n\nSY-92-041、042：学生风采，1992年秋。不能按后来使用页面写成1993年春。\nPN-WH-93-118、120：邱纲在盟杉，两张横幅不同，至少两个日期。\n学校正式目录仍未回复。杨9月7日说等统一答复。\n\n二、谁先知道寻访\n\n8月31日：寻访说明发出。没有提报社报道。\n9月3日：赵清波说，杨“昨天”问是不是准备给报社写校史。\n9月7日：杨才回电。要求不要扩大范围。\n\n这三个日期不要改成“通话以后才问赵”。QQ原记录在。\n\n三、9月13日挂号邮包\n\n寄件：周岚，梅溪弄14号。\n9月19日实地：现门牌无法对应；旧14号位置不清；附近无人认识周岚。\n邮路：第07揽投段，旧城区。只能证明从该段寄出，不能证明寄件人住在那里。\n\n信里写：电子宠物是林美心1993年留下。\n查到的商品资料均为1996年以后。原物未拆。\n\n信写到了当年的谈话。当时只有她和我。她后来跟谁说过？\n\n四、两张照片\n\n9月16日　DSC_4689　文化宫侧门\n9月17日　DSC_4724　浦南五村\n\n老周看过。他只能说衣服、鞋和体态像同一个人。原片不要裁掉环境。\n\n五、旧城区\n\n修锁摊口述：有人替人找地址、递东西，姓邱。没有姓名。\n旧联系人抄页见“邱民”，号码尾号184。\n器材记录一处“邱师傅”，尾号同为184，杨文斌经办。\n\n只能到这里。名字、号码和寄件还没有直接连上。\n\n六、今天先留的东西\n\n09-20-03，共六页：IMG_5407 至 IMG_5412。\n5411、5412暂不写内容。\n\n9月3日，杨已经在问报社。后来他叫我停。包裹在这以后寄到。\n知道当年谈话的人——\n\n可到这里，还没有一件能直接指向杨。\n这些事情单独都能解释。放在一起——",
+          "milestoneTags": [
+            "cd-helper-standard"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "PB-20100818-2211",
+      "label": "2010-08-18 22:11",
+      "reason": "同名文档覆盖前保护",
+      "sourcePath": "C:\\Documents and Settings\\刘江源\\我的文档\\照片",
+      "sourcePaths": [
+        "C:\\Documents and Settings\\刘江源\\我的文档\\照片"
+      ],
+      "status": "unregistered",
+      "depth": 4,
+      "primaryItemId": "old-photo-check-0716",
+      "match": {
+        "date": "2010-08-18",
+        "pathTerms": [
+          "照片",
+          "旧照片"
+        ],
+        "keywordTerms": [
+          "旧照片",
+          "日期核对"
+        ],
+        "types": [
+          "文档"
+        ],
+        "minimumCriteria": 2
+      },
+      "items": [
+        {
+          "id": "old-photo-check-0716",
+          "name": "旧照片日期核对.doc",
+          "type": "document",
+          "parentId": "photo-folder",
+          "modified": "2010-08-18 22:07",
+          "content": "旧照片日期核对\n\n底片袋／照片编号\nSY-92-041、SY-92-042\n\n袋上原题\n盟杉中学学生风采（秋）\n\n能核实的日期\n梧桐已经落叶；校旗和宣传栏样式与1992年秋季校庆照片相同。\n暂按1992年10—11月，不写具体日。\n\n问到的人\n何老师：记得是区里做学生风采展板以前拍的。\n蔡老师：只记得相机是学校借来的。\n\n还有哪里对不上\n底片袋编号连续，但后四格是另一场校外活动。可能冲洗后临时并袋，不能按相邻底片直接算同日。\n\n照片说明先不写什么\n不写“毕业照”；不写“1993年春”；不写拍摄人，底片袋没有署名。\n\n——\n\n底片袋／照片编号\nPN-WH-93-118 至 121\n\n袋上原题\n区校共建活动\n\n能核实的日期\n节目单暂缺。邱纲出现在118、120。与另一袋不是同一横幅。\n\n问到的人\n报社图片库只找到一张无署名小图，日期可能是1993年3月。\n\n还有哪里对不上\n邱纲至少在两个不同日期到过盟杉。先找原节目单和接待名单。\n\n照片说明先不写什么\n不写“经常到校”；现有照片只能证明至少两个日期。\n\n7月29日补：文化宫节目单没有盟杉这一场。\n8月13日补：杨文斌当时职务可以接触活动与学生材料，实际经手范围待核。\n8月18日补：旧目录名可能是“毕业推荐及区校活动附件”，先问目录，不借原件。"
+        },
+        {
+          "id": "contact-sheet-92-a",
+          "name": "SY-92-041.JPG",
+          "type": "image",
+          "parentId": "photo-folder",
+          "modified": "2010-08-18 21:48",
+          "imageSrc": "/snapshots/LJ-HOME-PC01-FORENSIC-A/CONTACT_92_A.JPG",
+          "caption": "学生风采底片接触印样。暂按1992年秋。"
+        },
+        {
+          "id": "contact-sheet-93-b",
+          "name": "PN-WH-93-118.JPG",
+          "type": "image",
+          "parentId": "photo-folder",
+          "modified": "2010-08-18 21:52",
+          "imageSrc": "/snapshots/LJ-HOME-PC01-FORENSIC-A/CONTACT_92_B.JPG",
+          "caption": "区校共建活动底片接触印样。日期待核。"
+        }
+      ]
+    },
+    {
+      "id": "PB-20101016-0046",
+      "label": "2010-10-16 00:46",
+      "reason": "文本覆盖前保护",
+      "sourcePath": "C:\\Documents and Settings\\刘江源\\我的文档\\先放这里",
+      "sourcePaths": [
+        "C:\\Documents and Settings\\刘江源\\我的文档\\先放这里"
+      ],
+      "status": "unregistered",
+      "depth": 5,
+      "primaryItemId": "medical-note-full-1016",
+      "match": {
+        "date": "2010-10-16",
+        "pathTerms": [
+          "先放这里",
+          "门诊"
+        ],
+        "keywordTerms": [
+          "看病",
+          "记忆"
+        ],
+        "types": [
+          "文本"
+        ],
+        "minimumCriteria": 2
+      },
+      "items": [
+        {
+          "id": "medical-note-full-1016",
+          "name": "看病要说的.txt",
+          "type": "text",
+          "parentId": "loose-files-folder",
+          "modified": "2010-10-16 00:43",
+          "content": "普通工作暂未发现相同错误。\n\n绝不是老年痴呆。并不是完全记不起。是有时会突然觉得没有必要再问。\n而且每次都朝“停下”走。\n\n杨比我先问了报社，确实想让我停。\n他拦，拖，压，我不意外。\n可让人冒充她的朋友，替她说“没有怪我”——\n他还会做这种事？\n\n信是真的寄来了。照片里那个人，老周也看见了。\n但这些都不能解释我为什么会亲手删。\n是不是两件事？\n\n最早能确认的是9月18日。但那是老周记得。未必是第一次发生。\n包裹是13日收到的。\n\n为什么是我？\n因为我开始查，还是因为对方知道我最想听见什么？\n为什么一定要写成“她希望我停下”？\n\n如果只是劝我，信已经够了。"
+        }
+      ]
+    }
+  ]
+}

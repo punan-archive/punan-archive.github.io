@@ -1,0 +1,1851 @@
+{
+  "userName": "刘江源",
+  "wallpaper": "/snapshots/LJ-HOME-PC01-FORENSIC-A/wallpaper-punan-coast-v06.png",
+  "desktopShortcuts": [
+    {
+      "itemId": "culture-palace-folder",
+      "label": "文化宫"
+    },
+    {
+      "itemId": "youth-palace-folder",
+      "label": "少年宫"
+    },
+    {
+      "itemId": "photo-folder",
+      "label": "照片"
+    },
+    {
+      "itemId": "weekend-note",
+      "label": "星期六带的.txt"
+    },
+    {
+      "itemId": "investigation-disc-image",
+      "label": "核对资料_20101111.iso"
+    }
+  ],
+  "items": [
+    {
+      "id": "culture-palace-folder",
+      "name": "文化宫",
+      "type": "folder",
+      "parentId": null
+    },
+    {
+      "id": "youth-palace-folder",
+      "name": "少年宫",
+      "type": "folder",
+      "parentId": null
+    },
+    {
+      "id": "photo-folder",
+      "name": "照片",
+      "type": "folder",
+      "parentId": null
+    },
+    {
+      "id": "loose-files-folder",
+      "name": "先放这里",
+      "type": "folder",
+      "parentId": null
+    },
+    {
+      "id": "downloads-folder",
+      "name": "下载",
+      "type": "folder",
+      "parentId": null
+    },
+    {
+      "id": "burn-staging-folder",
+      "name": "刻录暂存",
+      "type": "folder",
+      "parentId": null
+    },
+    {
+      "id": "investigation-disc-image",
+      "name": "核对资料_20101111.iso",
+      "type": "disc-image",
+      "parentId": "burn-staging-folder",
+      "modified": "2010-11-11 23:37",
+      "size": "486 MB",
+      "content": ""
+    },
+    {
+      "id": "weekend-note",
+      "name": "星期六带的.txt",
+      "type": "text",
+      "parentId": null,
+      "modified": "2010-11-05 22:41",
+      "content": "点名册\n借用相机登记\n六寸样片\n5号机的电池盖\n\n先去文化宫拿钥匙。"
+    },
+    {
+      "id": "culture-events-folder",
+      "name": "2010活动",
+      "type": "folder",
+      "parentId": "culture-palace-folder"
+    },
+    {
+      "id": "display-print-folder",
+      "name": "展板和送印",
+      "type": "folder",
+      "parentId": "culture-palace-folder"
+    },
+    {
+      "id": "equipment-folder",
+      "name": "器材",
+      "type": "folder",
+      "parentId": "culture-palace-folder"
+    },
+    {
+      "id": "quarter-photo-plan",
+      "name": "10-12月拍照安排.xls",
+      "type": "spreadsheet",
+      "parentId": "culture-palace-folder",
+      "modified": "2010-09-20 16:03",
+      "sheet": {
+        "name": "安排",
+        "columns": [
+          "日期",
+          "事情",
+          "地点",
+          "找谁",
+          "备注"
+        ],
+        "rows": [
+          [
+            "10月9日",
+            "重阳活动",
+            "二楼多功能厅",
+            "周老师",
+            "九点前到"
+          ],
+          [
+            "10月16日",
+            "舞厅周末班合影",
+            "工人舞厅",
+            "老周",
+            "说是二十六人"
+          ],
+          [
+            "10月24日",
+            "职工书画展",
+            "一楼长廊",
+            "张主任",
+            "拍全景和作品"
+          ],
+          [
+            "10月30日",
+            "轮滑夜场",
+            "露天轮滑场",
+            "小吴",
+            "带闪光灯"
+          ],
+          [
+            "11月7日",
+            "沙排友谊赛",
+            "海滨活动场",
+            "办公室",
+            "天气不好另说"
+          ],
+          [
+            "11月下旬",
+            "冬季节目排练",
+            "舞厅",
+            "老周",
+            "时间没定"
+          ],
+          [
+            "12月",
+            "迎新展板",
+            "一楼大厅",
+            "张主任",
+            "先挑旧照片"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "dance-hall-count",
+      "name": "舞厅合影人数_8月.xls",
+      "type": "spreadsheet",
+      "parentId": "culture-events-folder",
+      "modified": "2010-08-23 11:26",
+      "sheet": {
+        "name": "8月21日",
+        "columns": [
+          "组别",
+          "原报",
+          "当天",
+          "照片",
+          "备注"
+        ],
+        "rows": [
+          [
+            "周六交谊舞一班",
+            "26",
+            "29",
+            "30张",
+            "王师傅后来也要一张"
+          ],
+          [
+            "周六交谊舞二班",
+            "18",
+            "17",
+            "18张",
+            "陆阿姨没来"
+          ],
+          [
+            "老师",
+            "2",
+            "3",
+            "3张",
+            "黄老师临时来了"
+          ],
+          [
+            "大厅留存",
+            "",
+            "",
+            "2张",
+            "一张贴栏，一张办公室"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "retiree-caption",
+      "name": "2009重阳活动照片说明.doc",
+      "type": "document",
+      "parentId": "culture-events-folder",
+      "modified": "2009-10-27 09:18",
+      "content": "浦南区文化宫重阳节活动照片说明\n\n2009年10月24日上午，二楼多功能厅。\n\n1　老职工代表合影\n2　腰鼓队节目\n3　书画小组赠送作品\n4　游戏环节\n\n第三张里左边戴帽子的姓名还没问到。\n合影洗六寸二十张，办公室留两张。"
+    },
+    {
+      "id": "skating-photo-pick",
+      "name": "轮滑夜场挑片_8月.xls",
+      "type": "spreadsheet",
+      "parentId": "culture-events-folder",
+      "modified": "2010-08-22 20:14",
+      "sheet": {
+        "name": "挑片",
+        "columns": [
+          "文件",
+          "留用",
+          "问题",
+          "用途"
+        ],
+        "rows": [
+          [
+            "DSC_3841.JPG",
+            "留",
+            "右边有人闭眼",
+            "存档"
+          ],
+          [
+            "DSC_3842.JPG",
+            "不留",
+            "全糊",
+            ""
+          ],
+          [
+            "DSC_3844.JPG",
+            "留",
+            "脸暗，能调一点",
+            "网站备选"
+          ],
+          [
+            "DSC_3847.JPG",
+            "不留",
+            "小孩冲到镜头前",
+            ""
+          ],
+          [
+            "DSC_3850.JPG",
+            "留",
+            "动作还可以",
+            "展板备选"
+          ],
+          [
+            "DSC_3853.JPG",
+            "留",
+            "路灯偏黄",
+            "存档"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "expo-disc-index",
+      "name": "世博照片归盘.xls",
+      "type": "spreadsheet",
+      "parentId": "display-print-folder",
+      "modified": "2010-09-20 14:37",
+      "sheet": {
+        "name": "光盘",
+        "columns": [
+          "盘号",
+          "内容",
+          "张数",
+          "封面写法",
+          "去处"
+        ],
+        "rows": [
+          [
+            "SB-1",
+            "志愿者出发及培训",
+            "126",
+            "世博志愿者（一）",
+            "资料柜"
+          ],
+          [
+            "SB-2",
+            "社区活动和展板",
+            "203",
+            "世博社区活动",
+            "资料柜"
+          ],
+          [
+            "SB-3",
+            "文化宫节目",
+            "87",
+            "世博期间演出",
+            "办公室借走"
+          ],
+          [
+            "SB-4",
+            "撤展后现场",
+            "待拍",
+            "撤展",
+            "到时再刻"
+          ],
+          [
+            "",
+            "网站用小图",
+            "31",
+            "另放U盘",
+            "小王拿走"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "board-size-note",
+      "name": "展板尺寸.txt",
+      "type": "text",
+      "parentId": "display-print-folder",
+      "modified": "2010-10-24 18:52",
+      "content": "大厅旧架子：90×120\n一楼拐角：60×90\n照片先按5寸小样排，定了再放大。\n\n小王说标题条留12公分，不要把字贴到边。"
+    },
+    {
+      "id": "print-shop-order",
+      "name": "给小朱冲洗_8-9月.xls",
+      "type": "spreadsheet",
+      "parentId": "display-print-folder",
+      "modified": "2010-09-21 19:06",
+      "sheet": {
+        "name": "送印",
+        "columns": [
+          "袋号",
+          "内容",
+          "尺寸",
+          "数量",
+          "拿回",
+          "备注"
+        ],
+        "rows": [
+          [
+            "0821-1",
+            "舞厅一班合影",
+            "6寸",
+            "30",
+            "8月23日",
+            "第一批有点偏绿，重洗5张"
+          ],
+          [
+            "0821-2",
+            "舞厅二班合影",
+            "6寸",
+            "18",
+            "8月23日",
+            "光面"
+          ],
+          [
+            "0918-1",
+            "书画小组活动",
+            "5寸",
+            "12",
+            "9月20日",
+            "先看小样"
+          ],
+          [
+            "0918-2",
+            "作品翻拍",
+            "5寸",
+            "8",
+            "9月20日",
+            "不要自动裁边"
+          ],
+          [
+            "",
+            "刘老师自己的一卷",
+            "6寸",
+            "1套",
+            "",
+            "哑面，先不急"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "equipment-loan",
+      "name": "器材借用登记.xls",
+      "type": "spreadsheet",
+      "parentId": "equipment-folder",
+      "modified": "2010-09-24 17:44",
+      "sheet": {
+        "name": "登记",
+        "columns": [
+          "日期",
+          "东西",
+          "借用人",
+          "归还",
+          "情况"
+        ],
+        "rows": [
+          [
+            "8月21日",
+            "闪光灯1号",
+            "刘江源",
+            "8月23日",
+            "回电慢"
+          ],
+          [
+            "9月4日",
+            "海鸥DF-1",
+            "刘江源",
+            "9月5日",
+            "正常"
+          ],
+          [
+            "9月10日",
+            "三脚架2号",
+            "周老师",
+            "9月13日",
+            "少一个快装板螺丝"
+          ],
+          [
+            "9月17日",
+            "凤凰相机",
+            "少年宫摄影班",
+            "9月18日",
+            "后盖有点松"
+          ],
+          [
+            "9月20日",
+            "闪光灯1号",
+            "刘江源",
+            "9月21日",
+            "暂放家中，准备送修"
+          ],
+          [
+            "9月22日",
+            "读卡器",
+            "办公室小王",
+            "9月23日",
+            "线换了一根"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "broken-things-note",
+      "name": "坏的东西.txt",
+      "type": "text",
+      "parentId": "equipment-folder",
+      "modified": "2010-09-24 08:23",
+      "content": "闪光灯1号：回电慢，老许说可能是电容。\n凤凰相机：电池漏过，触点还要擦。\n三脚架2号：缺螺丝。\n扫描仪：换过电源线以后暂时正常。\n\n买两只镜头盖，52mm、55mm。"
+    },
+    {
+      "id": "course-material-folder",
+      "name": "上课用",
+      "type": "folder",
+      "parentId": "youth-palace-folder"
+    },
+    {
+      "id": "student-work-folder",
+      "name": "学生作业",
+      "type": "folder",
+      "parentId": "youth-palace-folder"
+    },
+    {
+      "id": "registration-folder",
+      "name": "名单和表格",
+      "type": "folder",
+      "parentId": "youth-palace-folder"
+    },
+    {
+      "id": "autumn-course-sheet",
+      "name": "秋季摄影班课程表.xls",
+      "type": "spreadsheet",
+      "parentId": "youth-palace-folder",
+      "modified": "2010-09-23 12:11",
+      "sheet": {
+        "name": "秋季班",
+        "columns": [
+          "日期",
+          "上课内容",
+          "要带的东西",
+          "备注"
+        ],
+        "rows": [
+          [
+            "9月4日",
+            "认识相机，安全使用",
+            "示范机",
+            "第一次课"
+          ],
+          [
+            "9月11日",
+            "取景和画面边缘",
+            "旧杂志、相机",
+            ""
+          ],
+          [
+            "9月18日",
+            "光线和逆光",
+            "台灯、白纸",
+            ""
+          ],
+          [
+            "9月25日",
+            "快门与手抖",
+            "三脚架一只",
+            ""
+          ],
+          [
+            "10月9日",
+            "室外练习",
+            "相机、记录本",
+            "国庆后；雨天改室内"
+          ],
+          [
+            "10月16日",
+            "底片、相纸和保存",
+            "样片、底片袋",
+            ""
+          ],
+          [
+            "10月23日",
+            "作业讲评",
+            "各人带三张",
+            ""
+          ],
+          [
+            "10月30日",
+            "人物照片",
+            "家长同意单",
+            ""
+          ],
+          [
+            "11月6日",
+            "小组拍摄",
+            "两人一机",
+            ""
+          ],
+          [
+            "11月13日",
+            "作业讲评",
+            "各人带三张",
+            ""
+          ],
+          [
+            "11月20日",
+            "照片说明和排版",
+            "小样",
+            ""
+          ],
+          [
+            "11月27日",
+            "补拍",
+            "相机",
+            ""
+          ],
+          [
+            "12月4日",
+            "挑选和写照片说明",
+            "小样",
+            ""
+          ],
+          [
+            "12月11日",
+            "学期小展览",
+            "展板",
+            "时间待定"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "photo-basics-handout",
+      "name": "摄影课讲义.doc",
+      "type": "document",
+      "parentId": "course-material-folder",
+      "modified": "2010-09-21 22:08",
+      "content": "少年宫摄影兴趣班　上课提要\n\n【拿相机】\n先把背带套在手腕上。借用的相机用完关机，镜头盖盖好，再交给老师登记。\n不要用取景器长时间对着太阳看。\n\n【拍清楚】\n按快门以前站稳，两手托住相机，胳膊不要张开。光线暗时容易手抖，可以靠墙或把相机放在桌面上。\n自动相机先半按快门，等对焦以后再按到底。\n闪光灯不是越近越亮越好，太近的人脸会发白。\n\n【装胶卷】\n没有装过胶卷的先请老师帮忙。胶卷不要在强光下硬拉，拍完以后确认已经倒回再开后盖。\n\n【交作业】\n照片背面用铅笔写姓名和拍摄地点，不要用圆珠笔用力写。一般作业洗5寸，合影洗6寸。\n每次交三张，不一定都是最好看的，也可以带一张自己觉得有问题的。"
+    },
+    {
+      "id": "class-roster",
+      "name": "摄影班名单_秋.xls",
+      "type": "spreadsheet",
+      "parentId": "registration-folder",
+      "modified": "2010-09-23 18:33",
+      "sheet": {
+        "name": "名单",
+        "columns": [
+          "姓名",
+          "学校年级",
+          "家长电话尾号",
+          "自带相机",
+          "随手记"
+        ],
+        "rows": [
+          [
+            "陈晓雯",
+            "实验小学六年级",
+            "6742",
+            "有",
+            "第一周请假，补过一次"
+          ],
+          [
+            "周凯",
+            "盟杉初一",
+            "3186",
+            "没有",
+            "和沈一帆合用"
+          ],
+          [
+            "孙嘉怡",
+            "海滨小学五年级",
+            "0951",
+            "有",
+            "妈妈周六下午来接"
+          ],
+          [
+            "顾天乐",
+            "浦南二中初一",
+            "4420",
+            "有",
+            "经常迟到十分钟"
+          ],
+          [
+            "沈一帆",
+            "盟杉初二",
+            "8873",
+            "有",
+            "有一次忘带存储卡"
+          ],
+          [
+            "王小雨",
+            "实验小学六年级",
+            "1215",
+            "没有",
+            "借3号机，背带太长"
+          ],
+          [
+            "陆文杰",
+            "浦南三小六年级",
+            "5609",
+            "有",
+            "胶卷机"
+          ],
+          [
+            "黄心怡",
+            "海滨小学五年级",
+            "2338",
+            "没有",
+            "10月23日感冒请假"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "student-work-register",
+      "name": "作业登记_秋.xls",
+      "type": "spreadsheet",
+      "parentId": "student-work-folder",
+      "modified": "2010-09-24 19:57",
+      "sheet": {
+        "name": "作业",
+        "columns": [
+          "姓名",
+          "9月11日",
+          "9月18日",
+          "9月25日",
+          "随手写的"
+        ],
+        "rows": [
+          [
+            "陈晓雯",
+            "补交",
+            "3张",
+            "",
+            "窗边那张反光"
+          ],
+          [
+            "周凯",
+            "2张",
+            "3张",
+            "",
+            "自行车棚那张歪"
+          ],
+          [
+            "孙嘉怡",
+            "3张",
+            "3张",
+            "",
+            "自己会挑片"
+          ],
+          [
+            "顾天乐",
+            "3张",
+            "2张",
+            "",
+            "总把日期写错"
+          ],
+          [
+            "沈一帆",
+            "3张",
+            "3张",
+            "",
+            "空教室那张可以讲"
+          ],
+          [
+            "王小雨",
+            "2张",
+            "3张",
+            "",
+            "有一张手指挡住了"
+          ],
+          [
+            "陆文杰",
+            "等冲洗",
+            "3张",
+            "",
+            "下次带底片袋"
+          ],
+          [
+            "黄心怡",
+            "3张",
+            "请假",
+            "",
+            ""
+          ]
+        ]
+      }
+    },
+    {
+      "id": "exhibit-consent",
+      "name": "春季班小展览照片确认.xls",
+      "type": "spreadsheet",
+      "parentId": "registration-folder",
+      "modified": "2010-06-02 13:09",
+      "sheet": {
+        "name": "确认",
+        "columns": [
+          "姓名",
+          "准备选的照片",
+          "拍到他人",
+          "家长签字",
+          "备注"
+        ],
+        "rows": [
+          [
+            "陈晓雯",
+            "窗边盆栽",
+            "否",
+            "已收",
+            ""
+          ],
+          [
+            "周凯",
+            "自行车棚",
+            "有",
+            "没收",
+            "照片里同学也要同意"
+          ],
+          [
+            "孙嘉怡",
+            "外婆的针线盒",
+            "否",
+            "已收",
+            ""
+          ],
+          [
+            "顾天乐",
+            "工厂晚霞",
+            "否",
+            "没收",
+            "再洗一张"
+          ],
+          [
+            "沈一帆",
+            "空教室",
+            "否",
+            "已收",
+            "横的"
+          ],
+          [
+            "王小雨",
+            "小区花坛",
+            "有",
+            "已收",
+            "人物太小，没关系"
+          ],
+          [
+            "陆文杰",
+            "还没定",
+            "",
+            "",
+            "等冲出来"
+          ],
+          [
+            "黄心怡",
+            "银杏叶",
+            "否",
+            "没收",
+            ""
+          ]
+        ]
+      }
+    },
+    {
+      "id": "missing-homework-note",
+      "name": "还没交的.txt",
+      "type": "text",
+      "parentId": "student-work-folder",
+      "modified": "2010-09-24 20:01",
+      "content": "陆文杰　胶卷还没洗\n顾天乐　9月18日少一张\n黄心怡　请假\n\n9月25日下课以后一起登。"
+    },
+    {
+      "id": "year-2010-photo-folder",
+      "name": "2010年",
+      "type": "folder",
+      "parentId": "photo-folder"
+    },
+    {
+      "id": "negative-scan-folder",
+      "name": "扫描",
+      "type": "folder",
+      "parentId": "photo-folder"
+    },
+    {
+      "id": "print-pending-folder",
+      "name": "等冲洗",
+      "type": "folder",
+      "parentId": "photo-folder"
+    },
+    {
+      "id": "photo-handover-sheet",
+      "name": "照片袋登记.xls",
+      "type": "spreadsheet",
+      "parentId": "photo-folder",
+      "modified": "2010-09-22 22:13",
+      "sheet": {
+        "name": "登记",
+        "columns": [
+          "袋上写的",
+          "大概内容",
+          "数量",
+          "现在放哪",
+          "备注"
+        ],
+        "rows": [
+          [
+            "少年宫9.18",
+            "逆光练习",
+            "24张",
+            "书柜上层",
+            "下周发"
+          ],
+          [
+            "舞厅0821",
+            "两班合影",
+            "48张",
+            "已经送老周",
+            "多两张在抽屉"
+          ],
+          [
+            "书画小组0918",
+            "活动和作品",
+            "20张",
+            "文化宫办公室",
+            "底片在家"
+          ],
+          [
+            "轮滑0821",
+            "夜场",
+            "1张卡",
+            "电脑已拷",
+            "原卡已还"
+          ],
+          [
+            "旧照片一袋",
+            "文化宫门口",
+            "约三十张",
+            "扫描仪旁",
+            "年份没写"
+          ],
+          [
+            "刘自己",
+            "海边、厂区",
+            "2卷",
+            "待冲洗盒",
+            "不要和单位的混"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "scanner-settings",
+      "name": "扫描怎么设.txt",
+      "type": "text",
+      "parentId": "negative-scan-folder",
+      "modified": "2010-10-18 20:46",
+      "content": "普通相片：600dpi，彩色\n黑白老相片：600dpi，灰度\n35mm底片：2400dpi，先关自动锐化和除尘\n原图先存TIFF，做小图另存JPG。\n\n扫描仪又找不到：先关机，拔掉USB，开扫描仪以后再开电脑。"
+    },
+    {
+      "id": "bag-number-note",
+      "name": "袋号别重复.txt",
+      "type": "text",
+      "parentId": "negative-scan-folder",
+      "modified": "2010-10-20 23:12",
+      "content": "9月已经用过0908。\n以后写：年份-月份-事情，不要只写1、2、3。\n旧照片不知道年份的先不要猜。"
+    },
+    {
+      "id": "flare-exposure-note",
+      "name": "火炬夜景几张.txt",
+      "type": "text",
+      "parentId": "year-2010-photo-folder",
+      "modified": "2010-09-13 00:17",
+      "content": "老吴说曝光再少一档火炬才有层次。\n我觉得少一档以后防护林全黑了。\n两张都留，洗出来再看。"
+    },
+    {
+      "id": "untitled-word",
+      "name": "新建 Microsoft Word 文档.doc",
+      "type": "document",
+      "parentId": "loose-files-folder",
+      "modified": "2010-10-26 09:32",
+      "content": "活动照片说明\n\n时间：\n地点：\n参加人数：\n\n照片1\n照片2"
+    },
+    {
+      "id": "changed-registration",
+      "name": "报名名单_改过.xls",
+      "type": "spreadsheet",
+      "parentId": "loose-files-folder",
+      "modified": "2010-09-24 17:26",
+      "sheet": {
+        "name": "Sheet1",
+        "columns": [
+          "姓名",
+          "年龄",
+          "电话",
+          "交费",
+          "备注"
+        ],
+        "rows": [
+          [
+            "陈晓雯",
+            "12",
+            "尾号6742",
+            "是",
+            "第一周不来"
+          ],
+          [
+            "周凯",
+            "13",
+            "尾号3186",
+            "是",
+            ""
+          ],
+          [
+            "孙嘉怡",
+            "11",
+            "尾号0951",
+            "是",
+            ""
+          ],
+          [
+            "顾天乐",
+            "13",
+            "尾号4420",
+            "补",
+            "办公室说已经补了"
+          ],
+          [
+            "沈一帆",
+            "14",
+            "尾号8873",
+            "是",
+            ""
+          ],
+          [
+            "王小雨",
+            "12",
+            "尾号1215",
+            "是",
+            "借相机"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "take-to-office-note",
+      "name": "张主任要的.txt",
+      "type": "text",
+      "parentId": "loose-files-folder",
+      "modified": "2010-09-21 08:07",
+      "content": "书画小组活动3张\n舞厅合影1张\n世博志愿者合影2张\n\n照片周一带去。"
+    },
+    {
+      "id": "shortcut-pet-era-doc",
+      "name": "电子宠物年代.doc - 快捷方式",
+      "type": "shortcut",
+      "targetId": "liu-main-investigation-doc",
+      "targetName": "电子宠物年代.doc",
+      "targetType": "document",
+      "parentId": "loose-files-folder",
+      "modified": "2010-11-06 22:17"
+    },
+    {
+      "id": "old-material-search-notice",
+      "name": "关于盟杉中学1993届旧资料的寻访说明.doc",
+      "type": "document",
+      "parentId": "loose-files-folder",
+      "modified": "2010-08-30 23:14",
+      "blocks": [
+        {
+          "type": "title",
+          "text": "关于盟杉中学1993届旧资料的寻访说明"
+        },
+        {
+          "type": "paragraph",
+          "text": "本人刘江源，曾在盟杉中学任教，现协助整理浦南旧校园照片。现只核对以下事项："
+        },
+        {
+          "type": "paragraph",
+          "text": "一、1993届毕业纪念图版是否制作、发放；二、林美心学籍中断时使用的正式措辞；三、当年校园活动底片或照片说明中是否留有编号。"
+        },
+        {
+          "type": "paragraph",
+          "text": "不询问私人传闻；如只记得传闻，请注明“听说”，不作事实使用。"
+        },
+        {
+          "type": "paragraph",
+          "text": "联系地址：浦南区工人文化宫摄影工作室　转刘江源"
+        }
+      ]
+    },
+    {
+      "id": "old-material-send-log",
+      "name": "寻访说明_发送记录.xls",
+      "type": "spreadsheet",
+      "parentId": "loose-files-folder",
+      "modified": "2010-09-08 18:22",
+      "sheet": {
+        "name": "发送记录",
+        "columns": [
+          "日期",
+          "联系人",
+          "方式",
+          "只问哪一项",
+          "结果"
+        ],
+        "rows": [
+          [
+            "8月31日",
+            "赵清波",
+            "QQ／邮箱",
+            "毕业图版、蔡老师联系方式",
+            "已转三人"
+          ],
+          [
+            "9月1日",
+            "蔡老师旧号码",
+            "电话",
+            "学籍措辞",
+            "停机"
+          ],
+          [
+            "9月2日",
+            "盟杉校办",
+            "电话",
+            "1993届目录、推荐名单附件",
+            "让书面申请"
+          ],
+          [
+            "9月3日",
+            "陈立",
+            "QQ转回",
+            "毕业照",
+            "只记得没有发下来"
+          ],
+          [
+            "9月7日",
+            "杨文斌",
+            "电话",
+            "口头报告、学籍处理",
+            "无书面；建议暂停"
+          ],
+          [
+            "9月8日",
+            "盟杉校办",
+            "当面递交",
+            "目录调阅申请",
+            "收件，未答复"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "questions-for-yang",
+      "name": "给杨主任的问题.doc",
+      "type": "document",
+      "parentId": "loose-files-folder",
+      "modified": "2010-09-07 19:02",
+      "blocks": [
+        {
+          "type": "title",
+          "text": "给杨主任的问题"
+        },
+        {
+          "type": "paragraph",
+          "text": "□ 九三年学籍异动登记正式叫什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "□ 推荐名单的附件是否还在"
+        },
+        {
+          "type": "paragraph",
+          "text": "□ 我当时口头说过的事，有没有交给吴老师或留下抄件"
+        },
+        {
+          "type": "paragraph",
+          "text": "□ 林美心离校以后，学校对外统一写的是什么"
+        },
+        {
+          "type": "heading",
+          "text": "9月7日　16:35　杨回电"
+        },
+        {
+          "type": "paragraph",
+          "text": "没有书面。时间太久，不要把回忆当材料。问我是不是准备给报社。我说只核目录，不写报道。"
+        },
+        {
+          "type": "paragraph",
+          "text": "他说：旧学生也不要一个个找，名字传出去，对谁都不好。我说寻访说明里没有写私人情况。他说：那就先到这里，等学校找到材料再说。"
+        },
+        {
+          "type": "paragraph",
+          "text": "“学校找到”——问办公室，答复仍是没有。"
+        }
+      ]
+    },
+    {
+      "id": "card-reader-driver",
+      "name": "万能读卡器驱动说明.txt",
+      "type": "text",
+      "parentId": "downloads-folder",
+      "modified": "2010-09-18 21:36",
+      "content": "压缩包里的SETUP.EXE安装后重新启动。\n如仍无法识别，请更换USB接口。\n\n实际情况：前面的口不行，插主机后面可以。"
+    },
+    {
+      "id": "print-size-copy",
+      "name": "常用照片尺寸.txt",
+      "type": "text",
+      "parentId": "downloads-folder",
+      "modified": "2010-08-29 10:14",
+      "content": "5寸　3.5×5英寸\n6寸　4×6英寸\n7寸　5×7英寸\n\n从网上抄的。文化宫展板不要照这个直接放大，先问小王。"
+    },
+    {
+      "id": "final-pending-check-doc",
+      "name": "待确认.doc",
+      "type": "document",
+      "parentId": "downloads-folder",
+      "modified": "2010-11-12 20:54",
+      "blocks": [
+        {
+          "type": "title",
+          "text": "待确认"
+        },
+        {
+          "type": "paragraph",
+          "text": "√　1993／1996"
+        },
+        {
+          "type": "paragraph",
+          "text": "√？寄达日期"
+        },
+        {
+          "type": "paragraph",
+          "text": "？　旧门牌"
+        },
+        {
+          "type": "paragraph",
+          "text": "？　周岚未核"
+        },
+        {
+          "type": "paragraph",
+          "text": "□　开壳痕迹"
+        }
+      ]
+    },
+    {
+      "id": "final-before-opening-note",
+      "name": "开壳前看.txt",
+      "type": "text",
+      "parentId": "downloads-folder",
+      "modified": "2010-11-12 21:08",
+      "content": "先别通电。\n不要在家里一个人拆。\n信、包装、照片、光盘一起带。"
+    },
+    {
+      "id": "september-photo-folder",
+      "name": "9月杂片",
+      "type": "folder",
+      "parentId": "year-2010-photo-folder"
+    },
+    {
+      "id": "photo-import-register-september",
+      "name": "照片导入登记_9月.xls",
+      "type": "spreadsheet",
+      "parentId": "photo-folder",
+      "modified": "2010-09-20 18:06",
+      "sheet": {
+        "name": "导入",
+        "columns": [
+          "日期",
+          "文件范围",
+          "内容",
+          "放到哪里",
+          "备注"
+        ],
+        "rows": [
+          [
+            "9月4日",
+            "DSC_4410—4472",
+            "少年宫第一次课",
+            "少年宫\\学生作业",
+            "先按姓名分"
+          ],
+          [
+            "9月10日",
+            "DSC_4511—4568",
+            "文化宫舞厅排练",
+            "文化宫\\2010活动",
+            "有几张偏黄"
+          ],
+          [
+            "9月16日",
+            "DSC_4631—4694",
+            "文化宫侧门及活动散片",
+            "照片\\9月杂片",
+            "4689另留"
+          ],
+          [
+            "9月17日",
+            "DSC_4702—4730",
+            "浦南五村、公交站",
+            "照片\\9月杂片",
+            "4724另留"
+          ],
+          [
+            "9月18日",
+            "DSC_4731—4816",
+            "少年宫课程、回家路上",
+            "少年宫\\学生作业",
+            "一帆三张"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "scan-register-september",
+      "name": "扫描登记_2010-09.xls",
+      "type": "spreadsheet",
+      "parentId": "negative-scan-folder",
+      "modified": "2010-09-20 18:02",
+      "sheet": {
+        "name": "9月",
+        "columns": [
+          "批次",
+          "文件名",
+          "纸张来源",
+          "内容",
+          "处理"
+        ],
+        "rows": [
+          [
+            "09-20-02",
+            "IMG_5404.JPG",
+            "少年宫",
+            "秋季班课程表",
+            "已归"
+          ],
+          [
+            "09-20-02",
+            "IMG_5405.JPG",
+            "少年宫",
+            "借用相机登记",
+            "已归"
+          ],
+          [
+            "09-20-02",
+            "IMG_5406.JPG",
+            "少年宫",
+            "家长确认单",
+            "已归"
+          ],
+          [
+            "09-20-03",
+            "IMG_5407.JPG",
+            "旧资料袋",
+            "1993年区校活动名单（复印）",
+            "已归"
+          ],
+          [
+            "09-20-03",
+            "IMG_5408.JPG",
+            "旧资料袋",
+            "节目单背页（复印）",
+            "已归"
+          ],
+          [
+            "09-20-03",
+            "IMG_5409.JPG",
+            "旧资料袋",
+            "照片交接便笺（复印）",
+            "已归"
+          ],
+          [
+            "09-20-03",
+            "IMG_5410.JPG",
+            "旧资料袋",
+            "临时借用记录（复印）",
+            "已归"
+          ],
+          [
+            "09-20-03",
+            "IMG_5411.JPG",
+            "旧资料袋",
+            "",
+            ""
+          ],
+          [
+            "09-20-03",
+            "IMG_5412.JPG",
+            "旧资料袋",
+            "",
+            ""
+          ],
+          [
+            "09-20-04",
+            "IMG_5413.JPG",
+            "文化宫",
+            "送印清单",
+            "已归"
+          ],
+          [
+            "09-20-03",
+            "起号5407—止号5412",
+            "纸袋09-20-03",
+            "共6页",
+            ""
+          ]
+        ]
+      }
+    },
+    {
+      "id": "scan-5407",
+      "name": "IMG_5407.JPG",
+      "type": "image",
+      "parentId": "negative-scan-folder",
+      "modified": "2010-09-20 17:36",
+      "imageSrc": "/snapshots/LJ-HOME-PC01-FORENSIC-A/IMG_5407.JPG",
+      "caption": "扫描登记中的普通页面。文件名：IMG_5407.JPG。"
+    },
+    {
+      "id": "scan-5408",
+      "name": "IMG_5408.JPG",
+      "type": "image",
+      "parentId": "negative-scan-folder",
+      "modified": "2010-09-20 17:39",
+      "imageSrc": "/snapshots/LJ-HOME-PC01-FORENSIC-A/IMG_5408.JPG",
+      "caption": "扫描登记中的普通页面。文件名：IMG_5408.JPG。"
+    },
+    {
+      "id": "scan-5409",
+      "name": "IMG_5409.JPG",
+      "type": "image",
+      "parentId": "negative-scan-folder",
+      "modified": "2010-09-20 17:42",
+      "imageSrc": "/snapshots/LJ-HOME-PC01-FORENSIC-A/IMG_5409.JPG",
+      "caption": "扫描登记中的普通页面。文件名：IMG_5409.JPG。"
+    },
+    {
+      "id": "scan-5410",
+      "name": "IMG_5410.JPG",
+      "type": "image",
+      "parentId": "negative-scan-folder",
+      "modified": "2010-09-20 17:45",
+      "imageSrc": "/snapshots/LJ-HOME-PC01-FORENSIC-A/IMG_5410.JPG",
+      "caption": "扫描登记中的普通页面。文件名：IMG_5410.JPG。"
+    },
+    {
+      "id": "scan-5413",
+      "name": "IMG_5413.JPG",
+      "type": "image",
+      "parentId": "negative-scan-folder",
+      "modified": "2010-09-20 17:54",
+      "imageSrc": "/snapshots/LJ-HOME-PC01-FORENSIC-A/IMG_5413.JPG",
+      "caption": "扫描登记中的普通页面。文件名：IMG_5413.JPG。"
+    }
+  ],
+  "recycleBin": [
+    {
+      "id": "deleted-test-scan",
+      "name": "扫描测试001.jpg",
+      "type": "image",
+      "modified": "2010-10-18 20:41",
+      "deletedAt": "2010-10-18 20:44",
+      "originalPath": "C:\\Documents and Settings\\刘江源\\我的文档\\照片\\扫描",
+      "size": "184 KB",
+      "imageSrc": "/websites/maishan_school/assets/thumb_courtyard_autumn_2010.jpg",
+      "caption": "旧照片扫描测试。颜色偏青，正式扫描件已经另存。"
+    },
+    {
+      "id": "deleted-dance-count-old",
+      "name": "舞厅合影人数_旧.xls",
+      "type": "spreadsheet",
+      "modified": "2010-08-21 08:02",
+      "deletedAt": "2010-08-23 11:29",
+      "originalPath": "C:\\Documents and Settings\\刘江源\\我的文档\\文化宫\\2010活动",
+      "size": "16 KB",
+      "sheet": {
+        "name": "人数",
+        "columns": [
+          "一班",
+          "二班",
+          "老师",
+          "一共"
+        ],
+        "rows": [
+          [
+            "26",
+            "18",
+            "2",
+            "46"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "deleted-course-copy",
+      "name": "课程表_改.xls",
+      "type": "spreadsheet",
+      "modified": "2010-09-23 11:48",
+      "deletedAt": "2010-11-07 00:13",
+      "originalPath": "C:\\Documents and Settings\\刘江源\\我的文档\\少年宫",
+      "size": "18 KB",
+      "sheet": {
+        "name": "Sheet1",
+        "columns": [
+          "日期",
+          "内容"
+        ],
+        "rows": [
+          [
+            "10月30日",
+            "外拍"
+          ],
+          [
+            "11月6日",
+            "看底片"
+          ],
+          [
+            "11月13日",
+            "讲作业"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "deleted-empty-note",
+      "name": "新建文本文档.txt",
+      "type": "text",
+      "modified": "2010-11-01 22:19",
+      "deletedAt": "2010-11-01 22:21",
+      "originalPath": "C:\\Documents and Settings\\刘江源\\桌面",
+      "size": "1 KB",
+      "content": "小朱\n六寸\n周三"
+    },
+    {
+      "id": "deleted-word-temp",
+      "name": "~WRL0003.tmp",
+      "type": "text",
+      "modified": "2010-10-29 22:54",
+      "deletedAt": "2010-10-29 22:55",
+      "originalPath": "C:\\Documents and Settings\\刘江源\\Local Settings\\Temp",
+      "size": "2 KB",
+      "content": "Microsoft Word 临时文件。\n部分内容无法识别。"
+    },
+    {
+      "id": "deleted-scan-setting-copy",
+      "name": "扫描参数_复制.txt",
+      "type": "text",
+      "modified": "2010-10-18 20:39",
+      "deletedAt": "2010-10-18 20:47",
+      "originalPath": "C:\\Documents and Settings\\刘江源\\我的文档\\照片\\扫描",
+      "size": "1 KB",
+      "content": "照片600。底片2400。自动锐化关掉。"
+    },
+    {
+      "id": "deleted-lamp-test-photo",
+      "name": "台灯试拍_2.jpg",
+      "type": "image",
+      "modified": "2010-10-03 19:22",
+      "deletedAt": "2010-10-03 19:29",
+      "originalPath": "C:\\Documents and Settings\\刘江源\\我的文档\\照片\\2010年",
+      "size": "276 KB",
+      "imageSrc": "/websites/maishan_school/assets/thumb_courtyard_autumn_2010.jpg",
+      "caption": "台灯色温试拍。正式照片未采用。"
+    },
+    {
+      "id": "deleted-roster-temp",
+      "name": "报名名单_临时.xls",
+      "type": "spreadsheet",
+      "modified": "2010-09-23 18:12",
+      "deletedAt": "2010-09-24 17:27",
+      "originalPath": "C:\\Documents and Settings\\刘江源\\桌面",
+      "size": "15 KB",
+      "sheet": {
+        "name": "Sheet1",
+        "columns": [
+          "姓名",
+          "电话",
+          "备注"
+        ],
+        "rows": [
+          [
+            "顾天乐",
+            "尾号4420",
+            "交费未核"
+          ],
+          [
+            "沈一帆",
+            "尾号8873",
+            "春季班"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "deleted-thumbs-db",
+      "name": "Thumbs.db",
+      "type": "archive",
+      "modified": "2010-10-20 23:18",
+      "deletedAt": "2010-10-20 23:19",
+      "originalPath": "C:\\Documents and Settings\\刘江源\\我的文档\\照片\\扫描",
+      "size": "48 KB",
+      "content": "该文件由Windows自动生成，无法在此查看。"
+    },
+    {
+      "id": "deleted-pet-era-a",
+      "name": "电子宠物年代核对.doc",
+      "type": "document",
+      "modified": "2010-09-29 22:31",
+      "deletedAt": "2010-09-29 22:44",
+      "originalParentId": "loose-files-folder",
+      "originalPath": "C:\\Documents and Settings\\刘江源\\我的文档\\先放这里",
+      "size": "24 KB",
+      "blocks": [
+        {
+          "type": "title",
+          "text": "电子宠物年代核对"
+        },
+        {
+          "type": "paragraph",
+          "text": "来信写：林美心在1993年留下这只电子宠物。"
+        },
+        {
+          "type": "heading",
+          "text": "目前能查到的时间"
+        },
+        {
+          "type": "paragraph",
+          "text": "一、万代资料"
+        },
+        {
+          "type": "paragraph",
+          "text": "初代“たまごっち”1996年发售。资料页保存过一次，原网页是日文，年份可直接读。"
+        },
+        {
+          "type": "paragraph",
+          "text": "二、国内旧报"
+        },
+        {
+          "type": "paragraph",
+          "text": "1997年8月的报道把掌上养成玩具写成“今年春季以来流行”。"
+        },
+        {
+          "type": "paragraph",
+          "text": "三、邮购目录"
+        },
+        {
+          "type": "paragraph",
+          "text": "粉色圆壳、三键、珠链的相近款在1997年目录内。目录封面和62页另存。"
+        },
+        {
+          "type": "paragraph",
+          "text": "所以这只东西不可能在1993年以现在的样子留下。"
+        },
+        {
+          "type": "paragraph",
+          "text": "先核原物。不要替寄信的人解释。"
+        }
+      ]
+    },
+    {
+      "id": "deleted-warning-desk",
+      "name": "桌面先别动.txt",
+      "type": "text",
+      "modified": "2010-09-29 22:42",
+      "deletedAt": "2010-09-29 22:44",
+      "originalPath": "C:\\Documents and Settings\\刘江源\\桌面",
+      "size": "1 KB",
+      "content": "桌面先别动。\n包裹的东西还没查完。\n先把年份再对一遍。"
+    },
+    {
+      "id": "deleted-pet-era-b",
+      "name": "电子宠物年代核对.doc",
+      "type": "document",
+      "modified": "2010-10-12 22:45",
+      "deletedAt": "2010-10-12 22:48",
+      "originalParentId": "loose-files-folder",
+      "originalPath": "C:\\Documents and Settings\\刘江源\\我的文档\\先放这里",
+      "size": "27 KB",
+      "blocks": [
+        {
+          "type": "title",
+          "text": "电子宠物年代核对"
+        },
+        {
+          "type": "paragraph",
+          "text": "信上写的是1993年。"
+        },
+        {
+          "type": "paragraph",
+          "text": "万代2009年商品沿革：初代1996年发售。"
+        },
+        {
+          "type": "paragraph",
+          "text": "国内旧报970804：这类东西从97年春季开始流行。"
+        },
+        {
+          "type": "paragraph",
+          "text": "邮购目录：1997年版，62页有相近的粉色圆壳。"
+        },
+        {
+          "type": "paragraph",
+          "text": "9月30日又向小陶要过目录。她说21日下午已经发过，我的QQ里也有当时回复。"
+        },
+        {
+          "type": "paragraph",
+          "text": "不是第一次查。"
+        },
+        {
+          "type": "paragraph",
+          "text": "可能是前一份文件没有保存，或者整理时删错。最近睡眠不好，先不把两个问题混在一起。"
+        },
+        {
+          "type": "paragraph",
+          "text": "物件年代仍然不对。外壳、螺丝和接缝找懂行的人看。"
+        }
+      ]
+    },
+    {
+      "id": "deleted-warning-do-not-delete",
+      "name": "9月30日.txt",
+      "type": "text",
+      "modified": "2010-10-12 22:49",
+      "deletedAt": "2010-10-12 22:51",
+      "originalPath": "C:\\Documents and Settings\\刘江源\\桌面",
+      "size": "1 KB",
+      "content": "9月30日。\n小陶说21日已经发过，我的QQ里也有。\n先看日期。不要再删。"
+    },
+    {
+      "id": "deleted-pet-era-c",
+      "name": "电子宠物年代核对.doc",
+      "type": "document",
+      "modified": "2010-10-29 23:11",
+      "deletedAt": "2010-10-29 23:16",
+      "originalParentId": "loose-files-folder",
+      "originalPath": "C:\\Documents and Settings\\刘江源\\我的文档\\先放这里",
+      "size": "34 KB",
+      "blocks": [
+        {
+          "type": "title",
+          "text": "电子宠物年代核对"
+        },
+        {
+          "type": "paragraph",
+          "text": "来信年份：1993。"
+        },
+        {
+          "type": "heading",
+          "text": "查到的资料"
+        },
+        {
+          "type": "paragraph",
+          "text": "1. 万代商品沿革（保存页：091006tamagotchiID.pdf）"
+        },
+        {
+          "type": "paragraph",
+          "text": "2. 1997年8月4日旧报剪页"
+        },
+        {
+          "type": "paragraph",
+          "text": "3. 1997年邮购目录封面、37页、62页"
+        },
+        {
+          "type": "paragraph",
+          "text": "4. 小陶9月21日和9月30日聊天记录"
+        },
+        {
+          "type": "paragraph",
+          "text": "能确定的只有：现在这只不是1993年的商品。"
+        },
+        {
+          "type": "paragraph",
+          "text": "原来的东西也可能后来坏了。寄信的人若只想留一件相近的纪念品，十几年后找来同类替代，并非完全说不通。她没有说明，仍然应当核实，但不能只凭年代认定来信有恶意。"
+        },
+        {
+          "type": "paragraph",
+          "text": "外壳和螺丝没有拆。找老许看，不让他判断信。"
+        },
+        {
+          "type": "attachment",
+          "refId": "restored-PB-20100921-1908-knowledge-range-doc",
+          "label": "以前那几页：知情范围_改.doc",
+          "path": "C:\\Documents and Settings\\刘江源\\我的文档\\先放这里\\知情范围_改.doc",
+          "modifiedHint": "2010-09-21"
+        },
+        {
+          "type": "paragraph",
+          "text": "她若不愿旧事再被提起，先不要把来信转给别人。等我把——"
+        }
+      ]
+    },
+    {
+      "id": "deleted-unsent-zhou",
+      "name": "给周岚的回信_未寄.doc",
+      "type": "document",
+      "modified": "2010-10-29 23:18",
+      "deletedAt": "2010-10-29 23:20",
+      "originalPath": "C:\\Documents and Settings\\刘江源\\我的文档\\先放这里",
+      "size": "21 KB",
+      "blocks": [
+        {
+          "type": "title",
+          "text": "周岚："
+        },
+        {
+          "type": "paragraph",
+          "text": "若你不愿再提，我不会把信转给别人。只是那件东西的年份——"
+        }
+      ]
+    },
+    {
+      "id": "deleted-catalog-cover",
+      "name": "IMG_0001.JPG",
+      "type": "image",
+      "modified": "2010-10-12 22:38",
+      "deletedAt": "2010-10-29 23:22",
+      "originalPath": "C:\\Documents and Settings\\刘江源\\我的文档\\下载\\电子宠物\\邮购目录",
+      "size": "1.7 MB",
+      "imageSrc": "/snapshots/LJ-HOME-PC01-FORENSIC-A/catalog-1997-img-0001.png",
+      "caption": "邮购目录封面扫描。"
+    },
+    {
+      "id": "deleted-catalog-p37",
+      "name": "IMG_0037.JPG",
+      "type": "image",
+      "modified": "2010-10-12 22:39",
+      "deletedAt": "2010-10-29 23:23",
+      "originalPath": "C:\\Documents and Settings\\刘江源\\我的文档\\下载\\电子宠物\\邮购目录",
+      "size": "1.5 MB",
+      "imageSrc": "/snapshots/LJ-HOME-PC01-FORENSIC-A/catalog-1997-img-0037.png",
+      "caption": "邮购目录第37页。"
+    },
+    {
+      "id": "deleted-catalog-p62",
+      "name": "IMG_0062.JPG",
+      "type": "image",
+      "modified": "2010-10-12 22:40",
+      "deletedAt": "2010-10-29 23:24",
+      "originalPath": "C:\\Documents and Settings\\刘江源\\我的文档\\下载\\电子宠物\\邮购目录",
+      "size": "1.6 MB",
+      "imageSrc": "/snapshots/LJ-HOME-PC01-FORENSIC-A/catalog-1997-img-0062-v2.png",
+      "caption": "邮购目录第62页。"
+    },
+    {
+      "id": "deleted-old-news-copy",
+      "name": "旧报970804_5版.jpg",
+      "type": "image",
+      "modified": "2010-10-12 22:42",
+      "deletedAt": "2010-10-29 23:25",
+      "originalPath": "C:\\Documents and Settings\\刘江源\\我的文档\\照片\\扫描",
+      "size": "1.2 MB",
+      "imageSrc": "/snapshots/LJ-HOME-PC01-FORENSIC-A/old-news-1997-electronic-pet.png",
+      "caption": "1997年8月4日旧报剪页，5版。"
+    },
+    {
+      "id": "deleted-letter-text",
+      "name": "扫描0003_文字层.txt",
+      "type": "text",
+      "modified": "2010-09-13 19:34",
+      "deletedAt": "2010-10-29 23:26",
+      "originalPath": "C:\\Documents and Settings\\刘江源\\我的文档\\照片\\扫描",
+      "size": "3 KB",
+      "content": "刘老师：\n\n前些日子，有人把您写的那份寻访说明转给我看了。我原本没有打算联系学校，想了几天，还是觉得这个东西应该交给您。\n\n我不是盟杉的学生，是美心以前在校外认识的人。有些话她不方便同老师、家里讲，倒跟我讲过一些。您不记得我，很正常。\n\n她去找您以前，想的是先把班里的闲话压下去，不要传到她母亲那里，让她把那个学期读完。孩子她想留下，书也想继续念。她知道您是真心想帮她，只是事情来得太快，她没来得及把自己的打算说完。\n\n她还跟我讲过：“是你让我试着接受的。”这句话我一直记得。她并没有怪您的意思。\n\n她走以前，把这个电子宠物放到我这里来，说等事情过去，再到我这里拿去。她说，这种东西总要有人照看的。我一直没有拆过，后来她也一直没有来拿。\n\n再后来，有人给我捎过一句话，说美心已经不在了，孩子也没有保住。那个人没有多讲，我知道的也只有这些。这些年我没有找过学校，也没有找过您。\n\n去年报纸上那个人的事，我也看到了。该受处罚的人已经有了结果。我想，美心也不会愿意您为了她一直追问下去。她没有怪过您。\n\n东西随信寄给您。您愿意就留下，不愿意也请自行处理。我不想再有人来找我。美心已经不在了，您还要到学校问去吗？这件事就到这里算了。\n\n周岚"
+    },
+    {
+      "id": "deleted-before-burn-note",
+      "name": "说明_刻录前.txt",
+      "type": "text",
+      "modified": "2010-11-08 23:51",
+      "deletedAt": "2010-11-09 00:03",
+      "originalPath": "C:\\Documents and Settings\\刘江源\\桌面\\核对资料",
+      "size": "1 KB",
+      "content": "1993。网页从1996开始。原件都在包里。到柜台再开。"
+    },
+    {
+      "id": "deleted-going-out-copy",
+      "name": "出去前_旧.txt",
+      "type": "text",
+      "modified": "2010-11-12 21:17",
+      "deletedAt": "2010-11-12 21:31",
+      "originalPath": "C:\\Documents and Settings\\刘江源\\桌面",
+      "size": "1 KB",
+      "content": "信、包装、照片、光盘。\n最后拿那个东西。\n不要在家里拆。"
+    },
+    {
+      "id": "deleted-medical-note-shallow",
+      "name": "看病要说的.txt",
+      "type": "text",
+      "modified": "2010-10-29 23:09",
+      "deletedAt": "2010-10-29 23:16",
+      "originalParentId": "loose-files-folder",
+      "originalPath": "C:\\Documents and Settings\\刘江源\\我的文档\\先放这里",
+      "size": "1 KB",
+      "content": "普通工作暂未发现相同错误。\n最近睡眠不好。\n如果再重复，先去看门诊。"
+    }
+  ]
+}

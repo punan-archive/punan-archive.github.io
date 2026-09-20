@@ -1,0 +1,167 @@
+{
+  "account": {
+    "label": "liujiangyuan",
+    "address": "liujiangyuan@126.com"
+  },
+  "folders": [
+    {
+      "id": "inbox",
+      "label": "收件箱",
+      "icon": "mailFolder",
+      "unread": 2
+    },
+    {
+      "id": "outbox",
+      "label": "发件箱",
+      "icon": "mailFolder"
+    },
+    {
+      "id": "sent",
+      "label": "已发送邮件",
+      "icon": "mailFolder"
+    },
+    {
+      "id": "drafts",
+      "label": "草稿",
+      "icon": "mailFolder"
+    },
+    {
+      "id": "deleted",
+      "label": "已删除邮件",
+      "icon": "recycle",
+      "emptyNotice": "“已删除邮件”文件夹已于2010年11月7日清空。"
+    }
+  ],
+  "messages": [
+    {
+      "id": "inbox-photo-submission",
+      "folderId": "inbox",
+      "from": "浦南区青少年活动中心 <pnsng@163.com>",
+      "fromLabel": "浦南区青少年活动中心",
+      "to": "刘江源 <liujiangyuan@126.com>",
+      "subject": "周末摄影作品收件时间",
+      "date": "2010年11月12日 16:06",
+      "listDate": "11月12日 16:06",
+      "unread": true,
+      "body": "刘老师：\n\n本周末作品收件仍按原通知，周六下午四点前交活动中心二楼办公室。家长签字表请一并带来。\n\n办公室"
+    },
+    {
+      "id": "inbox-wednesday-meal",
+      "folderId": "inbox",
+      "from": "周三加菜 <31740682@qq.com>",
+      "fromLabel": "周三加菜",
+      "to": "刘江源 <liujiangyuan@126.com>",
+      "subject": "请教一张九二年的照片",
+      "date": "2010年11月12日 11:08",
+      "listDate": "11月12日 11:08",
+      "body": "刘老师您好。我在查一张九二年盟杉中学的旧照片，有人说那几年学校的活动照片可能是您拍的。\n\n照片里的人不方便发，我拿别的相纸挡住扫了一遍。背面写着“92年秋”，别的什么也没有。您能看出是哪次活动吗？",
+      "attachments": [
+        {
+          "id": "scan0002-crop",
+          "name": "scan0002.jpg",
+          "size": "418 KB",
+          "src": "/websites/maishan_school/ftp/files/92xf-ms-017a.jpg",
+          "presentation": "occluded-print",
+          "caption": "邮件附件。另一张相纸压在原照片上，只露出了上沿。"
+        }
+      ]
+    },
+    {
+      "id": "inbox-camera-offer",
+      "folderId": "inbox",
+      "from": "大众摄影网讯 <newsletter@photo365.cn>",
+      "fromLabel": "大众摄影网讯",
+      "to": "liujiangyuan@126.com",
+      "subject": "本周二手器材信息摘要",
+      "date": "2010年11月11日 08:32",
+      "listDate": "11月11日 08:32",
+      "unread": true,
+      "body": "您订阅的二手器材信息摘要已更新。\n\n本邮件由系统自动发送，如不希望继续接收，请登录网站修改订阅设置。"
+    },
+    {
+      "id": "inbox-class-schedule",
+      "folderId": "inbox",
+      "from": "陈丽 <chenli_pn@126.com>",
+      "fromLabel": "陈丽",
+      "to": "刘江源 <liujiangyuan@126.com>",
+      "subject": "下月兴趣班课表",
+      "date": "2010年11月9日 19:41",
+      "listDate": "11月9日 19:41",
+      "body": "刘老师，十二月课表我先照上个月排了。你有空看一下，有要换的周一前告诉我。"
+    },
+    {
+      "id": "draft-wednesday-reply",
+      "folderId": "drafts",
+      "from": "刘江源 <liujiangyuan@126.com>",
+      "fromLabel": "周三加菜",
+      "to": "周三加菜 <31740682@qq.com>",
+      "subject": "Re: 请教一张九二年的照片",
+      "date": "2010年11月12日 13:42",
+      "listDate": "11月12日 13:42",
+      "state": "draft",
+      "body": "你好：\n\n看背景像东楼前。九二年秋天在那里拍过不止一次，只凭这一块定不了。\n\n我先找一下那年的底片袋，找到再回。"
+    },
+    {
+      "id": "draft-weekend-note",
+      "folderId": "drafts",
+      "from": "刘江源 <liujiangyuan@126.com>",
+      "fromLabel": "浦南区青少年活动中心",
+      "to": "浦南区青少年活动中心 <pnsng@163.com>",
+      "subject": "Re: 周末摄影作品收件时间",
+      "date": "2010年11月12日 16:18",
+      "listDate": "11月12日 16:18",
+      "state": "draft",
+      "body": "陈老师：\n\n这周我可能"
+    },
+    {
+      "id": "sent-print-order",
+      "folderId": "sent",
+      "from": "刘江源 <liujiangyuan@126.com>",
+      "fromLabel": "刘江源",
+      "to": "远景图片社 <yuanjing_photo@163.com>",
+      "subject": "Re: 十月份冲印单",
+      "date": "2010年11月3日 09:17",
+      "listDate": "11月3日 09:17",
+      "body": "单子收到了。七寸那一栏有两张数量写反，明天下午我过去时再改。",
+      "toLabel": "远景图片社",
+      "relatedMessageId": "inbox-print-order-original"
+    },
+    {
+      "id": "sent-hospital-memory-consult",
+      "folderId": "sent",
+      "from": "刘江源 <liujiangyuan@126.com>",
+      "fromLabel": "刘江源",
+      "to": "浦南区中心医院健康咨询 <health@pnch.org.cn>",
+      "subject": "咨询记忆问题应挂哪个科",
+      "date": "2010年9月20日 22:04",
+      "listDate": "9月20日 22:04",
+      "body": "本人四十多岁。近期曾隔日重复询问同一件事，自己没有印象。\n日常工作、路线和熟人姓名暂未发现明显错误。\n近来睡眠不好。请问这种情况应先挂神经内科，还是精神科？",
+      "toLabel": "浦南区中心医院健康咨询",
+      "relatedMessageId": "inbox-hospital-memory-reply"
+    },
+    {
+      "id": "inbox-hospital-memory-reply",
+      "folderId": "inbox",
+      "from": "浦南区中心医院健康咨询 <health@pnch.org.cn>",
+      "fromLabel": "浦南区中心医院健康咨询",
+      "to": "刘江源 <liujiangyuan@126.com>",
+      "subject": "回复：咨询记忆问题应挂哪个科",
+      "date": "2010年9月21日 16:52",
+      "listDate": "9月21日 16:52",
+      "body": "您好：\n\n仅凭邮件内容无法判断具体原因。记忆变化可能与睡眠、情绪、营养状况及其他身体情况有关，也可能需要进一步检查。\n\n建议先至神经内科门诊，由医生面诊后决定是否需要其他科室会诊。如近期已影响日常工作或反复发生，最好由熟悉您平时情况的家属或同事陪同，并带上正在服用的药物及既往病历。\n\n本邮箱回复仅供就诊分科参考，不能代替诊断。\n\n浦南区中心医院健康咨询",
+      "relatedMessageId": "sent-hospital-memory-consult"
+    },
+    {
+      "id": "inbox-print-order-original",
+      "folderId": "inbox",
+      "from": "远景图片社 <yuanjing_photo@163.com>",
+      "fromLabel": "远景图片社",
+      "to": "刘江源 <liujiangyuan@126.com>",
+      "subject": "十月份冲印单",
+      "date": "2010年11月2日 18:46",
+      "listDate": "11月2日 18:46",
+      "relatedMessageId": "sent-print-order",
+      "body": "刘老师：\n\n十月份的冲印单附在店里账本上了。七寸和六寸的数量请您再核一下；如果没有问题，周五以前过来签字就行。\n\n远景图片社"
+    }
+  ]
+}

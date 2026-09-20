@@ -1,6 +1,11 @@
 {
   "routes": [
     {
+      "url": "https://punan-archive.github.io/r/pet96/",
+      "file": "/releases/pet96/page.html",
+      "title": "CX-3 掌上互动机（爱心花纹款） - 晨星电子玩具厂"
+    },
+    {
       "urlPattern": "http://www.punan.net/search.asp",
       "file": "/websites/punan_portal/app.html?page=search",
       "forwardQuery": true,

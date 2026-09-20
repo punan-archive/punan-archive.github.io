@@ -1,0 +1,114 @@
+{
+  "id": "LJ-HOME-PC01-FORENSIC-A",
+  "deviceLabel": "刘江源家用电脑",
+  "deviceNote": "从家用电脑硬盘建立的只读提取件",
+  "captureLabel": "提取记录",
+  "captureTime": "2010-11-13 10:26",
+  "lastActivityLabel": "最后活动",
+  "lastActivityTime": "2010-11-12 21:43",
+  "statusLabel": "只读 · 原始磁盘提取件",
+  "filesystemVersion": 2,
+  "guardian250Mode": "records-v2-adapter",
+  "features": {
+    "supportsRecycleRestore": true,
+    "supportsRecentDocuments": true,
+    "supportsPersistentNotifications": true,
+    "virtualDisc": {
+      "isoItemId": "investigation-disc-image",
+      "driveItemId": "investigation-disc-drive",
+      "finalReadmeItemId": "disc-final-readme",
+      "delayMinMs": 10000,
+      "delayMaxMs": 30000,
+      "eligibility": {
+        "standardRecords": [
+          "PB-20100921-1908:old-photo-check-0920"
+        ],
+        "nonstandardRecords": [
+          "PB-20101016-0046:medical-note-full-1016",
+          "PB-20100921-1908:knowledge-range-doc"
+        ],
+        "broadHiddenRecords": [
+          "PB-20101029-2316:liu-main-investigation-doc",
+          "PB-20101029-2316:knowledge-range-late",
+          "PB-20101012-2248:catalog-cover-1997",
+          "PB-20101012-2248:catalog-generic-p37",
+          "PB-20101012-2248:catalog-close-p62",
+          "PB-20101012-2248:bandai-2009-cache",
+          "PB-20101012-2248:old-news-1997-clipping",
+          "PB-20100921-1908:old-contact-note",
+          "PB-20100921-1908:equipment-register-scan",
+          "PB-20100921-1908:watch-photo-4689",
+          "PB-20100921-1908:watch-photo-4724",
+          "PB-20100921-1908:knowledge-range-doc",
+          "PB-20100921-1908:old-photo-check-0920",
+          "PB-20101016-0046:medical-note-full-1016",
+          "PB-20100818-2211:old-photo-check-0716"
+        ],
+        "broadOpenedAnchors": [
+          "PB-20100921-1908:old-contact-note",
+          "PB-20100921-1908:watch-photo-4689",
+          "PB-20100921-1908:watch-photo-4724"
+        ],
+        "broadMinimumRestored": 4
+      }
+    }
+  },
+  "systemTime": "21:43",
+  "initialLaunch": {
+    "type": "desktop"
+  },
+  "user": {
+    "displayName": "刘江源",
+    "avatar": "刘"
+  },
+  "browserHome": "http://www.punan.net/",
+  "routeSources": [
+    "/websites/maishan_bbs/routes.json",
+    "/websites/maishan_school/routes.json",
+    "/websites/punan_portal/routes.json"
+  ],
+  "browserHistory": [
+    {
+      "time": "20:41",
+      "title": "浦南信息港",
+      "url": "http://www.punan.net/"
+    },
+    {
+      "time": "20:58",
+      "title": "盟杉中学",
+      "url": "http://www.ms-school.edu.cn/"
+    },
+    {
+      "time": "09/18 22:14",
+      "title": "四十多岁 反复问同一件事 - 千度搜索",
+      "url": "http://www.qiandu.com/s?wd=四十多岁+反复问同一件事"
+    },
+    {
+      "time": "09/18 22:33",
+      "title": "早发性老年痴呆 症状 - 千度搜索",
+      "url": "http://www.qiandu.com/s?wd=早发性老年痴呆+症状"
+    },
+    {
+      "time": "09/23 21:13",
+      "title": "心理创伤会不会只忘记一件事 - 千度搜索",
+      "url": "http://www.qiandu.com/s?wd=心理创伤+选择性遗忘"
+    },
+    {
+      "time": "10/14 23:18",
+      "title": "接触一件物品以后记忆异常 - 千度搜索",
+      "url": "http://www.qiandu.com/s?wd=接触物品+记忆异常"
+    },
+    {
+      "time": "10/16 00:26",
+      "title": "明明记得事实但是觉得不重要 - 千度搜索",
+      "url": "http://www.qiandu.com/s?wd=记得事实+觉得不重要"
+    }
+  ],
+  "data": {
+    "messenger": "/snapshots/LJ-HOME-PC01-FORENSIC-A/messenger.json",
+    "mail": "/snapshots/LJ-HOME-PC01-FORENSIC-A/mail.json",
+    "filesystem": "/snapshots/LJ-HOME-PC01-FORENSIC-A/filesystem.json",
+    "protection250": "/snapshots/LJ-HOME-PC01-FORENSIC-A/protection250-v2.json",
+    "discContent": "/snapshots/LJ-HOME-PC01-FORENSIC-A/disc-content-v1.json"
+  }
+}

@@ -1,12 +1,23 @@
 {
   "releases": {
     "ch01-msbbs-1847": {
-      "snapshots": [
-        "MN-HOME-PC01-20101112-A"
-      ],
+      "snapshots": ["MN-HOME-PC01-20101112-A"],
       "defaultSnapshot": "MN-HOME-PC01-20101112-A",
       "initialUrl": "http://bbs.ms-school.edu.cn/thread.php?tid=1847"
+    },
+    "ch06-msbbs-rumors": {
+      "snapshots": ["MN-HOME-PC01-20101112-A"],
+      "defaultSnapshot": "MN-HOME-PC01-20101112-A",
+      "initialUrl": "http://bbs.ms-school.edu.cn/forum.php?fid=2&view=latest"
+    },
+    "lj-home-pc01": {
+      "snapshots": ["LJ-HOME-PC01-FORENSIC-A"],
+      "defaultSnapshot": "LJ-HOME-PC01-FORENSIC-A",
+      "initialUrl": "https://punan-archive.github.io/r/pet96/"
     }
+  },
+  "completionLinks": {
+    "MN-HOME-PC01-20101112-A": "LJ-HOME-PC01-FORENSIC-A"
   },
   "snapshots": [
     {
@@ -14,7 +25,16 @@
       "label": "校园论坛访问记录",
       "shortDate": "11月12日",
       "device": "穆南家用电脑",
+      "checkLabel": "CHK 92XF-MS-017 / OK",
       "manifest": "/snapshots/MN-HOME-PC01-20101112-A/snapshot.json"
+    },
+    {
+      "id": "LJ-HOME-PC01-FORENSIC-A",
+      "label": "家用电脑磁盘提取件",
+      "shortDate": "磁盘提取",
+      "device": "刘江源家用电脑",
+      "checkLabel": "MEDIA LJ-HOME-PC01 / OK",
+      "manifest": "/snapshots/LJ-HOME-PC01-FORENSIC-A/snapshot.json"
     }
   ]
 }
