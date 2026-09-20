@@ -237,6 +237,7 @@
           "name": "IMG_0001.JPG",
           "type": "image",
           "parentId": "downloads-folder",
+          "originalPath": "C:\\Documents and Settings\\刘江源\\我的文档\\下载\\电子宠物\\邮购目录",
           "modified": "2010-10-12 22:38",
           "imageSrc": "/snapshots/LJ-HOME-PC01-FORENSIC-A/catalog-1997-img-0001.png",
           "caption": "同一批扫描的目录封面。文件名：IMG_0001.JPG。"
@@ -246,6 +247,7 @@
           "name": "IMG_0037.JPG",
           "type": "image",
           "parentId": "downloads-folder",
+          "originalPath": "C:\\Documents and Settings\\刘江源\\我的文档\\下载\\电子宠物\\邮购目录",
           "modified": "2010-10-12 22:39",
           "imageSrc": "/snapshots/LJ-HOME-PC01-FORENSIC-A/catalog-1997-img-0037.png",
           "caption": "邮购目录第37页。文件名：IMG_0037.JPG。"
@@ -255,6 +257,7 @@
           "name": "IMG_0062.JPG",
           "type": "image",
           "parentId": "downloads-folder",
+          "originalPath": "C:\\Documents and Settings\\刘江源\\我的文档\\下载\\电子宠物\\邮购目录",
           "modified": "2010-10-12 22:40",
           "imageSrc": "/snapshots/LJ-HOME-PC01-FORENSIC-A/catalog-1997-img-0062-v2.png",
           "caption": "邮购目录第62页。文件名：IMG_0062.JPG。"
