@@ -55,6 +55,18 @@
       "parentId": null
     },
     {
+      "id": "electronic-pet-folder",
+      "name": "电子宠物",
+      "type": "folder",
+      "parentId": "downloads-folder"
+    },
+    {
+      "id": "mail-order-catalog-folder",
+      "name": "邮购目录",
+      "type": "folder",
+      "parentId": "electronic-pet-folder"
+    },
+    {
       "id": "burn-staging-folder",
       "name": "刻录暂存",
       "type": "folder",
