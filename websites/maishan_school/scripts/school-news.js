@@ -20,7 +20,14 @@
     const item = items.find((entry) => entry.id === new URLSearchParams(location.search).get('id'));
     if (!item) { root.innerHTML = '<p>没有找到该新闻。</p>'; return; }
     document.title = `${item.title} - 盟杉中学`;
-    root.innerHTML = `<h1>${escapeHtml(item.title)}</h1><div class="article-meta">发布时间：${escapeHtml(item.date)}　供稿：${escapeHtml(item.source)}</div>${item.image ? `<figure class="school-news-photo"><img src="${escapeAttr(item.image.src)}" alt="${escapeAttr(item.image.alt || '')}"><figcaption>${escapeHtml(item.image.caption || '')}</figcaption></figure>` : ''}${item.body.map((paragraph) => `<p>${escapeHtml(paragraph)}</p>`).join('')}`;
+    root.innerHTML = `<h1>${escapeHtml(item.title)}</h1><div class="article-meta">发布时间：${escapeHtml(item.date)}　供稿：${escapeHtml(item.source)}</div>${item.image ? `<figure class="school-news-photo">${imageTag(item.image)}<figcaption>${escapeHtml(item.image.caption || '')}</figcaption></figure>` : ''}${item.body.map((paragraph) => `<p>${escapeHtml(paragraph)}</p>`).join('')}`;
+  }
+
+  function imageTag(image) {
+    const initial = image.previewSrc || image.screenSrc || image.src;
+    const target = image.screenSrc || image.src;
+    const progressive = initial !== target ? ` data-punan-full-src="${escapeAttr(target)}"` : '';
+    return `<img src="${escapeAttr(initial)}"${progressive} alt="${escapeAttr(image.alt || '')}">`;
   }
 
   function link(label, url) { return `<a href="#" data-punan-url="${escapeAttr(url)}">${escapeHtml(label)}</a>`; }

@@ -2,6 +2,10 @@
   "id": "MN-HOME-PC01-20101112-A",
   "deviceLabel": "穆南家用电脑",
   "deviceNote": "家用电脑，Windows账户主要由穆南使用",
+  "filesystemVersion": 2,
+  "features": {
+    "supportsRecycleRestore": true
+  },
   "captureTime": "2010年11月12日 23:48",
   "captureIso": "2010-11-12T23:48:00+08:00",
   "initialUrl": "http://bbs.ms-school.edu.cn/thread.php?tid=1847",

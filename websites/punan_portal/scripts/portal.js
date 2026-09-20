@@ -87,7 +87,12 @@
           <section class="feature">
             <div class="feature-label">今日浦南</div>
             <div class="feature-inner">
-              <img src="/websites/punan_portal/assets/hospital-waiting.png" alt="中心医院门诊候诊区" width="196" height="112">
+              ${imageTag({
+                src: '/websites/punan_portal/assets/hospital-waiting.png',
+                previewSrc: '/websites/punan_portal/assets/hospital-waiting-preview.jpg',
+                screenSrc: '/websites/punan_portal/assets/hospital-waiting-screen.jpg',
+                alt: '中心医院门诊候诊区',
+              }, 'width="196" height="112"')}
               <div><h2>${link('中心医院周末增开流感接种窗口', 'http://www.punan.net/view.asp?id=PN-007')}</h2>
               <p>11月13日、14日上午增开接种窗口。居民请携带医保卡或身份证明，儿童及慢性病患者先接受医生询问。</p></div>
             </div>
@@ -140,9 +145,9 @@
         ${sideNav()}
         <section class="article">
           <h1>浦南信息港新闻归档</h1>
-          <div class="article-meta">当前共收录 ${rows.length} 条新闻与政务信息　更新时间：2010-11-12</div>
+          <div class="article-meta">当前共收录 ${rows.length} 条新闻、历史页面与旧资料目录　更新时间：2010-11-12<br>早期资料按原件形成日期著录。</div>
           <table class="archive-table"><thead><tr><th>日期</th><th>栏目</th><th>标题</th><th>来源</th></tr></thead><tbody>
-            ${rows.map((item) => `<tr><td>${escapeHtml(item.date)}</td><td>${escapeHtml(item.section)}</td><td>${link(item.title, item.virtualUrl)}</td><td>${escapeHtml(item.source)}</td></tr>`).join('')}
+            ${rows.map((item) => `<tr><td>${recordDateCell(item)}</td><td>${escapeHtml(item.section)}</td><td>${link(item.title, item.virtualUrl)}</td><td>${escapeHtml(item.source)}</td></tr>`).join('')}
           </tbody></table>
         </section>
       </div>`;
@@ -151,8 +156,9 @@
   function renderArticle(data) {
     const item = data.articles.find((record) => record.id === params.get('id'));
     if (!item) return '<div class="empty">没有找到该新闻。</div>';
+    if (isLegacyCatalog(item)) return renderCatalogRecord(item);
     const oldRecord = item.year < 2010;
-    const dateMeta = oldRecord ? `资料形成日期：${escapeHtml(item.date)}　数字化录入：2010年` : `发布时间：${escapeHtml(item.date)}`;
+    const dateMeta = oldRecord ? `原页面日期：${escapeHtml(item.date)}　归档整理：2010年` : `发布时间：${escapeHtml(item.date)}`;
     const channel = isCommunity(item) ? '浦南社区' : '浦南新闻';
     return `${crumb(`${channel} &gt; ${escapeHtml(item.section)} &gt; 正文`)}
       <div class="two-column">
@@ -164,6 +170,38 @@
           ${item.body.map((paragraph) => `<p>${escapeHtml(paragraph)}</p>`).join('')}
           ${item.links?.length ? `<div class="article-links"><strong>相关地址：</strong>${item.links.map((entry) => link(entry.label, entry.url)).join('')}</div>` : ''}
           ${(isCommunity(item) || item.replies?.length) ? discussion(item) : ''}
+        </article>
+      </div>`;
+  }
+
+  function renderCatalogRecord(item) {
+    const catalog = item.catalog || {};
+    const dateLabel = catalog.originalDateLabel || item.date;
+    const sourceLabel = catalog.originalSource || item.source;
+    const material = catalog.material || '旧资料目录';
+    const scope = catalog.scope || '题名、摘要';
+    const cataloged = catalog.cataloged || '2010年';
+    const topics = catalog.topics || [];
+    return `${crumb(`旧闻与地方资料 &gt; ${escapeHtml(material)}`)}
+      <div class="two-column">
+        ${sideNav()}
+        <article class="article catalog-record">
+          <div class="catalog-stamp">资料目录记录</div>
+          <h1>${escapeHtml(item.title)}</h1>
+          <dl class="catalog-card">
+            <dt>原资料日期</dt><dd>${escapeHtml(dateLabel)}</dd>
+            <dt>资料来源</dt><dd>${escapeHtml(sourceLabel)}</dd>
+            <dt>资料类型</dt><dd>${escapeHtml(material)}</dd>
+            <dt>本站收录</dt><dd>${escapeHtml(scope)}</dd>
+            <dt>整理时间</dt><dd>${escapeHtml(cataloged)}</dd>
+            ${catalog.issue ? `<dt>原载信息</dt><dd>${escapeHtml(catalog.issue)}</dd>` : ''}
+          </dl>
+          ${item.image ? photo(item) : ''}
+          <h2>内容提要</h2>
+          ${item.body.map((paragraph) => `<p>${escapeHtml(paragraph)}</p>`).join('')}
+          ${topics.length ? `<div class="catalog-topics"><strong>主题词：</strong>${topics.map(escapeHtml).join('　')}</div>` : ''}
+          ${catalog.note ? `<div class="catalog-note">${escapeHtml(catalog.note)}</div>` : ''}
+          ${item.links?.length ? `<div class="article-links"><strong>相关地址：</strong>${item.links.map((entry) => link(entry.label, entry.url)).join('')}</div>` : ''}
         </article>
       </div>`;
   }
@@ -240,7 +278,7 @@
       <section class="article">
         <h1>站内检索</h1>
         <div class="article-meta">关键词：${escapeHtml(keyword)}　共找到 ${hits.length} 条结果</div>
-        ${keyword ? (hits.length ? `<ul class="search-result">${hits.map((item) => `<li><h3>${link(item.title, item.virtualUrl)}</h3><p>${escapeHtml(item.date)}　${escapeHtml(item.section)}　${escapeHtml(item.source)}</p></li>`).join('')}</ul>` : '<div class="empty">没有找到相关内容。</div>') : '<div class="empty">请输入检索词。</div>'}
+        ${keyword ? (hits.length ? `<ul class="search-result">${hits.map((item) => `<li><h3>${link(item.title, item.virtualUrl)}</h3><p>${searchResultMeta(item)}</p></li>`).join('')}</ul>` : '<div class="empty">没有找到相关内容。</div>') : '<div class="empty">请输入检索词。</div>'}
       </section>`;
   }
 
@@ -249,11 +287,18 @@
     const fitClass = item.image.fit === 'contain' ? ' is-contain' : '';
     const image = missing
       ? '<div class="legacy-photo__placeholder" role="img" aria-label="图片未缓存"><span>□</span><strong>图片未缓存</strong><small>仅保存图注</small></div>'
-      : `<img src="${escapeAttr(item.image.src)}" alt="${escapeAttr(item.image.alt || '')}" width="560" height="244">`;
+      : imageTag(item.image, 'width="560" height="244"');
     return `<figure class="legacy-photo${fitClass}">
       ${image}
       <figcaption>${escapeHtml(item.image.caption)}<span class="credit">${escapeHtml(item.image.credit)}</span></figcaption>
     </figure>`;
+  }
+
+  function imageTag(image, attributes = '') {
+    const initial = image.previewSrc || image.screenSrc || image.src;
+    const target = image.screenSrc || image.src;
+    const progressive = initial !== target ? ` data-punan-full-src="${escapeAttr(target)}"` : '';
+    return `<img src="${escapeAttr(initial)}"${progressive} alt="${escapeAttr(image.alt || '')}" ${attributes}>`;
   }
 
   function discussion(item) {
@@ -280,15 +325,30 @@
     return `<li>${link(item.title, item.virtualUrl)}<time>${escapeHtml(item.date.slice(5))}</time></li>`;
   }
 
+  function recordDateCell(item) {
+    const dateLabel = item.catalog?.originalDateLabel || item.date;
+    return isLegacyCatalog(item)
+      ? `${escapeHtml(dateLabel)}<small class="record-origin">原资料</small>`
+      : escapeHtml(dateLabel);
+  }
+
+  function searchResultMeta(item) {
+    const dateLabel = item.catalog?.originalDateLabel || item.date;
+    const recordLabel = isLegacyCatalog(item) ? '旧资料目录' : item.section;
+    return `${escapeHtml(dateLabel)}　${escapeHtml(recordLabel)}　${escapeHtml(item.source)}`;
+  }
+
   function searchableText(item) {
     const replies = (item.replies || []).flatMap((reply) => [reply.author, reply.body]);
     const linked = (item.links || []).flatMap((entry) => [entry.label, entry.url]);
-    return [item.title, item.date, item.section, item.source, item.editor, ...(item.body || []), ...replies, ...linked, item.image?.caption, item.image?.credit].filter(Boolean).join('\n');
+    const catalog = item.catalog || {};
+    return [item.title, item.date, item.section, item.source, item.editor, ...(item.body || []), ...replies, ...linked, item.image?.caption, item.image?.credit, catalog.originalDateLabel, catalog.originalSource, catalog.material, catalog.issue, catalog.note, ...(catalog.topics || [])].filter(Boolean).join('\n');
   }
 
   function displayUser(editor = '') { return String(editor).replace(/^用户[“"]|[”"]$/g, ''); }
 
   function isCommunity(item) { return item.source === '社区论坛'; }
+  function isLegacyCatalog(item) { return Boolean(item.catalog) || item.year < 2000; }
   function isService(item) { return item.source === '黄页' || ['餐饮早点', '搬运服务', '家电维修', '打字复印', '五金劳保', '上网服务', '摄影冲印', '钟表通信', '百货服装'].includes(item.section); }
   function isPhoto(item) { return item.source === '照片页' || ['地方影像', '网友摄影'].includes(item.section); }
   function isNews(item) { return !isCommunity(item) && !isService(item) && !isPhoto(item); }

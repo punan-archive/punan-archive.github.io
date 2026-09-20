@@ -73,6 +73,8 @@
       "responsible": ["杨文斌", "高三年级组", "校办公室"],
       "image": {
         "src": "/websites/maishan_school/assets/archive/yangwenbin-2010-senior-mobilization-v02.png",
+        "previewSrc": "/websites/maishan_school/assets/archive/yangwenbin-2010-senior-mobilization-v02-preview.jpg",
+        "screenSrc": "/websites/maishan_school/assets/archive/yangwenbin-2010-senior-mobilization-v02-screen.jpg",
         "alt": "杨文斌在2010届高三百日动员会上讲话",
         "caption": "教导主任杨文斌作毕业年级动员讲话。"
       },
@@ -315,7 +317,7 @@
       "retention": "长期",
       "access": "核对字段局部转写",
       "title": "原底片及扫描附件编号核对表（第三批）",
-      "summary": "第三批核对表记录原底片号、扫描件附件号和资料交换目录。姓名、活动题名仍以原档案目录为准，本表不重复转写。",
+      "summary": "第三批核对表记录原底片号、扫描件附件号和资料交换目录。姓名、活动题名仍以原档案目录为准，本表不重复转写。交换目录按影像附件号建立子目录；例如，91XF-MS-013 对应 /pub/photo/old/91XF-MS-013/。",
       "virtualUrl": "http://www.ms-school.edu.cn/dangan/read/record.asp?id=MS-XC-0401",
       "responsible": ["档案室", "信息技术组"],
       "citedBy": [
@@ -428,6 +430,28 @@
           "姓名": "顾文岚",
           "教学岗位": "语文",
           "校内兼岗": "备课组记录"
+        }
+      ]
+    },
+    {
+      "id": "MS-RS-9501",
+      "no": "MS-1995-RS-01-003",
+      "year": 1995,
+      "code": "RS",
+      "date": "1995-08-29",
+      "department": "人事室、教务处",
+      "retention": "长期",
+      "access": "目录＋局部转写",
+      "title": "1995—1996学年度调入教师岗位及教研组安排",
+      "summary": "本学年调入教师分别编入历史、英语和体育教研组。吴敏任初中历史教师，参加历史教研组集体备课；其余人员信息未收入本次目录预览。",
+      "virtualUrl": "http://www.ms-school.edu.cn/dangan/read/record.asp?id=MS-RS-9501",
+      "personIndex": ["吴敏"],
+      "responsible": ["吴敏", "人事室", "教务处"],
+      "rows": [
+        {
+          "姓名": "吴敏",
+          "教学岗位": "初中历史",
+          "校内安排": "历史教研组"
         }
       ]
     },
@@ -650,6 +674,7 @@
       "title": "1993届毕业合影拍摄登记与底片索引",
       "summary": "按班登记拍摄日期、应到人数、实到人数和底片卷号。高三（3）班实到名单不含林美心。",
       "virtualUrl": "http://www.ms-school.edu.cn/dangan/read/record.asp?id=MS-XC-9301",
+      "personIndex": ["林美心"],
       "excludeSummaryFromSearch": true,
       "imageHeld": true,
       "rows": [
@@ -695,6 +720,7 @@
       "title": "1993届毕业纪念图版编制说明",
       "summary": "缺席学生资料栏使用学校已有证件照或宣传照；林美心资料栏交叉引用1992年宣传肖像底片SY-92-041。",
       "virtualUrl": "http://www.ms-school.edu.cn/dangan/read/record.asp?id=MS-XC-9302",
+      "personIndex": ["林美心"],
       "responsible": ["校办公室", "许嘉禾"],
       "excludeSummaryFromSearch": true,
       "excludeRowsFromSearch": true,
@@ -750,6 +776,7 @@
       "title": "1993届学籍异动登记（高三三班局部）",
       "summary": "林美心：1993年5月起离校失联，已报有关部门；学籍手续未办结。",
       "virtualUrl": "http://www.ms-school.edu.cn/dangan/read/record.asp?id=MS-XJ-9301",
+      "personIndex": ["林美心"],
       "responsible": ["教务处学籍组"],
       "excludeSummaryFromSearch": true,
       "excludeRowsFromSearch": true,
@@ -969,6 +996,7 @@
       "title": "委培预录推荐名单变更表",
       "summary": "浦南化工联合公司“化工仪表与检验”方向中，林美心原推荐状态因故取消，张慧按原有校内顺位递补；递补后仍须企业与院校复核。",
       "virtualUrl": "http://www.ms-school.edu.cn/dangan/read/record.asp?id=MS-ZS-9301",
+      "personIndex": ["林美心"],
       "responsible": ["教务处", "校办公室"],
       "excludeSummaryFromSearch": true,
       "excludeRowsFromSearch": true,
@@ -1046,9 +1074,12 @@
       "title": "高中部学科竞赛及课外小论文活动获奖登记",
       "summary": "含数学、物理、化学、语文和地方工业史小论文活动登记。所列为当年度校外获奖及代表学校送评项目，不是全年级成绩册。",
       "virtualUrl": "http://www.ms-school.edu.cn/dangan/read/record.asp?id=MS-JX-9201",
+      "personIndex": ["林美心"],
       "responsible": ["教务处", "化学教研组", "刘江源"],
       "image": {
         "src": "/websites/maishan_school/assets/archive/linmeixin-1992-chemistry-award-group-v04.png",
+        "previewSrc": "/websites/maishan_school/assets/archive/linmeixin-1992-chemistry-award-group-v04-preview.jpg",
+        "screenSrc": "/websites/maishan_school/assets/archive/linmeixin-1992-chemistry-award-group-v04-screen.jpg",
         "alt": "1992年浦南区中学生化学竞赛获奖学生合影",
         "caption": "区化学竞赛颁奖后合影。照片背面只登记学校与姓氏，本页获奖登记可核对其中部分人员。摄影、冲印：刘江源。"
       },
@@ -1146,6 +1177,7 @@
       "title": "优秀学生宣传肖像底片索引",
       "summary": "区校共建活动优秀学生宣传肖像，含被摄者、班级、原始底片号、摄影经办和使用去向。2004年扫描核对时另编影像附件号，图像本身未录入本目录。",
       "virtualUrl": "http://www.ms-school.edu.cn/dangan/read/record.asp?id=MS-XC-9201",
+      "personIndex": ["林美心"],
       "excludeRowsFromSearch": true,
       "responsible": ["刘江源", "许嘉禾", "校办公室"],
       "citedBy": [
@@ -1309,6 +1341,7 @@
       "title": "1993届委培预录校内推荐候选人初排表",
       "summary": "1993届委培预录候选人按委托单位、培养方向和校内送审顺位登记；本页局部转写为浦南化工联合公司名额。",
       "virtualUrl": "http://www.ms-school.edu.cn/dangan/read/record.asp?id=MS-ZS-9201",
+      "personIndex": ["林美心"],
       "responsible": ["杨文斌", "毕业年级组", "教务处"],
       "excludeRowsFromSearch": true,
       "references": [
@@ -1554,7 +1587,8 @@
       "access": "仅目录",
       "title": "1990 学年初一新生注册花名册（一至四班）",
       "summary": "纸质 22 页，按班级顺序登记新生姓名、性别、出生年月、毕业小学和注册日期，共 186 人。施颖、徐旻、彭江列于初一（2）班名册。首页附班额汇总，末页记载三名学生因住址片区调整改编班级，均在开学前完成手续。",
-      "virtualUrl": "http://www.ms-school.edu.cn/dangan/read/record.asp?id=MS-1990-XJ-01-001"
+      "virtualUrl": "http://www.ms-school.edu.cn/dangan/read/record.asp?id=MS-1990-XJ-01-001",
+      "personIndex": ["林美心"]
     },
     {
       "id": "MS-XJ-9002",

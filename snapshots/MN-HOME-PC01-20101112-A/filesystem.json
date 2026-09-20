@@ -1,5 +1,7 @@
 {
   "wallpaper": "/websites/punan_portal/assets/autumn-photo.png",
+  "wallpaperPreview": "/websites/punan_portal/assets/autumn-photo-preview.jpg",
+  "wallpaperScreen": "/websites/punan_portal/assets/autumn-photo-screen.jpg",
   "desktopShortcuts": [
     { "itemId": "detective-folder", "label": "侦探社" },
     { "itemId": "tomorrow-note", "label": "明天要带的.txt" }
@@ -155,6 +157,8 @@
       "parentId": "pictures-folder",
       "modified": "2010-11-07 17:42",
       "imageSrc": "/websites/punan_portal/assets/autumn-photo.png",
+      "imagePreviewSrc": "/websites/punan_portal/assets/autumn-photo-preview.jpg",
+      "imageScreenSrc": "/websites/punan_portal/assets/autumn-photo-screen.jpg",
       "caption": "从浦南摄影讨论区保存。原帖说是纬三路附近，拍摄者没有写具体路口。"
     },
     {
@@ -164,6 +168,8 @@
       "parentId": "pictures-folder",
       "modified": "2010-10-30 23:20",
       "imageSrc": "/websites/punan_portal/assets/seawall.png",
+      "imagePreviewSrc": "/websites/punan_portal/assets/seawall-preview.jpg",
+      "imageScreenSrc": "/websites/punan_portal/assets/seawall-screen.jpg",
       "caption": "文件名是转载时自动生成的。评论里有人争论照片究竟是在经几路拍的。"
     },
     {
@@ -200,6 +206,10 @@
       "name": "侦探社招新海报_真正最终版.txt",
       "type": "text",
       "modified": "2010-09-09 23:51",
+      "deletedAt": "2010-09-09 23:55",
+      "originalParentId": "detective-folder",
+      "originalPath": "C:\\Documents and Settings\\穆南\\我的文档\\侦探社",
+      "size": "1 KB",
       "content": "侦探社招新！！！\n\n真相、勇气、智慧——\n\n（写到这里觉得太丢人，删了。）"
     },
     {
@@ -207,6 +217,10 @@
       "name": "手表结构图_失败.txt",
       "type": "text",
       "modified": "2010-10-29 21:14",
+      "deletedAt": "2010-10-29 21:18",
+      "originalParentId": "detective-folder",
+      "originalPath": "C:\\Documents and Settings\\穆南\\我的文档\\侦探社",
+      "size": "1 KB",
       "content": "按钮 → 软管 → 储水仓\n\n问题：\n1. 射程不够。\n2. 密封不好。\n3. 使用者容易先弄湿自己的袖口。\n\n结论：器材问题，下次不要站在教导主任背后测试。"
     }
   ]

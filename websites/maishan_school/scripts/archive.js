@@ -130,6 +130,7 @@
       <section class="filter-box"><h2>档案门类</h2>${codes.map((value) => link(`${value}　${data.categories[value]}`,`http://www.ms-school.edu.cn/dangan/read/browse.asp?code=${value}`,code === value ? 'active' : '')).join('')}</section>
       <section class="filter-box"><h2>目录检索</h2><div class="query-box"><form data-punan-search="http://www.ms-school.edu.cn/dangan/read/search.asp"><input name="keyword"><button>检索</button></form></div><p>可输入题名、责任部门或人名。老档案题名尚未建立统一人物索引。</p></section>
       <section class="filter-box"><h2>按责任者检索</h2><div class="query-box"><form data-punan-search="http://www.ms-school.edu.cn/dangan/read/search.asp" data-search-mode="responsible"><input name="keyword"><button>检索</button></form></div><p>检索经办、负责人、摄影及材料形成部门等责任者字段。</p></section>
+      <section class="filter-box"><h2>常用编号</h2><p><strong>档号</strong>：目录记录编号。</p><p><strong>原底片号</strong>：实体底片索引，可用于查找扫描核对记录。</p><p><strong>底片卷号</strong>：底片所在卷。</p><p><strong>影像附件号</strong>：资料交换服务器上的附件目录编号。</p></section>
     </aside>`;
   }
 
@@ -139,7 +140,7 @@
   }
 
   function searchableText(item) {
-    return [item.no, item.date, item.department, item.title, ...(!item.excludeSummaryFromSearch ? [item.summary] : []), ...responsibleValues(item), ...(!item.excludeRowsFromSearch && item.rows ? item.rows.flatMap((row) => Object.values(row)) : [])].filter(Boolean).join('\n');
+    return [item.no, item.date, item.department, item.title, ...(item.personIndex || []), ...(!item.excludeSummaryFromSearch ? [item.summary] : []), ...responsibleValues(item), ...(!item.excludeRowsFromSearch && item.rows ? item.rows.flatMap((row) => Object.values(row)) : [])].filter(Boolean).join('\n');
   }
 
   function responsibleText(item) { return [item.department, ...responsibleValues(item)].filter(Boolean).join('\n'); }
@@ -154,7 +155,10 @@
   }
 
   function recordImage(image) {
-    return `<div class="scan-label">照片预览</div><figure class="record-photo"><img src="${escapeAttr(image.src)}" alt="${escapeAttr(image.alt || '')}"><figcaption>${escapeHtml(image.caption || '')}</figcaption></figure>`;
+    const initial = image.previewSrc || image.screenSrc || image.src;
+    const target = image.screenSrc || image.src;
+    const progressive = initial !== target ? ` data-punan-full-src="${escapeAttr(target)}"` : '';
+    return `<div class="scan-label">照片预览</div><figure class="record-photo"><img src="${escapeAttr(initial)}"${progressive} alt="${escapeAttr(image.alt || '')}"><figcaption>${escapeHtml(image.caption || '')}</figcaption></figure>`;
   }
 
   function graduationPreview(preview) {

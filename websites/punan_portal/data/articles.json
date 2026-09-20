@@ -12,6 +12,8 @@
       "image": {
         "status": "cached",
         "src": "/websites/punan_portal/assets/hospital-waiting.png",
+        "previewSrc": "/websites/punan_portal/assets/hospital-waiting-preview.jpg",
+        "screenSrc": "/websites/punan_portal/assets/hospital-waiting-screen.jpg",
         "alt": "中心医院门诊候诊区",
         "caption": "周末增开接种窗口前的门诊一层候诊区。",
         "credit": "图片由浦南中心医院提供"
@@ -159,6 +161,7 @@
     },
     {
       "id": "PN-014",
+      "cacheStatus": "index-only",
       "year": 2010,
       "date": "2010-11-11",
       "section": "社区生活",
@@ -169,6 +172,8 @@
       "image": {
         "status": "cached",
         "src": "/websites/punan_portal/assets/community-park.png",
+        "previewSrc": "/websites/punan_portal/assets/community-park-preview.jpg",
+        "screenSrc": "/websites/punan_portal/assets/community-park-screen.jpg",
         "alt": "社区公园合唱小组",
         "caption": "合唱小组在社区公园商量入冬后的活动时间。",
         "credit": "摄影：浦南二村 陈海宁"
@@ -280,6 +285,7 @@
     },
     {
       "id": "PN-005",
+      "cacheStatus": "index-only",
       "year": 2010,
       "date": "2010-11-10",
       "section": "消防安全",
@@ -449,6 +455,7 @@
     },
     {
       "id": "PN-006",
+      "cacheStatus": "index-only",
       "year": 2010,
       "date": "2010-11-09",
       "section": "城市管理",
@@ -643,6 +650,7 @@
     },
     {
       "id": "PN-012",
+      "cacheStatus": "index-only",
       "year": 2010,
       "date": "2010-11-07",
       "section": "社会民生",
@@ -803,6 +811,7 @@
     },
     {
       "id": "PN-013",
+      "cacheStatus": "index-only",
       "year": 2010,
       "date": "2010-11-06",
       "section": "公用事业",
@@ -844,6 +853,7 @@
     },
     {
       "id": "PN-003",
+      "cacheStatus": "index-only",
       "year": 2010,
       "date": "2010-11-05",
       "section": "道路养护",
@@ -912,6 +922,7 @@
     },
     {
       "id": "PN-028",
+      "cacheStatus": "index-only",
       "year": 2010,
       "date": "2010-11-04",
       "section": "班组风采",
@@ -971,6 +982,7 @@
     },
     {
       "id": "PN-015",
+      "cacheStatus": "index-only",
       "year": 2010,
       "date": "2010-11-03",
       "section": "环境卫生",
@@ -985,6 +997,7 @@
     },
     {
       "id": "PN-021",
+      "cacheStatus": "index-only",
       "year": 2010,
       "date": "2010-11-03",
       "section": "企业动态",
@@ -1028,6 +1041,8 @@
       "image": {
         "status": "cached",
         "src": "/websites/punan_portal/assets/volunteers.png",
+        "previewSrc": "/websites/punan_portal/assets/volunteers-preview.jpg",
+        "screenSrc": "/websites/punan_portal/assets/volunteers-screen.jpg",
         "alt": "志愿服务照片征集",
         "caption": "社区公告栏张贴了世博志愿服务照片征集通知。",
         "credit": "图片由区文明办提供"
@@ -1146,6 +1161,7 @@
     },
     {
       "id": "PN-009",
+      "cacheStatus": "index-only",
       "year": 2010,
       "date": "2010-10-30",
       "section": "窗口办事",
@@ -1174,6 +1190,7 @@
     },
     {
       "id": "PN-016",
+      "cacheStatus": "index-only",
       "year": 2010,
       "date": "2010-10-29",
       "section": "交通",
@@ -1241,6 +1258,7 @@
     },
     {
       "id": "PN-020",
+      "cacheStatus": "index-only",
       "year": 2010,
       "date": "2010-10-26",
       "section": "办实事",
@@ -1287,6 +1305,7 @@
     },
     {
       "id": "PN-026",
+      "cacheStatus": "index-only",
       "year": 2010,
       "date": "2010-10-24",
       "section": "企业动态",
@@ -1306,6 +1325,7 @@
     },
     {
       "id": "PN-030",
+      "cacheStatus": "index-only",
       "year": 2010,
       "date": "2010-10-23",
       "section": "社区生活",
@@ -1335,6 +1355,8 @@
       "image": {
         "status": "cached",
         "src": "/websites/punan_portal/assets/autumn-photo.png",
+        "previewSrc": "/websites/punan_portal/assets/autumn-photo-preview.jpg",
+        "screenSrc": "/websites/punan_portal/assets/autumn-photo-screen.jpg",
         "alt": "职工摄影小组",
         "caption": "摄影小组在纬零路站附近拍摄银杏和换班车流。",
         "credit": "摄影：顾国平"
@@ -1346,6 +1368,7 @@
     },
     {
       "id": "PN-018",
+      "cacheStatus": "index-only",
       "year": 2010,
       "date": "2010-10-18",
       "section": "社区生活",
@@ -1365,6 +1388,7 @@
     },
     {
       "id": "PN-010",
+      "cacheStatus": "index-only",
       "year": 2010,
       "date": "2010-10-15",
       "section": "城市管理",
@@ -1375,6 +1399,8 @@
       "image": {
         "status": "cached",
         "src": "/websites/punan_portal/assets/seawall.png",
+        "previewSrc": "/websites/punan_portal/assets/seawall-preview.jpg",
+        "screenSrc": "/websites/punan_portal/assets/seawall-screen.jpg",
         "alt": "海堤步道",
         "caption": "从生活区一侧远眺海堤步道和西侧厂区。",
         "credit": "摄影：沈兰"
@@ -1405,6 +1431,7 @@
     },
     {
       "id": "PN-004",
+      "cacheStatus": "index-only",
       "year": 2010,
       "date": "2010-10-08",
       "section": "社区生活",
@@ -1434,6 +1461,8 @@
       "image": {
         "status": "cached",
         "src": "/websites/punan_portal/assets/factory-canteen.png",
+        "previewSrc": "/websites/punan_portal/assets/factory-canteen-preview.jpg",
+        "screenSrc": "/websites/punan_portal/assets/factory-canteen-screen.jpg",
         "alt": "老厂职工食堂",
         "caption": "晚班职工进门前，食堂窗口已经摆好餐盘和汤碗。",
         "credit": "摄影：退休职工摄影小组 陈伯康"
@@ -2137,6 +2166,8 @@
       "image": {
         "status": "cached",
         "src": "/websites/punan_portal/assets/archive/liujiangyuan-1997-youth-photo-outing-v02.png",
+        "previewSrc": "/websites/punan_portal/assets/archive/liujiangyuan-1997-youth-photo-outing-v02-preview.jpg",
+        "screenSrc": "/websites/punan_portal/assets/archive/liujiangyuan-1997-youth-photo-outing-v02-screen.jpg",
         "alt": "少年宫摄影兴趣班在秋日户外采风",
         "caption": "学员在经四路社区公园练习取景，刘江源在旁指导。",
         "credit": "少年宫资料照片",
@@ -2144,7 +2175,87 @@
       },
       "body": [
         "浦南区少年宫少年摄影兴趣班日前在经四路社区公园进行秋季采风。学员用公用相机练习取景、测光和人物抓拍，冲印后将在活动室集中讲评。",
-        "指导教师刘江源提醒学员先把一卷胶片认真拍完，不必追求昂贵器材。本学期兴趣班每周六上午活动。"
+        "浦南区工人文化宫摄影专干刘江源受聘担任本班指导教师。他提醒学员先把一卷胶片认真拍完，不必追求昂贵器材。本学期兴趣班每周六上午活动。"
+      ]
+    },
+    {
+      "id": "PN-133",
+      "year": 1993,
+      "date": "1993-11-10",
+      "section": "旧报篇目",
+      "title": "百万富翁晚年得子，竟将尖刀刺向怀孕妻子腹部——究竟是人性的扭曲，还是道德的沦丧",
+      "source": "《浦南新闻》",
+      "editor": "信息港资料室",
+      "virtualUrl": "http://www.punan.net/archive/view.asp?id=PN-133",
+      "catalog": {
+        "originalDateLabel": "1993年11月10日",
+        "originalSource": "《浦南新闻》",
+        "material": "旧报篇目",
+        "scope": "题名、版次及内容提要",
+        "cataloged": "2010年8月",
+        "issue": "1993年11月10日·社会新闻版",
+        "topics": ["王有财案", "刑事案件", "家庭暴力"],
+        "note": "题名照原刊著录；原报道正文以“王某”指代当事人。全文影像未收录。"
+      },
+      "body": [
+        "1993年11月社会新闻版刊载的案件回顾。报道中的王某与妻子多年无子，妻子于1992年怀孕。",
+        "报道援引邻里说法称，王某在案发前反复坚称妻子腹中“不是自己的孩子”；1993年4月，王某在争吵后持刀行凶，造成妻子死亡。"
+      ],
+      "links": [
+        {
+          "label": "更正（《浦南新闻》1993年11月17日）",
+          "url": "http://www.punan.net/archive/view.asp?id=PN-134"
+        }
+      ]
+    },
+    {
+      "id": "PN-134",
+      "year": 1993,
+      "date": "1993-11-17",
+      "section": "旧报篇目",
+      "title": "更正",
+      "source": "《浦南新闻》",
+      "editor": "信息港资料室",
+      "virtualUrl": "http://www.punan.net/archive/view.asp?id=PN-134",
+      "catalog": {
+        "originalDateLabel": "1993年11月17日",
+        "originalSource": "《浦南新闻》",
+        "material": "旧报篇目",
+        "scope": "题名及正文转录",
+        "cataloged": "2010年8月",
+        "issue": "1993年11月17日·第二版",
+        "topics": ["王有财案", "新闻更正", "刑事案件"],
+        "note": "原件为同版短讯，全文影像未收录。"
+      },
+      "body": [
+        "本报11月10日社会新闻版《百万富翁晚年得子，竟将尖刀刺向怀孕妻子腹部——究竟是人性的扭曲，还是道德的沦丧》一文中，“怀孕妻子”及“一尸两命”等表述系采用未经核实的邻里说法。经向有关部门复核，死者郑某尸检未见妊娠。特此更正。"
+      ],
+      "links": [
+        {
+          "label": "原报道（《浦南新闻》1993年11月10日）",
+          "url": "http://www.punan.net/archive/view.asp?id=PN-133"
+        }
+      ]
+    },
+    {
+      "id": "PN-132",
+      "year": 2010,
+      "date": "2010-11-06",
+      "section": "浦南茶馆",
+      "title": "以前信息港最下面那个“管理”到底是给谁看的",
+      "source": "社区论坛",
+      "editor": "用户“老版首页”",
+      "virtualUrl": "http://www.punan.net/community/view.asp?id=4407",
+      "body": [
+        "突然想起来，信息港改版以前，主页最下面有两个特别小的字，好像叫“管理”。颜色跟底色差不多，不仔细看根本看不见。",
+        "点进去又只是个登录框。既然不让普通人进，为什么还要放在首页？"
+      ],
+      "replies": [
+        {"author": "做网页混饭吃", "time": "2010-11-06 18:42", "body": "给编辑自己进的。那几年浦南不少单位网站都这么做，把入口缩小一点、换个不显眼的颜色，就当别人看不见。"},
+        {"author": "老宽带用户", "time": "2010-11-06 18:57", "body": "后来是不是有人用初始密码进去，把首页滚动栏改成“今日浦南，宜放假”？"},
+        {"author": "信息港值班", "time": "2010-11-06 19:16", "body": "当时是一个停用账号权限设置错误，不是“管理员密码被猜中”。相关入口和登录方式早已调整，请勿继续尝试旧地址。"},
+        {"author": "二村夜猫子", "time": "2010-11-06 19:31", "body": "所以不是藏得不够小，是密码不能跟用户名一样。"},
+        {"author": "信息港值班", "time": "2010-11-06 19:38", "body": "……也不是这个结论。"}
       ]
     },
     {
@@ -2162,8 +2273,30 @@
       "replies": [
         {"author": "三村老住户", "time": "2010-10-31 19:42", "body": "听说是班里有个女学生出事，他受不了，自己也跳海了。我们那阵子都这么传。"},
         {"author": "海塘边长大", "time": "2010-10-31 20:03", "body": "别又拿海边编故事。我爸当年在巡堤队，根本没听说捞到过男老师。"},
-        {"author": "洗照片要三天", "time": "2010-10-31 20:27", "body": "人没死。我小时候在少年宫上摄影课，九十年代后半还是他教的，就是不太爱提学校。"},
+        {"author": "洗照片要三天", "time": "2010-10-31 20:27", "body": "人没死。我小时候在少年宫上摄影课，九十年代后半就是他教的。后来听说一直还在那边带班，就是不太爱提学校。"},
         {"author": "南门口买报", "time": "2010-10-31 21:11", "body": "那大概是把学生的事和老师辞职混在一起传了。照片先留着，不问了。"}
+      ]
+    },
+    {
+      "id": "PN-135",
+      "year": 2009,
+      "date": "2009-07-06",
+      "section": "街坊闲谈",
+      "title": "借盐为什么要把盐罐头放地上？",
+      "source": "社区论坛",
+      "editor": "用户“六村灶披间”",
+      "virtualUrl": "http://www.punan.net/archive/view.asp?id=4323",
+      "body": [
+        "昨晚烧汤才发现盐没了，拿着盐罐头去楼上借。陈阿姨盛了一勺，偏要我先把罐头放在地上，不肯直接递到我手里。我妈以前也这样，只说借盐不能手递手。这个规矩到底是什么意思？"
+      ],
+      "replies": [
+        {"author": "二村小陆", "time": "2009-07-06 08:17", "body": "怕‘讨盐手’吧。你妈到现在还讲这个，是准备给你添个弟弟？"},
+        {"author": "六村灶披间", "time": "2009-07-06 08:31", "body": "我妈五十七了。你有本事自己当面去问她。楼上陈阿姨也六十多，你再顺便问问她。"},
+        {"author": "追忆似水年华", "time": "2009-07-06 09:04", "body": "老说法叫‘讨盐手’。据说年轻女子从别人手里接过盐，将来临产时孩子会先把一只手伸出来讨盐；接生的人在小手里放些盐，手才缩回去。把盐罐放在地上，是避开手递手。是真是假没人说得清，老人做惯以后，也就不分年纪了。"},
+        {"author": "白糖粢饭", "time": "2009-07-06 09:26", "body": "那男的借盐能不能直接接？要是也得放地上，我以后干脆把盐放门口自取。"},
+        {"author": "海边小梁", "time": "2009-07-06 10:02", "body": "各家规矩还不一样。我外婆家盐可以借，火不能借；隔壁正好相反。问到最后都是一句‘以前就是这样’。"},
+        {"author": "二村小陆", "time": "2009-07-06 10:19", "body": "五十七也不耽误我先恭喜你当哥哥。"},
+        {"author": "六村灶披间", "time": "2009-07-06 11:03", "body": "你中午最好别路过六村。盐已经还了，照规矩也是先把罐头放地上。"}
       ]
     }
   ],

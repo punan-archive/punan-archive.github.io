@@ -274,6 +274,63 @@ a:hover { color: #9d3827; }
 .course-table td { border-color: #d0c7b5; }
 .archive-table tr:nth-child(even),
 .course-table tr:nth-child(even) { background: #faf7ee; }
+.record-origin {
+  display: block;
+  margin-top: 2px;
+  color: #8b7e68;
+  font-size: 10px;
+  font-weight: normal;
+  white-space: nowrap;
+}
+
+.catalog-record { position: relative; }
+.catalog-record .catalog-stamp {
+  display: inline-block;
+  margin: 0 0 10px;
+  padding: 3px 8px;
+  color: #6e5d43;
+  background: #eee6d4;
+  border: 1px solid #bcae91;
+  letter-spacing: 1px;
+}
+.catalog-card {
+  display: grid;
+  grid-template-columns: 96px 1fr;
+  margin: 0 0 18px;
+  border-top: 1px solid #bfb49d;
+  border-left: 1px solid #bfb49d;
+}
+.catalog-card dt,
+.catalog-card dd {
+  min-height: 31px;
+  margin: 0;
+  padding: 7px 9px;
+  border-right: 1px solid #bfb49d;
+  border-bottom: 1px solid #bfb49d;
+}
+.catalog-card dt {
+  color: #69533b;
+  font-weight: bold;
+  background: #eee7d7;
+}
+.catalog-card dd { color: #40392e; background: #fffdf7; }
+.catalog-record h2 {
+  margin: 18px 0 10px;
+  padding: 5px 8px;
+  font-size: 15px;
+  background: #f1ebdc;
+  border-left: 4px solid #9c6540;
+}
+.catalog-topics,
+.catalog-note {
+  margin-top: 14px;
+  padding: 8px 10px;
+  color: #5f574b;
+  line-height: 1.7;
+  background: #f7f3e8;
+  border: 1px solid #cdc2ab;
+}
+.catalog-note { color: #756c5e; background: #f4f1e9; }
 
 .discussion { border-top-color: #9b432f; }
 .discussion h2 { color: #fffdf4; background: linear-gradient(#ad5c43, #8e392a); }

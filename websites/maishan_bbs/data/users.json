@@ -1,0 +1,366 @@
+{
+  "schemaVersion": 1,
+  "rankRules": [
+    {
+      "maxPosts": 9,
+      "label": "新叶"
+    },
+    {
+      "maxPosts": 49,
+      "label": "白玉兰苗"
+    },
+    {
+      "maxPosts": 99,
+      "label": "银杏叶"
+    },
+    {
+      "label": "梧桐枝"
+    }
+  ],
+  "users": {
+    "u001": {
+      "nickname": "八班地下城主",
+      "avatar": "B",
+      "from": "高二（8）班",
+      "signature": "没有画面，是为了给想象力省显存。"
+    },
+    "u002": {
+      "nickname": "北风五级",
+      "avatar": "风"
+    },
+    "u003": {
+      "nickname": "北楼小跑",
+      "avatar": "北"
+    },
+    "u004": {
+      "nickname": "毕业照睡抽屉",
+      "avatar": "毕"
+    },
+    "u006": {
+      "nickname": "拨号到半夜",
+      "avatar": "拨"
+    },
+    "u007": {
+      "nickname": "不吃香菜",
+      "avatar": "菜",
+      "signature": "香菜请离我的碗远一点。"
+    },
+    "u010": {
+      "nickname": "备用电池",
+      "avatar": "电",
+      "signature": "规则限制了技术进步。"
+    },
+    "u011": {
+      "nickname": "第三排靠门",
+      "avatar": "门",
+      "from": "高二",
+      "signature": "坐靠门位置的代价是替全班开门。"
+    },
+    "u012": {
+      "nickname": "方格稿纸",
+      "avatar": "版",
+      "roleLabel": "本版版主"
+    },
+    "u013": {
+      "nickname": "光圈先决",
+      "avatar": "照",
+      "signature": "拍糊了不等于有艺术感。"
+    },
+    "u015": {
+      "nickname": "化学方程式",
+      "avatar": "化"
+    },
+    "u016": {
+      "nickname": "活动室钥匙",
+      "avatar": "版",
+      "roleLabel": "本版版主",
+      "signature": "借钥匙请登记，别靠脑内记忆。"
+    },
+    "u017": {
+      "nickname": "靠窗不晒",
+      "avatar": "窗",
+      "registered": "2010-03-18",
+      "signature": "靠窗坐，但不负责擦窗。"
+    },
+    "u018": {
+      "nickname": "蓝色雨衣",
+      "avatar": "蓝",
+      "registered": "2010-04-19",
+      "signature": "下雨不打伞，主要是忘了带。"
+    },
+    "u019": {
+      "nickname": "第六节体育",
+      "avatar": "体",
+      "signature": "名字解决不了命中率。"
+    },
+    "u020": {
+      "nickname": "木头夹子",
+      "avatar": "版",
+      "registered": "2008-11-08",
+      "roleLabel": "本版版主",
+      "signature": "删帖前会先看完上下文，谢谢合作。"
+    },
+    "u021": {
+      "nickname": "穆南",
+      "avatar": "穆",
+      "signature": "从论坛主题“体育仓库里是不是有人？”发起"
+    },
+    "u022": {
+      "nickname": "跑操倒数",
+      "avatar": "跑",
+      "registered": "2009-12-14",
+      "signature": "跑不动了，真的。"
+    },
+    "u023": {
+      "nickname": "铅笔没芯",
+      "avatar": "笔"
+    },
+    "u024": {
+      "nickname": "热水瓶",
+      "avatar": "版",
+      "roleLabel": "本版版主"
+    },
+    "u025": {
+      "nickname": "上课按ON",
+      "avatar": "词",
+      "signature": "电子词典的第一功能是查单词。"
+    },
+    "u026": {
+      "nickname": "操场东南角",
+      "avatar": "角",
+      "signature": "质疑是求知的第一步。"
+    },
+    "u027": {
+      "nickname": "世博贴纸",
+      "avatar": "宝",
+      "signature": "城市，让生活更美好。"
+    },
+    "u028": {
+      "nickname": "轮到我值日",
+      "avatar": "值",
+      "signature": "本周已经擦过了。"
+    },
+    "u029": {
+      "nickname": "物理课代表",
+      "avatar": "理",
+      "registered": "2009-09-03",
+      "signature": "结论之前先写已知条件。"
+    },
+    "u030": {
+      "nickname": "下一步取消勾选",
+      "avatar": "取"
+    },
+    "u031": {
+      "nickname": "弦音",
+      "avatar": "弓",
+      "from": "射箭部",
+      "signature": "先检查靶后，再拔箭。"
+    },
+    "u032": {
+      "nickname": "向右看齐",
+      "avatar": "数"
+    },
+    "u033": {
+      "nickname": "橡皮屑",
+      "avatar": "屑",
+      "registered": "2010-10-21",
+      "signature": "本人的话仅代表本人。"
+    },
+    "u034": {
+      "nickname": "小白杨",
+      "avatar": "树"
+    },
+    "u035": {
+      "nickname": "小水管",
+      "avatar": "慢",
+      "signature": "宽带一兆，耐心无限。"
+    },
+    "u036": {
+      "nickname": "小网管",
+      "avatar": "管",
+      "roleLabel": "版主"
+    },
+    "u037": {
+      "nickname": "袖口未干",
+      "avatar": "湿",
+      "signature": "现在右袖比左袖颜色深。"
+    },
+    "u038": {
+      "nickname": "一杯豆浆",
+      "avatar": "豆",
+      "registered": "2010-07-02",
+      "signature": "早饭要吃。"
+    },
+    "u039": {
+      "nickname": "周末两小时",
+      "avatar": "游",
+      "signature": "消息慢一点不等于不知道。"
+    },
+    "u040": {
+      "nickname": "又忘带饭卡",
+      "avatar": "饭",
+      "forumUid": 227,
+      "registered": "2010-09-06",
+      "from": "浦南",
+      "profileUrl": "http://bbs.ms-school.edu.cn/space.php?uid=227",
+      "signature": "饭卡可以忘，午饭不能不吃。",
+      "topicCount": 3,
+      "lastVisit": "2010-11-12 21:57",
+      "bio": "什么都没填。"
+    },
+    "u041": {
+      "nickname": "说明书先看完",
+      "avatar": "明",
+      "signature": "先看说明，再按按钮。"
+    },
+    "u042": {
+      "nickname": "真相不止一个",
+      "avatar": "侦",
+      "from": "侦探社",
+      "signature": "没有证据以前，人人都只是嫌疑人。"
+    },
+    "u043": {
+      "nickname": "周三加菜",
+      "avatar": "菜"
+    },
+    "u044": {
+      "nickname": "C盘又红了",
+      "avatar": "C"
+    }
+  },
+  "states": {
+    "2010-11-12": {
+      "u001": {
+        "posts": 97
+      },
+      "u002": {
+        "posts": 58
+      },
+      "u003": {
+        "posts": 28
+      },
+      "u004": {
+        "posts": 119
+      },
+      "u006": {
+        "posts": 263
+      },
+      "u007": {
+        "posts": 74
+      },
+      "u010": {
+        "posts": 118
+      },
+      "u011": {
+        "posts": 58
+      },
+      "u012": {
+        "posts": 286
+      },
+      "u013": {
+        "posts": 129
+      },
+      "u015": {
+        "posts": 112
+      },
+      "u016": {
+        "posts": 301
+      },
+      "u017": {
+        "posts": 61
+      },
+      "u018": {
+        "posts": 74
+      },
+      "u019": {
+        "posts": 62
+      },
+      "u020": {
+        "posts": 391
+      },
+      "u021": {
+        "status": "在线"
+      },
+      "u022": {
+        "posts": 86
+      },
+      "u023": {
+        "posts": 104
+      },
+      "u024": {
+        "posts": 508
+      },
+      "u025": {
+        "posts": 122
+      },
+      "u026": {
+        "posts": 18
+      },
+      "u027": {
+        "posts": 88
+      },
+      "u028": {
+        "posts": 65
+      },
+      "u029": {
+        "posts": 143
+      },
+      "u030": {
+        "posts": 306
+      },
+      "u031": {
+        "posts": 143
+      },
+      "u032": {
+        "posts": 53
+      },
+      "u033": {
+        "posts": 22
+      },
+      "u034": {
+        "posts": 41
+      },
+      "u035": {
+        "posts": 31
+      },
+      "u036": {
+        "posts": 802
+      },
+      "u037": {
+        "posts": 57
+      },
+      "u038": {
+        "posts": 34
+      },
+      "u039": {
+        "posts": 10
+      },
+      "u040": {
+        "posts": 19,
+        "status": "离线"
+      },
+      "u041": {
+        "posts": 29
+      },
+      "u042": {
+        "posts": 44
+      },
+      "u043": {
+        "posts": 2
+      },
+      "u044": {
+        "posts": 19
+      }
+    }
+  },
+  "sessions": {
+    "2010-11-12": {
+      "displayName": "穆南",
+      "pmCount": 1
+    },
+    "2010-11-15": {
+      "displayName": "穆南",
+      "pmCount": 3
+    }
+  }
+}
