@@ -7,6 +7,19 @@
   "lastActivityLabel": "最后活动",
   "lastActivityTime": "2010-11-12 21:43",
   "statusLabel": "只读 · 原始磁盘提取件",
+  "mountLead": "正在挂载只读磁盘提取件……",
+  "mountSummary": [
+    { "label": "文件系统", "value": "NTFS / 可读取" },
+    { "label": "提取记录", "value": "2010-11-13 10:26" },
+    { "label": "浏览缓存索引", "value": "已载入" },
+    { "label": "邮件与通讯记录", "value": "已载入" },
+    { "label": "用户文件目录", "value": "已载入" },
+    { "label": "回收站条目", "value": "已载入" },
+    { "label": "受保护文件记录", "value": "已载入" },
+    { "label": "附加介质标记", "value": "1" },
+    { "label": "来宾网络", "value": "未连接" },
+    { "label": "写入权限", "value": "已阻止" }
+  ],
   "filesystemVersion": 2,
   "guardian250Mode": "records-v2-adapter",
   "features": {

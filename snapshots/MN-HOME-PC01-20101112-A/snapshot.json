@@ -8,6 +8,18 @@
   },
   "captureTime": "2010年11月12日 23:48",
   "captureIso": "2010-11-12T23:48:00+08:00",
+  "mountLead": "正在挂载只读磁盘映像……",
+  "mountSummary": [
+    { "label": "文件系统", "value": "NTFS / 可读取" },
+    { "label": "捕获时钟", "value": "2010-11-12 23:48" },
+    { "label": "浏览缓存索引", "value": "已载入" },
+    { "label": "即时通讯记录", "value": "已载入" },
+    { "label": "用户文件目录", "value": "已载入" },
+    { "label": "回收站条目", "value": "已载入" },
+    { "label": "来宾网络", "value": "未连接" },
+    { "label": "宿主资料桥", "value": "待命" },
+    { "label": "写入权限", "value": "已阻止" }
+  ],
   "initialUrl": "http://bbs.ms-school.edu.cn/thread.php?tid=1847",
   "browserHome": "http://www.ms-school.edu.cn/",
   "routeSources": [
