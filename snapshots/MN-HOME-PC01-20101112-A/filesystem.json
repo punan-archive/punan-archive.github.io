@@ -118,11 +118,12 @@
     },
     {
       "id": "recruit-poster",
-      "name": "招新海报_最终版3.txt",
-      "type": "text",
+      "name": "招新海报_最终版3.doc",
+      "type": "document",
       "parentId": "detective-folder",
       "modified": "2010-09-09 23:47",
-      "content": "盟杉中学侦探社招新\n\n需要：好奇心、耐心、能按时参加活动。\n不需要：风衣、烟斗、神秘身世。\n\n报名请到活动楼二层。\n\n（“解决一切不可能犯罪”被社长划掉了。）"
+      "wordLayout": "club-poster",
+      "posterVariant": "approved"
     },
 
     {
@@ -203,25 +204,27 @@
   "recycleBin": [
     {
       "id": "deleted-poster",
-      "name": "侦探社招新海报_真正最终版.txt",
-      "type": "text",
+      "name": "侦探社招新海报_真正最终版.doc",
+      "type": "document",
       "modified": "2010-09-09 23:51",
       "deletedAt": "2010-09-09 23:55",
       "originalParentId": "detective-folder",
       "originalPath": "C:\\Documents and Settings\\穆南\\我的文档\\侦探社",
-      "size": "1 KB",
-      "content": "侦探社招新！！！\n\n真相、勇气、智慧——\n\n（写到这里觉得太丢人，删了。）"
+      "size": "28 KB",
+      "wordLayout": "club-poster",
+      "posterVariant": "dramatic"
     },
     {
       "id": "deleted-watch",
-      "name": "手表结构图_失败.txt",
-      "type": "text",
+      "name": "手表结构图_失败.bmp",
+      "type": "image",
       "modified": "2010-10-29 21:14",
       "deletedAt": "2010-10-29 21:18",
       "originalParentId": "detective-folder",
       "originalPath": "C:\\Documents and Settings\\穆南\\我的文档\\侦探社",
-      "size": "1 KB",
-      "content": "按钮 → 软管 → 储水仓\n\n问题：\n1. 射程不够。\n2. 密封不好。\n3. 使用者容易先弄湿自己的袖口。\n\n结论：器材问题，下次不要站在教导主任背后测试。"
+      "size": "225 KB",
+      "imageSrc": "/snapshots/MN-HOME-PC01-20101112-A/watch-water-pistol-failed.bmp",
+      "caption": ""
     }
   ]
 }
