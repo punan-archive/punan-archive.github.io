@@ -1,4 +1,4 @@
-import{i as n}from"./index-BgkDALCF.js";function g(d,c){const $=d.windows.get("mail");if($)return d.open($.options);const s=document.createElement("div");s.className="mail-app",s.innerHTML=`
+import{i as n}from"./index-D29gywYn.js";function g(d,c){const $=d.windows.get("mail");if($)return d.open($.options);const s=document.createElement("div");s.className="mail-app",s.innerHTML=`
     <nav class="mail-menubar" aria-hidden="true"><span>文件(F)</span><span>编辑(E)</span><span>查看(V)</span><span>工具(T)</span><span>邮件(M)</span><span>帮助(H)</span></nav>
     <div class="mail-toolbar" aria-hidden="true">
       <button>${n("mail")}<span>新邮件</span></button>
