@@ -22,6 +22,16 @@
   ],
   "filesystemVersion": 2,
   "guardian250Mode": "records-v2-adapter",
+  "analyticsMilestones": {
+    "mount": "m10",
+    "recycleOpen": "m11",
+    "recycleRestore": "m12",
+    "guardianOpen": "m13",
+    "guardianRestore": "m14",
+    "deepEligible": "m15",
+    "discMounted": "m16",
+    "complete": "m17"
+  },
   "features": {
     "supportsRecycleRestore": true,
     "supportsRecentDocuments": true,
