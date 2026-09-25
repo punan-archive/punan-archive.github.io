@@ -1171,7 +1171,7 @@
       "name": "待确认.doc",
       "type": "document",
       "parentId": "downloads-folder",
-      "modified": "2010-11-12 20:54",
+      "modified": "2010-11-12 15:54",
       "blocks": [
         {
           "type": "title",
@@ -1204,7 +1204,7 @@
       "name": "开壳前看.txt",
       "type": "text",
       "parentId": "downloads-folder",
-      "modified": "2010-11-12 21:08",
+      "modified": "2010-11-12 16:08",
       "content": "先别通电。\n不要在家里一个人拆。\n信、包装、照片、光盘一起带。"
     },
     {
@@ -1828,8 +1828,8 @@
       "id": "deleted-going-out-copy",
       "name": "出去前_旧.txt",
       "type": "text",
-      "modified": "2010-11-12 21:17",
-      "deletedAt": "2010-11-12 21:31",
+      "modified": "2010-11-12 16:17",
+      "deletedAt": "2010-11-12 16:31",
       "originalPath": "C:\\Documents and Settings\\刘江源\\桌面",
       "size": "1 KB",
       "content": "信、包装、照片、光盘。\n最后拿那个东西。\n不要在家里拆。"

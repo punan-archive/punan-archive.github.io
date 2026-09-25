@@ -3,14 +3,14 @@
   "deviceLabel": "刘江源家用电脑",
   "deviceNote": "从家用电脑硬盘建立的只读提取件",
   "captureLabel": "提取记录",
-  "captureTime": "2010-11-13 10:26",
+  "captureTime": "2010-11-15 10:26",
   "lastActivityLabel": "最后活动",
-  "lastActivityTime": "2010-11-12 21:43",
+  "lastActivityTime": "2010-11-12 16:43",
   "statusLabel": "只读 · 原始磁盘提取件",
   "mountLead": "正在挂载只读磁盘提取件……",
   "mountSummary": [
     { "label": "文件系统", "value": "NTFS / 可读取" },
-    { "label": "提取记录", "value": "2010-11-13 10:26" },
+    { "label": "提取记录", "value": "2010-11-15 10:26" },
     { "label": "浏览缓存索引", "value": "已载入" },
     { "label": "邮件与通讯记录", "value": "已载入" },
     { "label": "用户文件目录", "value": "已载入" },
@@ -76,7 +76,7 @@
       }
     }
   },
-  "systemTime": "21:43",
+  "systemTime": "16:43",
   "initialLaunch": {
     "type": "desktop"
   },
@@ -92,12 +92,12 @@
   ],
   "browserHistory": [
     {
-      "time": "20:41",
+      "time": "15:41",
       "title": "浦南信息港",
       "url": "http://www.punan.net/"
     },
     {
-      "time": "20:58",
+      "time": "15:58",
       "title": "盟杉中学",
       "url": "http://www.ms-school.edu.cn/"
     },
