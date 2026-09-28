@@ -1,6 +1,12 @@
 {
   "routes": [
     {
+      "url": "http://old.ms-school.edu.cn/jyz/huaxue/9293-kjzp.htm",
+      "file": "/websites/maishan_school/pages/chemistry_9293_projects.html",
+      "title": "1992—1993学年课外科技作品送评登记",
+      "investigationContent": true
+    },
+    {
       "url": "ftp://ftp.ms-school.edu.cn/pub/photo/old/",
       "file": "/websites/maishan_school/ftp/root.html",
       "title": "盟杉中学旧资料交换"

@@ -64,8 +64,7 @@
       "type": "image",
       "parentId": "disc-folder-letter",
       "modified": "2010-09-13 19:24",
-      "imagePreviewSrc": "/snapshots/LJ-HOME-PC01-FORENSIC-A/P1000913_02-v2-preview.jpg",
-      "imageSrc": "/snapshots/LJ-HOME-PC01-FORENSIC-A/P1000913_02-v2.jpg",
+      "imageSrc": "/snapshots/LJ-HOME-PC01-FORENSIC-A/P1000913_02.JPG",
       "caption": "同一邮包正面近照。"
     },
     {
@@ -115,7 +114,8 @@
           "type": "note",
           "text": "（第5頁・商品沿革）初代たまごっち（1996年発売）"
         }
-      ]
+      ],
+      "originalPath": "C:\\Documents and Settings\\刘江源\\我的文档\\下载\\电子宠物"
     },
     {
       "id": "disc-old-news",
@@ -123,7 +123,6 @@
       "type": "image",
       "parentId": "disc-folder-pet",
       "modified": "2010-10-12 22:42",
-      "imagePreviewSrc": "/snapshots/LJ-HOME-PC01-FORENSIC-A/old-news-1997-electronic-pet-preview.jpg",
       "imageSrc": "/snapshots/LJ-HOME-PC01-FORENSIC-A/old-news-1997-electronic-pet.png",
       "caption": "1997年8月4日旧报剪页，5版。"
     },
@@ -133,7 +132,6 @@
       "type": "image",
       "parentId": "disc-folder-pet",
       "modified": "2010-10-12 22:38",
-      "imagePreviewSrc": "/snapshots/LJ-HOME-PC01-FORENSIC-A/catalog-1997-img-0001-preview.jpg",
       "imageSrc": "/snapshots/LJ-HOME-PC01-FORENSIC-A/catalog-1997-img-0001.png",
       "caption": "1997年邮购目录封面。"
     },
@@ -143,7 +141,6 @@
       "type": "image",
       "parentId": "disc-folder-pet",
       "modified": "2010-10-12 22:39",
-      "imagePreviewSrc": "/snapshots/LJ-HOME-PC01-FORENSIC-A/catalog-1997-img-0037-preview.jpg",
       "imageSrc": "/snapshots/LJ-HOME-PC01-FORENSIC-A/catalog-1997-img-0037.png",
       "caption": "1997年邮购目录第37页。"
     },
@@ -153,7 +150,6 @@
       "type": "image",
       "parentId": "disc-folder-pet",
       "modified": "2010-10-12 22:40",
-      "imagePreviewSrc": "/snapshots/LJ-HOME-PC01-FORENSIC-A/catalog-1997-img-0062-v2-preview.jpg",
       "imageSrc": "/snapshots/LJ-HOME-PC01-FORENSIC-A/catalog-1997-img-0062-v2.png",
       "caption": "1997年邮购目录第62页。"
     },
@@ -190,7 +186,7 @@
       "type": "text",
       "parentId": "disc-folder-dates",
       "modified": "2010-11-11 22:41",
-      "content": "8月31日　旧资料寻访说明发出。\n9月2日　杨向赵清波问“报社写校史”。（赵9月3日说“昨天”）\n9月7日　杨回电，要求等学校统一回复，不要扩大范围。\n9月13日　挂号邮包送到文化宫。\n9月16日　文化宫正门广场照片，DSC_4689。\n9月17日　浦南五村照片，DSC_4724。\n9月18日　老周指出两张照片前一天已经看过。\n9月19日　去梅溪弄核寄件地址，没有找到周岚。\n9月20日　扫描09-20-03，共六页。\n9月21日　文件被整理、删除。QQ原记录仍在。\n\n日期来自QQ、邮戳、照片EXIF、扫描登记和门诊邮件。\n其中任何一项都不能单独证明是谁寄了包裹。"
+      "content": "8月31日　旧资料寻访说明发出。\n9月2日　杨向赵清波问“报社写校史”。（赵9月3日说“昨天”）\n9月7日　杨回电，要求等学校统一回复，不要扩大范围。\n9月13日　挂号邮包送到文化宫。\n9月16日　文化宫侧门照片，DSC_4689。\n9月17日　浦南五村照片，DSC_4724。\n9月18日　老周指出两张照片前一天已经看过。\n9月19日　去梅溪弄核寄件地址，没有找到周岚。\n9月20日　扫描09-20-03，共六页。\n9月21日　文件被整理、删除。QQ原记录仍在。\n\n日期来自QQ、邮戳、照片EXIF、扫描登记和门诊邮件。\n其中任何一项都不能单独证明是谁寄了包裹。"
     },
     {
       "id": "disc-scan-register",
@@ -294,9 +290,8 @@
       "type": "image",
       "parentId": "disc-folder-photos",
       "modified": "2010-09-16 17:26",
-      "imagePreviewSrc": "/snapshots/LJ-HOME-PC01-FORENSIC-A/DSC_4689-preview.jpg",
       "imageSrc": "/snapshots/LJ-HOME-PC01-FORENSIC-A/DSC_4689.JPG",
-      "caption": "文化宫正门广场东侧。原片，未裁。"
+      "caption": "文化宫侧门。原片，未裁。"
     },
     {
       "id": "disc-watch-4724",
@@ -304,7 +299,6 @@
       "type": "image",
       "parentId": "disc-folder-photos",
       "modified": "2010-09-17 17:48",
-      "imagePreviewSrc": "/snapshots/LJ-HOME-PC01-FORENSIC-A/DSC_4724-preview.jpg",
       "imageSrc": "/snapshots/LJ-HOME-PC01-FORENSIC-A/DSC_4724.JPG",
       "caption": "浦南五村。原片，未裁。"
     },
@@ -314,8 +308,7 @@
       "type": "image",
       "parentId": "disc-folder-photos",
       "modified": "2010-09-20 23:27",
-      "imagePreviewSrc": "/snapshots/LJ-HOME-PC01-FORENSIC-A/desk_20100920-v2-preview.jpg",
-      "imageSrc": "/snapshots/LJ-HOME-PC01-FORENSIC-A/desk_20100920-v2.jpg",
+      "imageSrc": "/snapshots/LJ-HOME-PC01-FORENSIC-A/desk_20100920.JPG",
       "caption": "9月20日晚。核对材料摆放记录。"
     },
     {
@@ -324,7 +317,7 @@
       "type": "text",
       "parentId": "disc-folder-photos",
       "modified": "2010-11-11 22:46",
-      "content": "DSC_4689.JPG\n9月16日17:26，文化宫正门广场东侧。黑衣人位于画面最右侧、展板区域之外。原片未裁。\n\nDSC_4724.JPG\n9月17日17:48，浦南五村入口。相似衣着和体态的人位于商店招牌右侧。原片未裁。\n\n老周看过两张。他只能确认衣服、鞋和体态相近，不能确认身份，也不能从照片判断对方在看谁。"
+      "content": "DSC_4689.JPG\n9月16日17:26，文化宫侧门。黑衣人位于展板外侧。原片未裁。\n\nDSC_4724.JPG\n9月17日17:48，浦南五村入口。相似衣着和体态的人位于商店招牌右侧。原片未裁。\n\n老周看过两张。他只能确认衣服、鞋和体态相近，不能确认身份，也不能从照片判断对方在看谁。"
     },
     {
       "id": "disc-qiu-note",
