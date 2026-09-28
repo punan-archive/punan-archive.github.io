@@ -2,7 +2,6 @@
   "routes": [
     {"url":"http://bbs.ms-school.edu.cn/forum.php","file":"/websites/maishan_bbs/pages/forum.html","title":"盟杉中学校园论坛"},
     {"url":"http://bbs.ms-school.edu.cn/forum.php?fid=2","file":"/websites/maishan_bbs/pages/board-campus.html","title":"校园茶馆 - 盟杉中学校园论坛"},
-    {"url":"http://bbs.ms-school.edu.cn/forum.php?fid=2&view=latest","file":"/websites/maishan_bbs/pages/board-campus-ch06-rumors.html","title":"校园茶馆 - 盟杉中学校园论坛"},
     {"url":"http://bbs.ms-school.edu.cn/forum.php?fid=3","file":"/websites/maishan_bbs/pages/board-study.html","title":"学习互助 - 盟杉中学校园论坛"},
     {"url":"http://bbs.ms-school.edu.cn/forum.php?fid=4","file":"/websites/maishan_bbs/pages/board-clubs.html","title":"社团活动 - 盟杉中学校园论坛"},
     {"url":"http://bbs.ms-school.edu.cn/forum.php?fid=5","file":"/websites/maishan_bbs/pages/board-lost.html","title":"失物招领 - 盟杉中学校园论坛"},

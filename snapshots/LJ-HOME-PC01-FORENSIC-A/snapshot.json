@@ -7,6 +7,12 @@
   "lastActivityLabel": "最后活动",
   "lastActivityTime": "2010-11-12 16:43",
   "statusLabel": "只读 · 原始磁盘提取件",
+  "webContext": {
+    "asOf": "2010-11-12 16:43",
+    "session": "LJ-20101112",
+    "denyHosts": ["bbs.ms-school.edu.cn", "ftp.ms-school.edu.cn"],
+    "denyUrlPrefixes": ["http://www.ms-school.edu.cn/dangan/"]
+  },
   "mountLead": "正在挂载只读磁盘提取件……",
   "mountSummary": [
     { "label": "文件系统", "value": "NTFS / 可读取" },
@@ -65,7 +71,7 @@
           "PB-20100921-1908:knowledge-range-doc",
           "PB-20100921-1908:old-photo-check-0920",
           "PB-20101016-0046:medical-note-full-1016",
-          "PB-20100818-2211:old-photo-check-0716"
+          "PB-20100918-2211:old-photo-check-0716"
         ],
         "broadOpenedAnchors": [
           "PB-20100921-1908:old-contact-note",

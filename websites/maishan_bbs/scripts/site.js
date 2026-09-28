@@ -52,7 +52,7 @@
       target.textContent = "用户状态未读取";
       return;
     }
-    var pmCount = Number(utility?.getAttribute("data-forum-pm") || session.pmCount || 0);
+    var pmCount = Number(session.pmCount ?? utility?.getAttribute("data-forum-pm") ?? 0);
     target.replaceChildren();
     target.append(document.createTextNode("欢迎回来，" + session.displayName));
     target.append(element("span", "sep", "|"));

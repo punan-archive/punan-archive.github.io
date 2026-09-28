@@ -8,7 +8,7 @@
       "id": "inbox",
       "label": "收件箱",
       "icon": "mailFolder",
-      "unread": 2
+      "unread": 1
     },
     {
       "id": "outbox",
@@ -42,7 +42,7 @@
       "subject": "周末摄影作品收件时间",
       "date": "2010年11月12日 16:06",
       "listDate": "11月12日 16:06",
-      "unread": true,
+      "unread": false,
       "body": "刘老师：\n\n本周末作品收件仍按原通知，周六下午四点前交活动中心二楼办公室。家长签字表请一并带来。\n\n办公室"
     },
     {
@@ -162,6 +162,113 @@
       "listDate": "11月2日 18:46",
       "relatedMessageId": "sent-print-order",
       "body": "刘老师：\n\n十月份的冲印单附在店里账本上了。七寸和六寸的数量请您再核一下；如果没有问题，周五以前过来签字就行。\n\n远景图片社"
+    },
+    {
+      "id": "inbox-square-photo-request",
+      "folderId": "inbox",
+      "from": "小丁 信息港 <editor@punan.net>",
+      "fromLabel": "小丁 信息港",
+      "to": "刘江源 <liujiangyuan@126.com>",
+      "subject": "核心区广场检修照片",
+      "date": "2009年9月18日 15:46",
+      "listDate": "2009-09-18",
+      "body": "刘老师，养护组那条稿子缺一张横图。要能看见地面和路灯，人物不用正面。你最近拍过核心区广场吗？"
+    },
+    {
+      "id": "sent-square-photo-first",
+      "folderId": "sent",
+      "from": "刘江源 <liujiangyuan@126.com>",
+      "fromLabel": "刘江源",
+      "to": "小丁 信息港 <editor@punan.net>",
+      "subject": "Re: 核心区广场检修照片",
+      "date": "2009年9月18日 16:12",
+      "listDate": "2009-09-18",
+      "body": "上周雨后拍过六张。第三张路灯是全的，右边也能看见新补的砖。我晚上把小样发你。"
+    },
+    {
+      "id": "inbox-square-photo-size",
+      "folderId": "inbox",
+      "from": "小丁 信息港 <editor@punan.net>",
+      "fromLabel": "小丁 信息港",
+      "to": "刘江源 <liujiangyuan@126.com>",
+      "subject": "Re: 核心区广场检修照片",
+      "date": "2009年9月18日 16:18",
+      "listDate": "2009-09-18",
+      "body": "好。原图不要缩，我这边自己出网页尺寸。拍摄日期和位置一起写一下。"
+    },
+    {
+      "id": "sent-square-photo-sample",
+      "folderId": "sent",
+      "from": "刘江源 <liujiangyuan@126.com>",
+      "fromLabel": "刘江源",
+      "to": "小丁 信息港 <editor@punan.net>",
+      "subject": "Re: 核心区广场检修照片",
+      "date": "2009年9月18日 22:07",
+      "listDate": "2009-09-18",
+      "body": "9月12日下午，广场东侧往西拍。第三张右边的新砖要留，不然看不出是检修稿。背景不要裁得太紧。",
+      "attachments": [
+        {
+          "id": "square-contact-sheet",
+          "name": "核心区广场_0912_小样.jpg",
+          "size": "186 KB",
+          "src": "/snapshots/LJ-HOME-PC01-FORENSIC-A/liu_2009_core_square_contact_v02-screen.jpg"
+        }
+      ]
+    },
+    {
+      "id": "inbox-square-photo-accepted",
+      "folderId": "inbox",
+      "from": "小丁 信息港 <editor@punan.net>",
+      "fromLabel": "小丁 信息港",
+      "to": "刘江源 <liujiangyuan@126.com>",
+      "subject": "Re: 核心区广场检修照片",
+      "date": "2009年9月19日 09:24",
+      "listDate": "2009-09-19",
+      "body": "收到。用第三张，裁到路灯右边，地砖留着。署名照旧写刘江源。"
+    },
+    {
+      "id": "inbox-local-photo-call",
+      "folderId": "inbox",
+      "from": "《新浦南报》图片资料 <photo@xpn.cn>",
+      "fromLabel": "《新浦南报》图片资料",
+      "to": "刘江源 <liujiangyuan@126.com>",
+      "subject": "旧生活设施照片登记",
+      "date": "2008年4月11日 10:03",
+      "listDate": "2008-04-11",
+      "body": "刘老师，地方照片征集现在缺老商场、工人俱乐部和公共电话亭。底片不用交，先发联系表就可以。能确认到哪一年，请直接写在图旁；只能确认大概年代的，也请照实标。"
+    },
+    {
+      "id": "sent-local-photo-first",
+      "folderId": "sent",
+      "from": "刘江源 <liujiangyuan@126.com>",
+      "fromLabel": "刘江源",
+      "to": "《新浦南报》图片资料 <photo@xpn.cn>",
+      "subject": "Re: 旧生活设施照片登记",
+      "date": "2008年4月11日 21:36",
+      "listDate": "2008-04-11",
+      "body": "老商场有九四年和九六年前后的。九四年那卷袋子写了月份，九六那卷没有，只能从招牌和树判断，先不写具体年。俱乐部照片多，周末整理一张表给你。"
+    },
+    {
+      "id": "inbox-local-photo-reply",
+      "folderId": "inbox",
+      "from": "《新浦南报》图片资料 <photo@xpn.cn>",
+      "fromLabel": "《新浦南报》图片资料",
+      "to": "刘江源 <liujiangyuan@126.com>",
+      "subject": "Re: 旧生活设施照片登记",
+      "date": "2008年4月12日 08:17",
+      "listDate": "2008-04-12",
+      "body": "可以。大概年代比写错好。电话亭如果有一村东门那只，优先给一张。"
+    },
+    {
+      "id": "sent-local-photo-contact",
+      "folderId": "sent",
+      "from": "刘江源 <liujiangyuan@126.com>",
+      "fromLabel": "刘江源",
+      "to": "《新浦南报》图片资料 <photo@xpn.cn>",
+      "subject": "Re: 旧生活设施照片登记",
+      "date": "2008年4月13日 17:52",
+      "listDate": "2008-04-13",
+      "body": "一村电话亭有两张，人物背对镜头。原片在写着“老浦南”的那张盘里，需要大图再说。"
     }
   ]
 }

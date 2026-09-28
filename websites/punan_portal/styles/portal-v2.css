@@ -345,6 +345,16 @@ a:hover { color: #9d3827; }
 .reply-actions button { border-color: #84755e; background: linear-gradient(#fffdf8, #ddd2bd); }
 
 .search-result li { border-bottom-color: #c5baa4; }
+.article-table-wrap { margin: 18px 0; overflow-x: auto; }
+.article-data-table { min-width: 720px; font-size: 12px; }
+.article-data-table th,
+.article-data-table td { padding: 7px 8px; vertical-align: top; line-height: 1.6; }
+.search-pager { display: flex; justify-content: center; align-items: center; gap: 5px; margin: 18px 0 4px; }
+.search-pager a,
+.search-pager strong,
+.search-pager span { min-width: 26px; padding: 3px 7px; text-align: center; border: 1px solid #b9ad97; background: #f5f0e5; }
+.search-pager strong { color: #fff; background: #91432f; border-color: #783523; }
+.search-pager span { color: #9a9286; }
 .friend-links { color: #655d51; background: #eeeade; border-color: #c5bdac; }
 .footer {
   color: #6e665a;

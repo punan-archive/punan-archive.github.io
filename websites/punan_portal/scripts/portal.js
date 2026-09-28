@@ -2,10 +2,11 @@
   const root = document.querySelector('#portal-app');
   const params = new URLSearchParams(location.search);
   const page = params.get('page') || 'home';
+  const asOf = normalizeArchiveTime(params.get('__asOf'));
 
   fetch('/websites/punan_portal/data/articles.json', { cache: 'no-store' })
     .then((response) => response.json())
-    .then((data) => render(data))
+    .then((data) => render(filterForArchiveTime(data)))
     .catch(() => { root.innerHTML = '<div class="empty">页面数据读取失败。</div>'; });
 
   function render(data) {
@@ -13,6 +14,23 @@
     root.innerHTML = `${header(activeNavigation(data))}<main class="content">${renderPage(data)}</main>${footer()}`;
     bindSearch();
     bindReplyBoxes();
+  }
+
+  function filterForArchiveTime(data) {
+    if (!asOf) return data;
+    return {
+      ...data,
+      articles: data.articles
+        .filter((item) => normalizeArchiveTime(item.availableAt || `${item.date} 00:00`) <= asOf)
+        .map((item) => ({
+          ...item,
+          replies: item.replies?.filter((reply) => normalizeArchiveTime(reply.time) <= asOf),
+        })),
+    };
+  }
+
+  function normalizeArchiveTime(value) {
+    return String(value || '').trim().replace('T', ' ').slice(0, 16);
   }
 
   function activeNavigation(data) {
@@ -158,7 +176,9 @@
     if (!item) return '<div class="empty">没有找到该新闻。</div>';
     if (isLegacyCatalog(item)) return renderCatalogRecord(item);
     const oldRecord = item.year < 2010;
-    const dateMeta = oldRecord ? `原页面日期：${escapeHtml(item.date)}　归档整理：2010年` : `发布时间：${escapeHtml(item.date)}`;
+    const dateMeta = item.nativeWeb || !oldRecord
+      ? `发布时间：${escapeHtml(item.date)}`
+      : `原页面日期：${escapeHtml(item.date)}　归档整理：2010年`;
     const channel = isCommunity(item) ? '浦南社区' : '浦南新闻';
     return `${crumb(`${channel} &gt; ${escapeHtml(item.section)} &gt; 正文`)}
       <div class="two-column">
@@ -168,6 +188,7 @@
           <div class="article-meta">${dateMeta}　来源：${escapeHtml(item.source)}　${oldRecord ? '资料整理' : metaLabel(item)}：${escapeHtml(item.editor || '信息港编辑部')}</div>
           ${item.image ? photo(item) : ''}
           ${item.body.map((paragraph) => `<p>${escapeHtml(paragraph)}</p>`).join('')}
+          ${item.table ? renderStructuredTable(item.table) : ''}
           ${item.links?.length ? `<div class="article-links"><strong>相关地址：</strong>${item.links.map((entry) => link(entry.label, entry.url)).join('')}</div>` : ''}
           ${(isCommunity(item) || item.replies?.length) ? discussion(item) : ''}
         </article>
@@ -199,6 +220,7 @@
           ${item.image ? photo(item) : ''}
           <h2>内容提要</h2>
           ${item.body.map((paragraph) => `<p>${escapeHtml(paragraph)}</p>`).join('')}
+          ${item.table ? renderStructuredTable(item.table) : ''}
           ${topics.length ? `<div class="catalog-topics"><strong>主题词：</strong>${topics.map(escapeHtml).join('　')}</div>` : ''}
           ${catalog.note ? `<div class="catalog-note">${escapeHtml(catalog.note)}</div>` : ''}
           ${item.links?.length ? `<div class="article-links"><strong>相关地址：</strong>${item.links.map((entry) => link(entry.label, entry.url)).join('')}</div>` : ''}
@@ -273,13 +295,57 @@
 
   function renderSearch(data) {
     const keyword = (params.get('keyword') || '').trim();
-    const hits = keyword ? data.articles.filter((item) => searchableText(item).includes(keyword)) : [];
+    const pageNumber = Math.max(1, Number.parseInt(params.get('p') || '1', 10) || 1);
+    const pageSize = data.searchProfiles?.[keyword] ? 6 : 20;
+    const hits = keyword ? searchArticles(data, keyword) : [];
+    const pageCount = Math.max(1, Math.ceil(hits.length / pageSize));
+    const safePage = Math.min(pageNumber, pageCount);
+    const visibleHits = hits.slice((safePage - 1) * pageSize, safePage * pageSize);
     return `${crumb('站内检索')}
       <section class="article">
         <h1>站内检索</h1>
-        <div class="article-meta">关键词：${escapeHtml(keyword)}　共找到 ${hits.length} 条结果</div>
-        ${keyword ? (hits.length ? `<ul class="search-result">${hits.map((item) => `<li><h3>${link(item.title, item.virtualUrl)}</h3><p>${searchResultMeta(item)}</p></li>`).join('')}</ul>` : '<div class="empty">没有找到相关内容。</div>') : '<div class="empty">请输入检索词。</div>'}
+        <div class="article-meta">关键词：${escapeHtml(keyword)}　共找到 ${hits.length} 条结果${hits.length > pageSize ? `　第 ${safePage}/${pageCount} 页` : ''}</div>
+        ${keyword ? (hits.length ? `<ul class="search-result">${visibleHits.map((item) => `<li><h3>${link(item.title, item.virtualUrl)}</h3><p>${searchResultMeta(item)}</p></li>`).join('')}</ul>${searchPager(keyword, safePage, pageCount)}` : '<div class="empty">没有找到相关内容。</div>') : '<div class="empty">请输入检索词。</div>'}
       </section>`;
+  }
+
+  function renderStructuredTable(table) {
+    const columns = table.columns || [];
+    const rows = table.rows || [];
+    if (!columns.length || !rows.length) return '';
+    return `<div class="article-table-wrap"><table class="archive-table article-data-table"><thead><tr>${columns.map((column) => `<th>${escapeHtml(column)}</th>`).join('')}</tr></thead><tbody>${rows.map((row) => `<tr>${columns.map((_, index) => `<td>${escapeHtml(row[index] || '')}</td>`).join('')}</tr>`).join('')}</tbody></table></div>`;
+  }
+
+  function searchArticles(data, keyword) {
+    const terms = keyword.split(/[\s+＋]+/).map((term) => term.trim()).filter(Boolean);
+    const hits = data.articles.filter((item) => {
+      const haystack = searchableText(item);
+      return terms.every((term) => haystack.includes(term));
+    });
+    const profile = data.searchProfiles?.[keyword];
+    const profileOrder = new Map((profile || []).map((id, index) => [id, index]));
+    return hits.sort((left, right) => {
+      const leftProfile = profileOrder.has(left.id) ? profileOrder.get(left.id) : Number.MAX_SAFE_INTEGER;
+      const rightProfile = profileOrder.has(right.id) ? profileOrder.get(right.id) : Number.MAX_SAFE_INTEGER;
+      if (leftProfile !== rightProfile) return leftProfile - rightProfile;
+      const scoreDifference = searchScore(right, terms) - searchScore(left, terms);
+      return scoreDifference || right.date.localeCompare(left.date) || left.id.localeCompare(right.id);
+    });
+  }
+
+  function searchScore(item, terms) {
+    const title = item.title || '';
+    const metadata = [item.section, item.source, item.editor, ...(item.searchAliases || [])].filter(Boolean).join('\n');
+    return terms.reduce((score, term) => score + (title.includes(term) ? 20 : 0) + (metadata.includes(term) ? 6 : 0), 0);
+  }
+
+  function searchPager(keyword, pageNumber, pageCount) {
+    if (pageCount <= 1) return '';
+    const pageLink = (label, page, current = false) => current
+      ? `<strong aria-current="page">${label}</strong>`
+      : link(label, `http://www.punan.net/search.asp?keyword=${encodeURIComponent(keyword)}&p=${page}`);
+    const pages = Array.from({ length: pageCount }, (_, index) => pageLink(String(index + 1), index + 1, index + 1 === pageNumber)).join('');
+    return `<nav class="search-pager" aria-label="检索结果分页">${pageNumber > 1 ? pageLink('上一页', pageNumber - 1) : '<span>上一页</span>'}${pages}${pageNumber < pageCount ? pageLink('下一页', pageNumber + 1) : '<span>下一页</span>'}</nav>`;
   }
 
   function photo(item) {
@@ -339,10 +405,11 @@
   }
 
   function searchableText(item) {
+    if (item.searchIndexText) return [item.searchIndexText, ...(item.searchAliases || [])].filter(Boolean).join('\n');
     const replies = (item.replies || []).flatMap((reply) => [reply.author, reply.body]);
     const linked = (item.links || []).flatMap((entry) => [entry.label, entry.url]);
     const catalog = item.catalog || {};
-    return [item.title, item.date, item.section, item.source, item.editor, ...(item.body || []), ...replies, ...linked, item.image?.caption, item.image?.credit, catalog.originalDateLabel, catalog.originalSource, catalog.material, catalog.issue, catalog.note, ...(catalog.topics || [])].filter(Boolean).join('\n');
+    return [item.title, item.date, item.section, item.source, item.editor, ...(item.body || []), ...replies, ...linked, ...(item.searchAliases || []), item.image?.caption, item.image?.credit, catalog.originalDateLabel, catalog.originalSource, catalog.material, catalog.issue, catalog.note, ...(catalog.topics || [])].filter(Boolean).join('\n');
   }
 
   function displayUser(editor = '') { return String(editor).replace(/^用户[“"]|[”"]$/g, ''); }

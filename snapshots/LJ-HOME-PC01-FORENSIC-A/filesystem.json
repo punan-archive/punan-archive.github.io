@@ -1407,6 +1407,251 @@
       "modified": "2010-09-20 17:54",
       "imageSrc": "/snapshots/LJ-HOME-PC01-FORENSIC-A/IMG_5413.JPG",
       "caption": "扫描登记中的普通页面。文件名：IMG_5413.JPG。"
+    },
+    {
+      "id": "public-life-photo-folder",
+      "name": "浦南公共生活",
+      "type": "folder",
+      "parentId": "photo-folder"
+    },
+    {
+      "id": "public-life-samples-folder",
+      "name": "已交小样",
+      "type": "folder",
+      "parentId": "public-life-photo-folder"
+    },
+    {
+      "id": "public-life-archives-folder",
+      "name": "历年大包",
+      "type": "folder",
+      "parentId": "public-life-photo-folder"
+    },
+    {
+      "id": "public-life-master-index",
+      "name": "浦南照片总目录.xls",
+      "type": "spreadsheet",
+      "parentId": "public-life-photo-folder",
+      "modified": "2010-09-24 21:18",
+      "sheet": {
+        "name": "历年整理",
+        "columns": [
+          "编号",
+          "文件／介质",
+          "年代",
+          "内容",
+          "整理状态",
+          "刘江源备注"
+        ],
+        "rows": [
+          [
+            "PN-01",
+            "老浦南_以前扫的.zip",
+            "1994—2001",
+            "一村、老商场、工人俱乐部、公共电话亭",
+            "光盘A3",
+            "年份不全，没核过的不要写死"
+          ],
+          [
+            "PN-02",
+            "少年宫文化宫_历年.rar",
+            "1997—2010",
+            "摄影班、舞厅、书画展、露天电影、活动室",
+            "光盘B1",
+            "少年宫那卷有两张重曝"
+          ],
+          [
+            "PN-03",
+            "北边空地_98-10.rar",
+            "1998—2010",
+            "纬九路以北、旧施工围墙、断头路、历年绿化",
+            "待补目录",
+            "旧底片袋写“北部配套区”，不一定都在同一点"
+          ],
+          [
+            "PN-04",
+            "中心广场_几个年份.rar",
+            "1994、2001、2007、2009",
+            "广场、花坛、骑车人、换班人流",
+            "光盘C2",
+            "2009雨后那张给过信息港"
+          ],
+          [
+            "PN-05",
+            "夜班车_换班.rar",
+            "2002—2009",
+            "纬零路公交、厂车、自行车、早点摊",
+            "光盘C4",
+            "横片够，竖片少"
+          ],
+          [
+            "PN-06",
+            "厂区夜景96以后.rar",
+            "1996—2010",
+            "公共道路所见、冬季白汽、火炬、远景塔器",
+            "继续补",
+            "都是厂外拍的，装置名认不准"
+          ],
+          [
+            "PN-07",
+            "旧区测绘前后",
+            "2001、2005、2008、2010春",
+            "北部旧宅、封存房、咨询点、测绘人员",
+            "不整包外发",
+            "先把2001年的扫完"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "public-life-delivery-index",
+      "name": "供稿与交片记录.xls",
+      "type": "spreadsheet",
+      "parentId": "public-life-photo-folder",
+      "modified": "2010-09-24 21:26",
+      "sheet": {
+        "name": "交片",
+        "columns": [
+          "交片日期",
+          "题材",
+          "接收方",
+          "交付内容",
+          "采用情况",
+          "备注"
+        ],
+        "rows": [
+          [
+            "1997-11-03",
+            "少年宫秋季户外采风",
+            "区少年宫宣传栏",
+            "5寸照片12张",
+            "全部张贴",
+            "学员姓名另交，不写照片背面"
+          ],
+          [
+            "2001-07-09",
+            "北部旧区封存前后街景",
+            "区地方资料征集",
+            "联系表1张、底片袋2只",
+            "留作资料",
+            "7月初拍摄；门牌入镜的几张不公开"
+          ],
+          [
+            "2004-07-12",
+            "工人俱乐部露天电影",
+            "《新浦南报》文化版",
+            "横片4张",
+            "采用1张",
+            "报纸裁得太紧，底片留全景"
+          ],
+          [
+            "2007-12-20",
+            "少年宫冬季习作展",
+            "浦南信息港",
+            "数码照片8张",
+            "采用3张",
+            "次日补图；姓名单另交张老师"
+          ],
+          [
+            "2009-09-18",
+            "核心区广场地面检修",
+            "浦南信息港",
+            "数码照片6张",
+            "采用1张",
+            "雨后第三张，横片"
+          ],
+          [
+            "2010-03-28",
+            "海堤与换班后厂区灯光",
+            "职工摄影小组",
+            "组照7张",
+            "内部交流",
+            "其中两张水平线要重新裁"
+          ],
+          [
+            "2010-08-24",
+            "文化宫舞厅合影",
+            "工人文化宫",
+            "合影及补洗名单",
+            "已交",
+            "第三排右边姓名待补"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "public-life-caption-note",
+      "name": "照片说明先写这里.txt",
+      "type": "text",
+      "parentId": "public-life-photo-folder",
+      "modified": "2010-09-24 21:31",
+      "content": "旧照片没年份，先写大概年代，问过人再改。\n厂区装置不认识就别写名字。\n隔几年重拍，尽量找原来的站位。找不到也别硬对。\n报社裁过的图，原片自己留着。\n\n盘2读得慢，再刻一张。\n老周说舞厅合影的月份可能记错。"
+    },
+    {
+      "id": "public-life-sample-2004",
+      "name": "2004_工人俱乐部露天电影_联系表.jpg",
+      "type": "image",
+      "parentId": "public-life-samples-folder",
+      "modified": "2004-07-12 20:42",
+      "imagePreviewSrc": "/snapshots/LJ-HOME-PC01-FORENSIC-A/liu_2004_workers_club_outdoor_movie_contact_v02-preview.jpg",
+      "imageSrc": "/snapshots/LJ-HOME-PC01-FORENSIC-A/liu_2004_workers_club_outdoor_movie_contact_v02-screen.jpg",
+      "caption": "2004.7.10，工人俱乐部广场。电影开场前。右边那张可用。后排老人别裁（自己搬凳子的）。"
+    },
+    {
+      "id": "public-life-sample-2007",
+      "name": "2007_少年宫冬季习作展_联系表.jpg",
+      "type": "image",
+      "parentId": "public-life-samples-folder",
+      "modified": "2007-12-20 19:16",
+      "imagePreviewSrc": "/snapshots/LJ-HOME-PC01-FORENSIC-A/liu_2007_youth_palace_exhibition_contact_v02-preview.jpg",
+      "imageSrc": "/snapshots/LJ-HOME-PC01-FORENSIC-A/liu_2007_youth_palace_exhibition_contact_v02-screen.jpg",
+      "caption": "2007.12.19，少年宫二楼。作品按班级编号。姓名单另交张老师。"
+    },
+    {
+      "id": "public-life-sample-2009",
+      "name": "2009_核心区广场雨后_选片.jpg",
+      "type": "image",
+      "parentId": "public-life-samples-folder",
+      "modified": "2009-09-18 22:11",
+      "imagePreviewSrc": "/snapshots/LJ-HOME-PC01-FORENSIC-A/liu_2009_core_square_contact_v02-preview.jpg",
+      "imageSrc": "/snapshots/LJ-HOME-PC01-FORENSIC-A/liu_2009_core_square_contact_v02-screen.jpg",
+      "caption": "第三张地面积水少，骑车人没有挡住路灯。9月18日交小丁，说明见邮件。"
+    },
+    {
+      "id": "public-life-sample-2010",
+      "name": "2010_纬零路换班以后_选片.jpg",
+      "type": "image",
+      "parentId": "public-life-samples-folder",
+      "modified": "2010-03-28 21:04",
+      "imagePreviewSrc": "/snapshots/LJ-HOME-PC01-FORENSIC-A/liu_2010_latitude_zero_shift_change_contact_v02-preview.jpg",
+      "imageSrc": "/snapshots/LJ-HOME-PC01-FORENSIC-A/liu_2010_latitude_zero_shift_change_contact_v02-screen.jpg",
+      "caption": "先留。火炬那张高光过了。白汽那张是刚好赶上，别配“整夜”。"
+    },
+    {
+      "id": "public-life-offline-old-punan",
+      "name": "老浦南_以前扫的.zip",
+      "type": "archive",
+      "parentId": "public-life-archives-folder",
+      "modified": "2010-09-24 20:51",
+      "mediaStatus": "离线介质目录",
+      "content": "离线介质目录\n\n登记内容：一村、老商场、工人俱乐部、公共电话亭\n原片介质：光盘A3\n最后登记：2010-09-24\n\n原片介质未包含在本镜像中。\n此处仅保存离线目录，不属于本机删除记录，无法通过文件恢复功能还原。"
+    },
+    {
+      "id": "public-life-offline-north",
+      "name": "北边空地_98-10.rar",
+      "type": "archive",
+      "parentId": "public-life-archives-folder",
+      "modified": "2010-09-24 20:54",
+      "mediaStatus": "离线介质目录",
+      "content": "离线介质目录\n\n登记内容：纬九路以北、旧施工围墙、断头路、历年绿化\n联系表索引：1998、2001、2005、2008、2010春\n整理备注：旧底片袋写“北部配套区”，不一定都在同一点\n最后登记：2010-09-24\n\n原片介质未包含在本镜像中。\n此处仅保存离线目录，不属于本机删除记录，无法通过文件恢复功能还原。"
+    },
+    {
+      "id": "public-life-offline-square",
+      "name": "中心广场_几个年份.rar",
+      "type": "archive",
+      "parentId": "public-life-archives-folder",
+      "modified": "2010-09-24 20:58",
+      "mediaStatus": "离线介质目录",
+      "content": "离线介质目录\n\n登记内容：广场、花坛、骑车人、换班人流\n联系表索引：1994、2001、2007、2009\n原片介质：光盘C2\n最后登记：2010-09-24\n\n原片介质未包含在本镜像中。\n此处仅保存离线目录，不属于本机删除记录，无法通过文件恢复功能还原。"
     }
   ],
   "recycleBin": [

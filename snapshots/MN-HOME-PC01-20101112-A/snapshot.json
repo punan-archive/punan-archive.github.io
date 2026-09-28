@@ -8,6 +8,10 @@
   },
   "captureTime": "2010年11月12日 23:48",
   "captureIso": "2010-11-12T23:48:00+08:00",
+  "webContext": {
+    "asOf": "2010-11-12 23:48",
+    "session": "MN-20101112"
+  },
   "mountLead": "正在挂载只读磁盘映像……",
   "mountSummary": [
     { "label": "文件系统", "value": "NTFS / 可读取" },

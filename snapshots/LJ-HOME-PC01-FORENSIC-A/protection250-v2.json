@@ -544,13 +544,13 @@
               "type": "missing-image",
               "refId": "watch-crop-4689",
               "label": "9月16日　文化宫正门广场　4689裁",
-              "path": "C:\\Documents and Settings\\刘江源\\我的文档\\照片\\9月杂片\\4689裁.jpg"
+              "path": "C:\\Documents and Settings\\刘江源\\我的文档\\照片\\2010年\\9月杂片\\4689裁.jpg"
             },
             {
               "type": "missing-image",
               "refId": "watch-crop-4724",
               "label": "9月17日　浦南五村　4724裁",
-              "path": "C:\\Documents and Settings\\刘江源\\我的文档\\照片\\9月杂片\\4724裁.jpg"
+              "path": "C:\\Documents and Settings\\刘江源\\我的文档\\照片\\2010年\\9月杂片\\4724裁.jpg"
             },
             {
               "type": "paragraph",
@@ -628,6 +628,7 @@
           "name": "DSC_4689.JPG",
           "type": "image",
           "parentId": "september-photo-folder",
+          "originalPath": "C:\\Documents and Settings\\刘江源\\我的文档\\照片\\2010年\\9月杂片",
           "modified": "2010-09-16 17:26",
           "imagePreviewSrc": "/snapshots/LJ-HOME-PC01-FORENSIC-A/DSC_4689-preview.jpg",
           "imageSrc": "/snapshots/LJ-HOME-PC01-FORENSIC-A/DSC_4689.JPG",
@@ -638,6 +639,7 @@
           "name": "4689裁.jpg",
           "type": "image",
           "parentId": "september-photo-folder",
+          "originalPath": "C:\\Documents and Settings\\刘江源\\我的文档\\照片\\2010年\\9月杂片",
           "modified": "2010-09-18 19:12",
           "imageSrc": "/snapshots/LJ-HOME-PC01-FORENSIC-A/DSC_4689_crop.jpg",
           "caption": "从DSC_4689.JPG另存的局部。"
@@ -647,6 +649,7 @@
           "name": "DSC_4724.JPG",
           "type": "image",
           "parentId": "september-photo-folder",
+          "originalPath": "C:\\Documents and Settings\\刘江源\\我的文档\\照片\\2010年\\9月杂片",
           "modified": "2010-09-17 17:48",
           "imagePreviewSrc": "/snapshots/LJ-HOME-PC01-FORENSIC-A/DSC_4724-preview.jpg",
           "imageSrc": "/snapshots/LJ-HOME-PC01-FORENSIC-A/DSC_4724.JPG",
@@ -657,6 +660,7 @@
           "name": "4724裁.jpg",
           "type": "image",
           "parentId": "september-photo-folder",
+          "originalPath": "C:\\Documents and Settings\\刘江源\\我的文档\\照片\\2010年\\9月杂片",
           "modified": "2010-09-18 19:15",
           "imageSrc": "/snapshots/LJ-HOME-PC01-FORENSIC-A/DSC_4724_crop.jpg",
           "caption": "从DSC_4724.JPG另存的局部。"
@@ -666,6 +670,7 @@
           "name": "旧照片日期核对.doc",
           "type": "document",
           "parentId": "photo-folder",
+          "originalPath": "C:\\Documents and Settings\\刘江源\\我的文档\\照片",
           "modified": "2010-09-20 23:18",
           "content": "旧照片日期核对\n\n一、原来要核的照片\n\nSY-92-041、042：学生风采，1992年秋。不能按后来使用页面写成1993年春。\nPN-WH-93-118、120：邱纲在盟杉，两张横幅不同，至少两个日期。\n学校正式目录仍未回复。杨9月7日说等统一答复。\n\n二、谁先知道寻访\n\n8月31日：寻访说明发出。没有提报社报道。\n9月3日：赵清波说，杨“昨天”问是不是准备给报社写校史。\n9月7日：杨才回电。要求不要扩大范围。\n\n这三个日期不要改成“通话以后才问赵”。QQ原记录在。\n\n三、9月13日挂号邮包\n\n寄件：周岚，梅溪弄14号。\n9月19日实地：现门牌无法对应；旧14号位置不清；附近无人认识周岚。\n邮路：第07揽投段，旧城区。只能证明从该段寄出，不能证明寄件人住在那里。\n\n信里写：电子宠物是林美心1993年留下。\n查到的商品资料均为1996年以后。原物未拆。\n\n信写到了当年的谈话。当时只有她和我。她后来跟谁说过？\n\n四、两张照片\n\n9月16日　DSC_4689　文化宫正门广场\n9月17日　DSC_4724　浦南五村\n\n老周看过。他只能说衣服、鞋和体态像同一个人。原片不要裁掉环境。\n\n五、旧城区\n\n修锁摊口述：有人替人找地址、递东西，姓邱。没有姓名。\n旧联系人抄页见“邱民”，号码尾号184。\n器材记录一处“邱师傅”，尾号同为184，杨文斌经办。\n\n只能到这里。名字、号码和寄件还没有直接连上。\n\n六、今天先留的东西\n\n09-20-03，共六页：IMG_5407 至 IMG_5412。\n5411、5412暂不写内容。\n\n9月3日，杨已经在问报社。后来他叫我停。包裹在这以后寄到。\n知道当年谈话的人——\n\n可到这里，还没有一件能直接指向杨。\n这些事情单独都能解释。放在一起——",
           "milestoneTags": [
@@ -675,8 +680,8 @@
       ]
     },
     {
-      "id": "PB-20100818-2211",
-      "label": "2010-08-18 22:11",
+      "id": "PB-20100918-2211",
+      "label": "2010-09-18 22:11",
       "reason": "同名文档覆盖前保护",
       "sourcePath": "C:\\Documents and Settings\\刘江源\\我的文档\\照片",
       "sourcePaths": [
@@ -686,7 +691,7 @@
       "depth": 4,
       "primaryItemId": "old-photo-check-0716",
       "match": {
-        "date": "2010-08-18",
+        "date": "2010-09-18",
         "pathTerms": [
           "照片",
           "旧照片"
@@ -706,6 +711,7 @@
           "name": "旧照片日期核对.doc",
           "type": "document",
           "parentId": "photo-folder",
+          "originalPath": "C:\\Documents and Settings\\刘江源\\我的文档\\照片",
           "modified": "2010-08-18 22:07",
           "content": "旧照片日期核对\n\n底片袋／照片编号\nSY-92-041、SY-92-042\n\n袋上原题\n盟杉中学学生风采（秋）\n\n能核实的日期\n梧桐已经落叶；校旗和宣传栏样式与1992年秋季校庆照片相同。\n暂按1992年10—11月，不写具体日。\n\n问到的人\n何老师：记得是区里做学生风采展板以前拍的。\n蔡老师：只记得相机是学校借来的。\n\n还有哪里对不上\n底片袋编号连续，但后四格是另一场校外活动。可能冲洗后临时并袋，不能按相邻底片直接算同日。\n\n照片说明先不写什么\n不写“毕业照”；不写“1993年春”；不写拍摄人，底片袋没有署名。\n\n——\n\n底片袋／照片编号\nPN-WH-93-118 至 121\n\n袋上原题\n区校共建活动\n\n能核实的日期\n节目单暂缺。邱纲出现在118、120。与另一袋不是同一横幅。\n\n问到的人\n报社图片库只找到一张无署名小图，日期可能是1993年3月。\n\n还有哪里对不上\n邱纲至少在两个不同日期到过盟杉。先找原节目单和接待名单。\n\n照片说明先不写什么\n不写“经常到校”；现有照片只能证明至少两个日期。\n\n7月29日补：文化宫节目单没有盟杉这一场。\n8月13日补：杨文斌当时职务可以接触活动与学生材料，实际经手范围待核。\n8月18日补：旧目录名可能是“毕业推荐及区校活动附件”，先问目录，不借原件。"
         },
@@ -714,6 +720,7 @@
           "name": "SY-92-041.JPG",
           "type": "image",
           "parentId": "photo-folder",
+          "originalPath": "C:\\Documents and Settings\\刘江源\\我的文档\\照片",
           "modified": "2010-08-18 21:48",
           "imageSrc": "/snapshots/LJ-HOME-PC01-FORENSIC-A/CONTACT_92_A.JPG",
           "caption": "校内展览活动底片接触印样。暂按1992年秋。"
@@ -723,6 +730,7 @@
           "name": "PN-WH-93-118.JPG",
           "type": "image",
           "parentId": "photo-folder",
+          "originalPath": "C:\\Documents and Settings\\刘江源\\我的文档\\照片",
           "modified": "2010-08-18 21:52",
           "imageSrc": "/snapshots/LJ-HOME-PC01-FORENSIC-A/CONTACT_92_B.JPG",
           "caption": "区校共建活动底片接触印样。日期待核。"
