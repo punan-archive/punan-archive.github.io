@@ -3,23 +3,53 @@
   "wallpaperPreview": "/websites/punan_portal/assets/autumn-photo-preview.jpg",
   "wallpaperScreen": "/websites/punan_portal/assets/autumn-photo-screen.jpg",
   "desktopShortcuts": [
-    { "itemId": "detective-folder", "label": "侦探社" },
-    { "itemId": "tomorrow-note", "label": "明天要带的.txt" }
+    {
+      "itemId": "detective-folder",
+      "label": "侦探社"
+    },
+    {
+      "itemId": "tomorrow-note",
+      "label": "明天要带的.txt"
+    }
   ],
   "items": [
-    { "id": "school-folder", "name": "学校", "type": "folder", "parentId": null },
-    { "id": "detective-folder", "name": "侦探社", "type": "folder", "parentId": null },
-    { "id": "downloads-folder", "name": "下载", "type": "folder", "parentId": null },
-    { "id": "pictures-folder", "name": "图片收藏", "type": "folder", "parentId": null },
-    { "id": "qq-pictures-folder", "name": "QQ图片", "type": "folder", "parentId": "pictures-folder" },
-
+    {
+      "id": "school-folder",
+      "name": "学校",
+      "type": "folder",
+      "parentId": null
+    },
+    {
+      "id": "detective-folder",
+      "name": "侦探社",
+      "type": "folder",
+      "parentId": null
+    },
+    {
+      "id": "downloads-folder",
+      "name": "下载",
+      "type": "folder",
+      "parentId": null
+    },
+    {
+      "id": "pictures-folder",
+      "name": "图片收藏",
+      "type": "folder",
+      "parentId": null
+    },
+    {
+      "id": "qq-pictures-folder",
+      "name": "QQ图片",
+      "type": "folder",
+      "parentId": "pictures-folder"
+    },
     {
       "id": "duty-roster",
       "name": "本周值日安排.txt",
       "type": "text",
       "parentId": null,
       "modified": "2010-11-08 19:22",
-      "content": "高三一班第十一周值日安排（穆南自己抄的）\n\n周一　第一组\n周二　第二组\n周三　第三组\n周四　第四组\n周五　穆南、唐竹\n\n关窗、倒垃圾、擦黑板。走之前记得把门带上。"
+      "content": "高三一班第十一周值日安排\n\n周一　第一组\n周二　第二组\n周三　第三组\n周四　第四组\n周五　穆南、唐竹\n\n关窗、倒垃圾、擦黑板、拍干净黑板擦、最后记得把门带上。（上次忘了）"
     },
     {
       "id": "bus-note",
@@ -27,7 +57,7 @@
       "type": "text",
       "parentId": null,
       "modified": "2010-10-27 22:04",
-      "content": "19路　经六路方向　22:10\n31路　浦南文化馆方向　21:45\n\n别再把‘末班’看成‘末日’。"
+      "content": "19路　经六路方向　22:10\n31路　浦南文化馆方向　21:45\n\n小心31路末班车可能比预期早出发10分钟。"
     },
     {
       "id": "reading-list",
@@ -35,7 +65,7 @@
       "type": "text",
       "parentId": null,
       "modified": "2010-11-11 00:17",
-      "content": "密室类：3\n不在场证明：2\n叙述性诡计：暂时不看剧透\n\n备注：借书证月底前续一次。"
+      "content": "密室类：3\n不在场证明：2\n叙述性诡计：暂时不看剧透\n\n借书证月底前要续。"
     },
     {
       "id": "tomorrow-note",
@@ -43,16 +73,15 @@
       "type": "text",
       "parentId": null,
       "modified": "2010-11-12 22:18",
-      "content": "政治卷子\n借书证\n值日要关窗\n\n手表不要带去社团。\n美术社那件事归档"
+      "content": "政治卷子\n借书证\n值日要关窗\n手表不要带去社团。\n美术社那件事不再管了！"
     },
-
     {
       "id": "sports-retest",
       "name": "体育补测通知.txt",
       "type": "text",
       "parentId": "school-folder",
       "modified": "2010-11-05 18:41",
-      "content": "下周三放学后，高三年级体育补测。\n\n项目：1000米、立定跳远。\n地点：田径场。\n\n名单里真的有我。没有看错。"
+      "content": "下周三放学后，高三年级体育补测。\n名单里次次都有我。\n1000米、立定跳远。\n地点：田径场。"
     },
     {
       "id": "politics-paper",
@@ -68,16 +97,15 @@
       "type": "text",
       "parentId": "school-folder",
       "modified": "2010-11-07 20:03",
-      "content": "周四下午第二节政治课与周五上午第四节自习课对调。\n体育课照常。\n\n班长在群里发过一次，怕忘，抄在这里。"
+      "content": "周四下午第二节政治课与周五上午第四节自习课对调。\n体育课照常。"
     },
-
     {
       "id": "club-log",
       "name": "2010秋季活动记录.doc",
       "type": "document",
       "parentId": "detective-folder",
       "modified": "2010-11-10 20:31",
-      "content": "盟杉中学侦探社　2010年秋季活动记录\n\n9月17日　新学期第一次活动，整理活动室。\n9月24日　观察练习：只写看见的，不写猜到的。\n10月15日　讨论旧教学楼雨伞拿错事件。\n10月29日　器材试用。手表式水枪暂时停用。\n11月5日　图书馆资料分类。\n11月10日　美术社窗外咨询，已回话。\n\n下次：把已经解决的事情整理成统一格式。"
+      "content": "盟杉中学侦探社　2010年秋季活动记录\n\n9月17日　新学期第一次活动，整理活动室。\n9月24日　观察练习：只写看见的，不写猜到的。\n10月15日　讨论旧教学楼雨伞拿错事件。\n10月29日　器材试用。手表式水枪暂时停用。\n11月5日　图书馆资料分类。\n11月10日　美术社窗外那件事的咨询，已回话。"
     },
     {
       "id": "club-equipment",
@@ -88,15 +116,47 @@
       "content": "物品　　　　　　　数量　状态\n卷尺　　　　　　　2　　正常\n手电筒　　　　　　3　　其中一只接触不良\n透明胶　　　　　　1　　快用完\n放大镜　　　　　　2　　正常\n一次性相机　　　　1　　还剩七张\n手表式水枪　　　　1　　暂停使用\n催眠装置　　　　　0　　申请未通过",
       "sheet": {
         "name": "器材清单",
-        "columns": ["物品", "数量", "状态"],
+        "columns": [
+          "物品",
+          "数量",
+          "状态"
+        ],
         "rows": [
-          ["卷尺", "2", "正常"],
-          ["手电筒", "3", "其中一只接触不良"],
-          ["透明胶", "1", "快用完"],
-          ["放大镜", "2", "正常"],
-          ["一次性相机", "1", "还剩七张"],
-          ["手表式水枪", "1", "暂停使用"],
-          ["催眠装置", "0", "申请未通过"]
+          [
+            "卷尺",
+            "2",
+            "正常"
+          ],
+          [
+            "手电筒",
+            "3",
+            "其中一只接触不良"
+          ],
+          [
+            "透明胶",
+            "1",
+            "快用完"
+          ],
+          [
+            "放大镜",
+            "2",
+            "正常"
+          ],
+          [
+            "一次性相机",
+            "1",
+            "还剩七张"
+          ],
+          [
+            "手表式水枪",
+            "1",
+            "暂停使用"
+          ],
+          [
+            "催眠装置",
+            "0",
+            "申请未通过"
+          ]
         ]
       }
     },
@@ -106,7 +166,7 @@
       "type": "text",
       "parentId": "detective-folder",
       "modified": "2010-11-08 20:14",
-      "content": "美术社来问的\n\n小黑上周被周恬带回家。\n周一又回到美术室里面那间的窗外。\n\n和以前不一样：\n不理人，伸手还会抓。\n\n顾遥怀疑周恬家里不让养，又偷偷把猫送回学校。\n顾遥和周恬都在QQ里说过话。先把事问清楚。\n\n不要直接去问“为什么送回来”。"
+      "content": "美术社来问的\n\n小黑上周被周恬带回家。\n周一又回到美术室里面那间的窗外。\n\n和以前不一样，据说变得不理人，伸手还会抓。\n\n顾遥怀疑周恬家里不让养，又偷偷把猫送回学校。\n这两个人都在QQ里说过话。最好先去把事问清楚。\n千万不要直接去问“为什么送回来”。"
     },
     {
       "id": "campus-locations",
@@ -114,7 +174,7 @@
       "type": "text",
       "parentId": "detective-folder",
       "modified": "2010-10-21 19:08",
-      "content": "教学楼到体育仓库：正常走四分半。\n图书馆侧门周五17:30锁。\n旧实验楼楼梯灯坏了两盏。\n广播室钥匙通常在团委。\n\n只记录公开地点。不要擅自进办公室。"
+      "content": "教学楼到体育仓库：正常走四分半。\n图书馆侧门周五17:30锁。\n旧实验楼楼梯灯坏了两盏。\n广播室钥匙通常在团委。\n先只记录地点。暂时不考虑潜行进办公室调查。"
     },
     {
       "id": "recruit-poster",
@@ -125,7 +185,6 @@
       "wordLayout": "club-poster",
       "posterVariant": "approved"
     },
-
     {
       "id": "bus-map-old",
       "name": "浦南公交线路图_旧版.txt",
@@ -148,9 +207,8 @@
       "type": "text",
       "parentId": "downloads-folder",
       "modified": "2010-11-10 23:09",
-      "content": "图书馆旧书架：\n密室主题两本\n不在场证明三本\n短篇集一本\n\n论坛推荐里有人直接把凶手写在标题上。以后先看回复再点链接。"
+      "content": "图书馆旧书架：\n密室主题两本\n不在场证明三本\n短篇集一本\n\n论坛推荐里有人直接把凶手写在标题上！！！以后先看回复再点链接。\n……我怎么先看回复再点链接？"
     },
-
     {
       "id": "autumn-latitude-three",
       "name": "秋天的纬三路.jpg",
@@ -180,7 +238,7 @@
       "parentId": "pictures-folder",
       "modified": "2010-11-02 18:05",
       "imageSrc": "/websites/maishan_school/assets/thumb_courtyard_autumn_2010.jpg",
-      "caption": "盟杉中学官网活动照片。穆南把它裁过一次，最后还是保存了原图。"
+      "caption": "盟杉中学官网活动照片。把它裁过一次，最后还是保存了原图。"
     },
     {
       "id": "cat-window-photo",
