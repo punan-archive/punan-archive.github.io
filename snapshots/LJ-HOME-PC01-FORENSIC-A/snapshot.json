@@ -81,6 +81,14 @@
       "isoItemId": "investigation-disc-image",
       "driveItemId": "investigation-disc-drive",
       "finalReadmeItemId": "disc-final-readme",
+      "terminalMail": {
+        "messageId": "inbox-posthumous-lens-cap",
+        "minimumReadMs": 8000,
+        "nearEndDwellMs": 3000,
+        "fallbackDelayMs": 45000,
+        "transferDelayMs": 2200,
+        "completeNoticeMs": 9000
+      },
       "delayMinMs": 10000,
       "delayMaxMs": 30000,
       "eligibility": {
@@ -114,6 +122,16 @@
           "PB-20100921-1908:watch-photo-4724"
         ],
         "broadMinimumRestored": 4
+      }
+    },
+    "conclusion": {
+      "pendingTitle": "调查记录已更新",
+      "pendingMessage": "关联对象：邱民 · 追忆似水年华。目标资料尚未取得。",
+      "pendingMirror": {
+        "shortDate": "提取中",
+        "label": "目标设备磁盘提取件",
+        "device": "关联对象：邱民",
+        "status": "正在接收 · 暂不可用"
       }
     }
   },

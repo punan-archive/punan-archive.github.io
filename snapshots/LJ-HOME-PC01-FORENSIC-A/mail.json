@@ -3,6 +3,28 @@
     "label": "liujiangyuan",
     "address": "liujiangyuan@126.com"
   },
+  "terminalSupplement": {
+    "message": {
+      "id": "inbox-posthumous-lens-cap",
+      "folderId": "inbox",
+      "from": "老周 文化宫 <账号已隐去>",
+      "fromLabel": "老周 文化宫",
+      "to": "刘江源 <liujiangyuan@126.com>",
+      "subject": "镜头盖",
+      "date": "2010年11月14日 22:17",
+      "listDate": "11月14日 22:17",
+      "unread": true,
+      "terminalSupplement": true,
+      "body": "江源：\n\n今天公安的人来文化宫找我。问到后来，我才知道你人已经没了。\n\n我把你十一号留的几条消息给他们看了。你说要拿来的那几页纸，到底也没拿来。\n\n你那只52的镜头盖还在我抽屉里。我那天还叫你别又买一只。\n\n我先替你放着。\n\n老周"
+    },
+    "reply": {
+      "subject": "Re: 镜头盖",
+      "to": "老周 文化宫",
+      "body": "周老师：\n\n刘老师留下的资料，我们都找到了。没有丢。\n他没能查完的事，我们会接着查。\n\n镜头盖还请您替他放着。",
+      "slowTail": "镜头盖还请您替他放着。",
+      "slowTailMultiplier": 1.7
+    }
+  },
   "folders": [
     {
       "id": "inbox",

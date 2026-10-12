@@ -1,1 +1,0 @@
-function s(t){if(!t)return;let e=44;t.querySelectorAll(".system-notification").forEach(o=>{o.style.bottom=`${e}px`,e+=o.offsetHeight+8})}function r(t){const e=t?.closest(".pc-shell");t?.remove(),s(e)}export{s as a,r};
