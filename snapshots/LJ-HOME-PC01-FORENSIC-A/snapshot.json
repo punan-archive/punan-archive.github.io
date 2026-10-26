@@ -64,14 +64,15 @@
   "filesystemVersion": 2,
   "guardian250Mode": "records-v2-adapter",
   "analyticsMilestones": {
-    "mount": "m10",
-    "recycleOpen": "m11",
-    "recycleRestore": "m12",
-    "guardianOpen": "m13",
-    "guardianRestore": "m14",
-    "deepEligible": "m15",
-    "discMounted": "m16",
-    "complete": "m17"
+    "mount": "pna-m10",
+    "recycleOpen": "pna-m11",
+    "recycleRestore": "pna-m12",
+    "guardianOpen": "pna-m13",
+    "guardianRestore": "pna-m14",
+    "deepEligible": "pna-m15",
+    "discMounted": "pna-m16",
+    "finalReadmeOpen": "pna-m17",
+    "complete": "pna-m18"
   },
   "features": {
     "supportsRecycleRestore": true,
