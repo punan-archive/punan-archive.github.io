@@ -93,36 +93,78 @@
       "delayMinMs": 10000,
       "delayMaxMs": 30000,
       "eligibility": {
-        "standardRecords": [
-          "PB-20100921-1908:old-photo-check-0920"
+        "layers": [
+          {
+            "id": "september",
+            "label": "九月：他最清醒的时候",
+            "min": 2,
+            "pieces": [
+              [
+                "record:PB-20100921-1908:old-photo-check-0920"
+              ],
+              [
+                "record:PB-20100921-1908:watch-photo-4689",
+                "record:PB-20100921-1908:watch-crop-4689"
+              ],
+              [
+                "record:PB-20100921-1908:watch-photo-4724",
+                "record:PB-20100921-1908:watch-crop-4724"
+              ],
+              [
+                "record:PB-20100921-1908:failed-address-visit-note"
+              ],
+              [
+                "record:PB-20100921-1908:knowledge-range-doc"
+              ],
+              [
+                "record:PB-20100921-1908:liu-main-investigation-doc"
+              ]
+            ]
+          },
+          {
+            "id": "missing-pages",
+            "label": "缺页：他留下的钩子",
+            "min": 1,
+            "pieces": [
+              [
+                "record:PB-20100921-1908:old-contact-note",
+                "record:PB-20100921-1908:equipment-register-scan"
+              ]
+            ]
+          },
+          {
+            "id": "self-doubt",
+            "label": "他察觉",
+            "min": 1,
+            "pieces": [
+              [
+                "record:PB-20101016-0046:medical-note-full-1016",
+                "record:PB-20101012-2248:liu-main-investigation-doc",
+                "record:PB-20100921-1908:liu-main-investigation-doc"
+              ]
+            ]
+          },
+          {
+            "id": "november",
+            "label": "十一月：他重新站起来",
+            "min": 2,
+            "pieces": [
+              [
+                "final-pending-check-doc"
+              ],
+              [
+                "final-before-opening-note"
+              ],
+              [
+                "deleted-going-out-copy"
+              ],
+              [
+                "deleted-before-burn-note"
+              ]
+            ]
+          }
         ],
-        "nonstandardRecords": [
-          "PB-20101016-0046:medical-note-full-1016",
-          "PB-20100921-1908:knowledge-range-doc"
-        ],
-        "broadHiddenRecords": [
-          "PB-20101029-2316:liu-main-investigation-doc",
-          "PB-20101029-2316:knowledge-range-late",
-          "PB-20101012-2248:catalog-cover-1997",
-          "PB-20101012-2248:catalog-generic-p37",
-          "PB-20101012-2248:catalog-close-p62",
-          "PB-20101012-2248:bandai-2009-cache",
-          "PB-20101012-2248:old-news-1997-clipping",
-          "PB-20100921-1908:old-contact-note",
-          "PB-20100921-1908:equipment-register-scan",
-          "PB-20100921-1908:watch-photo-4689",
-          "PB-20100921-1908:watch-photo-4724",
-          "PB-20100921-1908:knowledge-range-doc",
-          "PB-20100921-1908:old-photo-check-0920",
-          "PB-20101016-0046:medical-note-full-1016",
-          "PB-20100918-2211:old-photo-check-0716"
-        ],
-        "broadOpenedAnchors": [
-          "PB-20100921-1908:old-contact-note",
-          "PB-20100921-1908:watch-photo-4689",
-          "PB-20100921-1908:watch-photo-4724"
-        ],
-        "broadMinimumRestored": 4
+        "fallbackMs": 600000
       }
     },
     "conclusion": {

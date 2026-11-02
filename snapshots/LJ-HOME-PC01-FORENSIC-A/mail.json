@@ -1,7 +1,7 @@
 {
   "account": {
     "label": "liujiangyuan",
-    "address": "liujiangyuan@126.com"
+    "address": "liuji××gyuan@126.com"
   },
   "terminalSupplement": {
     "message": {
@@ -9,7 +9,7 @@
       "folderId": "inbox",
       "from": "老周 文化宫 <账号已隐去>",
       "fromLabel": "老周 文化宫",
-      "to": "刘江源 <liujiangyuan@126.com>",
+      "to": "刘江源 <liuji××gyuan@126.com>",
       "subject": "镜头盖",
       "date": "2010年11月14日 22:17",
       "listDate": "11月14日 22:17",
@@ -22,7 +22,8 @@
       "to": "老周 文化宫",
       "body": "周老师：\n\n刘老师留下的资料，我们都找到了。没有丢。\n他没能查完的事，我们会接着查。\n\n镜头盖还请您替他放着。",
       "slowTail": "镜头盖还请您替他放着。",
-      "slowTailMultiplier": 1.7
+      "slowTailMultiplier": 1.7,
+      "bodyFallback": "周老师：\n\n刘老师留下的资料，我们找到了。没有丢。\n他没能查完的事，我们会接着查。\n\n镜头盖还请您替他放着。"
     }
   },
   "folders": [
@@ -58,9 +59,9 @@
     {
       "id": "inbox-photo-submission",
       "folderId": "inbox",
-      "from": "浦南区青少年活动中心 <pnsng@163.com>",
+      "from": "浦南区青少年活动中心 <pn××g@163.com>",
       "fromLabel": "浦南区青少年活动中心",
-      "to": "刘江源 <liujiangyuan@126.com>",
+      "to": "刘江源 <liuji××gyuan@126.com>",
       "subject": "周末摄影作品收件时间",
       "date": "2010年11月12日 16:06",
       "listDate": "11月12日 16:06",
@@ -70,9 +71,9 @@
     {
       "id": "inbox-wednesday-meal",
       "folderId": "inbox",
-      "from": "周三加菜 <31740682@qq.com>",
+      "from": "周三加菜 <317××682@qq.com>",
       "fromLabel": "周三加菜",
-      "to": "刘江源 <liujiangyuan@126.com>",
+      "to": "刘江源 <liuji××gyuan@126.com>",
       "subject": "请教一张九二年的照片",
       "date": "2010年11月12日 11:08",
       "listDate": "11月12日 11:08",
@@ -90,9 +91,9 @@
     {
       "id": "inbox-camera-offer",
       "folderId": "inbox",
-      "from": "大众摄影网讯 <newsletter@photo365.cn>",
+      "from": "大众摄影网讯 <news××tter@photo365.cn>",
       "fromLabel": "大众摄影网讯",
-      "to": "liujiangyuan@126.com",
+      "to": "liuji××gyuan@126.com",
       "subject": "本周二手器材信息摘要",
       "date": "2010年11月11日 08:32",
       "listDate": "11月11日 08:32",
@@ -102,9 +103,9 @@
     {
       "id": "inbox-class-schedule",
       "folderId": "inbox",
-      "from": "陈丽 <chenli_pn@126.com>",
+      "from": "陈丽 <chen××_pn@126.com>",
       "fromLabel": "陈丽",
-      "to": "刘江源 <liujiangyuan@126.com>",
+      "to": "刘江源 <liuji××gyuan@126.com>",
       "subject": "下月兴趣班课表",
       "date": "2010年11月9日 19:41",
       "listDate": "11月9日 19:41",
@@ -113,21 +114,21 @@
     {
       "id": "draft-wednesday-reply",
       "folderId": "drafts",
-      "from": "刘江源 <liujiangyuan@126.com>",
+      "from": "刘江源 <liuji××gyuan@126.com>",
       "fromLabel": "周三加菜",
-      "to": "周三加菜 <31740682@qq.com>",
+      "to": "周三加菜 <317××682@qq.com>",
       "subject": "Re: 请教一张九二年的照片",
       "date": "2010年11月12日 13:42",
       "listDate": "11月12日 13:42",
       "state": "draft",
-      "body": "你好：\n\n看背景像东楼前。九二年秋天在那里拍过不止一次，只凭这一块没法确定。\n\n我先找一下那年的底片袋，找到再回。"
+      "body": "你好：\n\n看背景像东楼前。92年秋天在那里拍过不止一次，只凭这一块没法确定。\n\n我先找一下那年的底片袋，找到再回。"
     },
     {
       "id": "draft-weekend-note",
       "folderId": "drafts",
-      "from": "刘江源 <liujiangyuan@126.com>",
+      "from": "刘江源 <liuji××gyuan@126.com>",
       "fromLabel": "浦南区青少年活动中心",
-      "to": "浦南区青少年活动中心 <pnsng@163.com>",
+      "to": "浦南区青少年活动中心 <pn××g@163.com>",
       "subject": "Re: 周末摄影作品收件时间",
       "date": "2010年11月12日 16:18",
       "listDate": "11月12日 16:18",
@@ -137,9 +138,9 @@
     {
       "id": "sent-print-order",
       "folderId": "sent",
-      "from": "刘江源 <liujiangyuan@126.com>",
+      "from": "刘江源 <liuji××gyuan@126.com>",
       "fromLabel": "刘江源",
-      "to": "远景图片社 <yuanjing_photo@163.com>",
+      "to": "远景图片社 <yuanji××_photo@163.com>",
       "subject": "Re: 十月份冲印单",
       "date": "2010年11月3日 09:17",
       "listDate": "11月3日 09:17",
@@ -150,9 +151,9 @@
     {
       "id": "sent-hospital-memory-consult",
       "folderId": "sent",
-      "from": "刘江源 <liujiangyuan@126.com>",
+      "from": "刘江源 <liuji××gyuan@126.com>",
       "fromLabel": "刘江源",
-      "to": "浦南区中心医院健康咨询 <health@pnch.org.cn>",
+      "to": "浦南区中心医院健康咨询 <he××th@pnch.org.cn>",
       "subject": "咨询记忆问题应挂哪个科",
       "date": "2010年9月20日 22:04",
       "listDate": "9月20日 22:04",
@@ -163,9 +164,9 @@
     {
       "id": "inbox-hospital-memory-reply",
       "folderId": "inbox",
-      "from": "浦南区中心医院健康咨询 <health@pnch.org.cn>",
+      "from": "浦南区中心医院健康咨询 <he××th@pnch.org.cn>",
       "fromLabel": "浦南区中心医院健康咨询",
-      "to": "刘江源 <liujiangyuan@126.com>",
+      "to": "刘江源 <liuji××gyuan@126.com>",
       "subject": "回复：咨询记忆问题应挂哪个科",
       "date": "2010年9月21日 16:52",
       "listDate": "9月21日 16:52",
@@ -175,9 +176,9 @@
     {
       "id": "inbox-print-order-original",
       "folderId": "inbox",
-      "from": "远景图片社 <yuanjing_photo@163.com>",
+      "from": "远景图片社 <yuanji××_photo@163.com>",
       "fromLabel": "远景图片社",
-      "to": "刘江源 <liujiangyuan@126.com>",
+      "to": "刘江源 <liuji××gyuan@126.com>",
       "subject": "十月份冲印单",
       "date": "2010年11月2日 18:46",
       "listDate": "11月2日 18:46",
@@ -187,9 +188,9 @@
     {
       "id": "inbox-square-photo-request",
       "folderId": "inbox",
-      "from": "小丁 信息港 <editor@punan.net>",
+      "from": "小丁 信息港 <ed××or@punan.net>",
       "fromLabel": "小丁 信息港",
-      "to": "刘江源 <liujiangyuan@126.com>",
+      "to": "刘江源 <liuji××gyuan@126.com>",
       "subject": "核心区广场检修照片",
       "date": "2009年9月18日 15:46",
       "listDate": "2009-09-18",
@@ -198,9 +199,9 @@
     {
       "id": "sent-square-photo-first",
       "folderId": "sent",
-      "from": "刘江源 <liujiangyuan@126.com>",
+      "from": "刘江源 <liuji××gyuan@126.com>",
       "fromLabel": "刘江源",
-      "to": "小丁 信息港 <editor@punan.net>",
+      "to": "小丁 信息港 <ed××or@punan.net>",
       "subject": "Re: 核心区广场检修照片",
       "date": "2009年9月18日 16:12",
       "listDate": "2009-09-18",
@@ -209,9 +210,9 @@
     {
       "id": "inbox-square-photo-size",
       "folderId": "inbox",
-      "from": "小丁 信息港 <editor@punan.net>",
+      "from": "小丁 信息港 <ed××or@punan.net>",
       "fromLabel": "小丁 信息港",
-      "to": "刘江源 <liujiangyuan@126.com>",
+      "to": "刘江源 <liuji××gyuan@126.com>",
       "subject": "Re: 核心区广场检修照片",
       "date": "2009年9月18日 16:18",
       "listDate": "2009-09-18",
@@ -220,9 +221,9 @@
     {
       "id": "sent-square-photo-sample",
       "folderId": "sent",
-      "from": "刘江源 <liujiangyuan@126.com>",
+      "from": "刘江源 <liuji××gyuan@126.com>",
       "fromLabel": "刘江源",
-      "to": "小丁 信息港 <editor@punan.net>",
+      "to": "小丁 信息港 <ed××or@punan.net>",
       "subject": "Re: 核心区广场检修照片",
       "date": "2009年9月18日 22:07",
       "listDate": "2009-09-18",
@@ -239,9 +240,9 @@
     {
       "id": "inbox-square-photo-accepted",
       "folderId": "inbox",
-      "from": "小丁 信息港 <editor@punan.net>",
+      "from": "小丁 信息港 <ed××or@punan.net>",
       "fromLabel": "小丁 信息港",
-      "to": "刘江源 <liujiangyuan@126.com>",
+      "to": "刘江源 <liuji××gyuan@126.com>",
       "subject": "Re: 核心区广场检修照片",
       "date": "2009年9月19日 09:24",
       "listDate": "2009-09-19",
@@ -250,9 +251,9 @@
     {
       "id": "inbox-local-photo-call",
       "folderId": "inbox",
-      "from": "《新浦南报》图片资料 <photo@xpn.cn>",
+      "from": "《新浦南报》图片资料 <ph××o@xpn.cn>",
       "fromLabel": "《新浦南报》图片资料",
-      "to": "刘江源 <liujiangyuan@126.com>",
+      "to": "刘江源 <liuji××gyuan@126.com>",
       "subject": "旧生活设施照片登记",
       "date": "2008年4月11日 10:03",
       "listDate": "2008-04-11",
@@ -261,9 +262,9 @@
     {
       "id": "sent-local-photo-first",
       "folderId": "sent",
-      "from": "刘江源 <liujiangyuan@126.com>",
+      "from": "刘江源 <liuji××gyuan@126.com>",
       "fromLabel": "刘江源",
-      "to": "《新浦南报》图片资料 <photo@xpn.cn>",
+      "to": "《新浦南报》图片资料 <ph××o@xpn.cn>",
       "subject": "Re: 旧生活设施照片登记",
       "date": "2008年4月11日 21:36",
       "listDate": "2008-04-11",
@@ -272,9 +273,9 @@
     {
       "id": "inbox-local-photo-reply",
       "folderId": "inbox",
-      "from": "《新浦南报》图片资料 <photo@xpn.cn>",
+      "from": "《新浦南报》图片资料 <ph××o@xpn.cn>",
       "fromLabel": "《新浦南报》图片资料",
-      "to": "刘江源 <liujiangyuan@126.com>",
+      "to": "刘江源 <liuji××gyuan@126.com>",
       "subject": "Re: 旧生活设施照片登记",
       "date": "2008年4月12日 08:17",
       "listDate": "2008-04-12",
@@ -283,9 +284,9 @@
     {
       "id": "sent-local-photo-contact",
       "folderId": "sent",
-      "from": "刘江源 <liujiangyuan@126.com>",
+      "from": "刘江源 <liuji××gyuan@126.com>",
       "fromLabel": "刘江源",
-      "to": "《新浦南报》图片资料 <photo@xpn.cn>",
+      "to": "《新浦南报》图片资料 <ph××o@xpn.cn>",
       "subject": "Re: 旧生活设施照片登记",
       "date": "2008年4月13日 17:52",
       "listDate": "2008-04-13",
