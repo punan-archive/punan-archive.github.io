@@ -55,8 +55,9 @@
       "type": "image",
       "parentId": "disc-folder-letter",
       "modified": "2010-09-13 19:22",
-      "imageSrc": "/snapshots/LJ-HOME-PC01-FORENSIC-A/P1000913_01.JPG",
-      "caption": "挂号邮包拆封前全景。"
+      "imageSrc": "/snapshots/LJ-HOME-PC01-FORENSIC-A/P1000913_01-v2.jpg",
+      "caption": "挂号邮包拆封前全景。",
+      "imagePreviewSrc": "/snapshots/LJ-HOME-PC01-FORENSIC-A/P1000913_01-v2-preview.jpg"
     },
     {
       "id": "disc-package-front",
@@ -64,9 +65,9 @@
       "type": "image",
       "parentId": "disc-folder-letter",
       "modified": "2010-09-13 19:24",
-      "imageSrc": "/snapshots/LJ-HOME-PC01-FORENSIC-A/P1000913_02-v2.jpg",
+      "imageSrc": "/snapshots/LJ-HOME-PC01-FORENSIC-A/P1000913_02-v3.jpg",
       "caption": "同一邮包正面近照。",
-      "imagePreviewSrc": "/snapshots/LJ-HOME-PC01-FORENSIC-A/P1000913_02-v2-preview.jpg"
+      "imagePreviewSrc": "/snapshots/LJ-HOME-PC01-FORENSIC-A/P1000913_02-v3-preview.jpg"
     },
     {
       "id": "disc-address-visit",
@@ -230,28 +231,28 @@
             "09-20-03",
             "IMG_5407.JPG",
             "旧资料袋",
-            "1993年区校活动名单（复印）",
+            "袋内封页（空白）",
             "已归"
           ],
           [
             "09-20-03",
             "IMG_5408.JPG",
             "旧资料袋",
-            "节目单背页（复印）",
+            "夹页，横格纸（空白）",
             "已归"
           ],
           [
             "09-20-03",
             "IMG_5409.JPG",
             "旧资料袋",
-            "照片交接便笺（复印）",
+            "复印件（曝光过度，作废）",
             "已归"
           ],
           [
             "09-20-03",
             "IMG_5410.JPG",
             "旧资料袋",
-            "临时借用记录（复印）",
+            "背页（空白）",
             "已归"
           ],
           [
@@ -271,8 +272,8 @@
           [
             "09-20-04",
             "IMG_5413.JPG",
-            "文化宫",
-            "送印清单",
+            "—",
+            "扫描测试页",
             "已归"
           ],
           [
@@ -334,7 +335,7 @@
       "name": "IMG_5411.JPG",
       "type": "image",
       "parentId": "disc-folder-unconfirmed",
-      "modified": "2010-09-20 17:48",
+      "modified": "2010-11-11 22:33",
       "imageSrc": "/snapshots/LJ-HOME-PC01-FORENSIC-A/IMG_5411.JPG",
       "caption": "纸袋09-20-03，第5页。"
     },
@@ -343,7 +344,7 @@
       "name": "IMG_5412.JPG",
       "type": "image",
       "parentId": "disc-folder-unconfirmed",
-      "modified": "2010-09-20 17:51",
+      "modified": "2010-11-11 22:35",
       "imageSrc": "/snapshots/LJ-HOME-PC01-FORENSIC-A/IMG_5412_v2.JPG",
       "caption": "纸袋09-20-03，第6页。"
     },

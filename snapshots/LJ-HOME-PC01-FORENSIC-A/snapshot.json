@@ -84,9 +84,9 @@
       "finalReadmeItemId": "disc-final-readme",
       "terminalMail": {
         "messageId": "inbox-posthumous-lens-cap",
-        "minimumReadMs": 8000,
+        "minimumReadMs": 15000,
         "nearEndDwellMs": 3000,
-        "fallbackDelayMs": 45000,
+        "fallbackDelayMs": 30000,
         "transferDelayMs": 2200,
         "completeNoticeMs": 9000
       },
@@ -165,7 +165,8 @@
           }
         ],
         "fallbackMs": 600000
-      }
+      },
+      "installerItemId": "cdmaster-installer"
     },
     "conclusion": {
       "pendingTitle": "调查记录已更新",
