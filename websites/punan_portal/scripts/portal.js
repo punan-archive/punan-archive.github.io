@@ -255,7 +255,7 @@
     return `${crumb('浦南社区')}<div class="two-column">${sideNav()}<section class="article community-directory">
       <h1>浦南社区</h1><div class="article-meta">居民来帖与生活问答　共 ${rows.length} 条</div>
       <table class="archive-table"><thead><tr><th>日期</th><th>分类</th><th>主题</th><th>发布者</th><th>回复</th></tr></thead><tbody>
-      ${rows.map((item) => `<tr><td>${escapeHtml(item.date)}</td><td>${escapeHtml(item.section)}</td><td>${link(item.title, item.virtualUrl)}</td><td>${escapeHtml(displayUser(item.editor))}</td><td class="reply-count">${item.replies?.length ?? '摘录'}</td></tr>`).join('')}
+      ${rows.map((item) => `<tr><td>${escapeHtml(item.date)}</td><td>${escapeHtml(item.section)}</td><td>${link(item.title, item.virtualUrl)}</td><td>${escapeHtml(displayUser(item.editor))}</td><td class="reply-count">${item.replies?.length ?? '—'}</td></tr>`).join('')}
       </tbody></table></section></div>`;
   }
 

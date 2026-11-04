@@ -57,7 +57,7 @@
       "type": "text",
       "parentId": null,
       "modified": "2010-10-27 22:04",
-      "content": "19路　经六路方向　22:10\n31路　浦南文化馆方向　21:45\n\n小心31路末班车可能比预期早出发10分钟。"
+      "content": "19路　经六路方向　22:10\n31路　浦南文化馆方向　21:45\n\n31路末班车经常提前十分钟走！！"
     },
     {
       "id": "reading-list",
@@ -73,7 +73,7 @@
       "type": "text",
       "parentId": null,
       "modified": "2010-11-12 22:18",
-      "content": "政治卷子\n借书证\n值日要关窗\n手表不要带去社团。\n美术社那件事不再管了！"
+      "content": "政治卷子\n借书证\n值日要关窗\n手表别带（社长说的）\n美术社那件事不再管了！"
     },
     {
       "id": "sports-retest",
@@ -81,7 +81,7 @@
       "type": "text",
       "parentId": "school-folder",
       "modified": "2010-11-05 18:41",
-      "content": "下周三放学后，高三年级体育补测。\n名单里次次都有我。\n1000米、立定跳远。\n地点：田径场。"
+      "content": "高三体育补测\n下周三放学后，田径场\n1000米、立定跳远\n\n名单里又有我。"
     },
     {
       "id": "politics-paper",
@@ -166,7 +166,7 @@
       "type": "text",
       "parentId": "detective-folder",
       "modified": "2010-11-08 20:14",
-      "content": "美术社来问的\n\n小黑上周被周恬带回家。\n周一又回到美术室里面那间的窗外。\n\n和以前不一样，据说变得不理人，伸手还会抓。\n\n顾遥怀疑周恬家里不让养，又偷偷把猫送回学校。\n这两个人都在QQ里说过话。最好先去把事问清楚。\n千万不要直接去问“为什么送回来”。"
+      "content": "美术社来问的（顾遥）\n\n小黑：上周被周恬领回家\n周一又出现在美术室里面那间的窗外\n据说不理人了，伸手会抓（阿敏被抓了三道）\n\n顾遥的说法：周恬家里不让养，偷偷送回来了\n→ 没证据\n\n两边分别问清楚再说。不要直接问周恬“为什么送回来”"
     },
     {
       "id": "campus-locations",
@@ -174,7 +174,7 @@
       "type": "text",
       "parentId": "detective-folder",
       "modified": "2010-10-21 19:08",
-      "content": "教学楼到体育仓库：正常走四分半。\n图书馆侧门周五17:30锁。\n旧实验楼楼梯灯坏了两盏。\n广播室钥匙通常在团委。\n先只记录地点。暂时不考虑潜行进办公室调查。"
+      "content": "教学楼到体育仓库：正常走四分半\n图书馆侧门周五17:30锁\n旧实验楼楼梯灯坏了两盏\n广播室钥匙一般在团委\n\n（潜行进办公室：暂不考虑）"
     },
     {
       "id": "recruit-poster",
@@ -191,7 +191,7 @@
       "type": "text",
       "parentId": "downloads-folder",
       "modified": "2010-10-27 21:58",
-      "content": "文件原名：浦南公交线路图2008.jpg\n\n图片太大，保存失败。后来把要用的两条线路抄进了“末班车.txt”。"
+      "content": "原来存的是 浦南公交线路图2008.jpg，图太大没存下来\n要用的两条已经抄到 末班车.txt 了"
     },
     {
       "id": "dark-four-archive",
@@ -199,7 +199,7 @@
       "type": "archive",
       "parentId": "downloads-folder",
       "modified": "2010-11-03 19:51",
-      "content": "压缩文件无法打开。\n\n文件大小：42 KB\n备注：从二年八班拷来的文曲星BASIC文字游戏，并不是那个《暗黑破坏神4》。"
+      "content": "压缩文件已损坏，无法打开。\n\n文件大小：42 KB\n备注：八班拷的，文曲星用"
     },
     {
       "id": "mystery-books",
@@ -218,7 +218,7 @@
       "imageSrc": "/websites/punan_portal/assets/autumn-photo.png",
       "imagePreviewSrc": "/websites/punan_portal/assets/autumn-photo-preview.jpg",
       "imageScreenSrc": "/websites/punan_portal/assets/autumn-photo-screen.jpg",
-      "caption": "从浦南摄影讨论区保存。原帖说是纬三路附近，拍摄者没有写具体路口。"
+      "caption": "来源：浦南摄影讨论区。原帖只说在纬三路附近，没写哪个路口。"
     },
     {
       "id": "factory-night",
@@ -229,7 +229,7 @@
       "imageSrc": "/websites/punan_portal/assets/seawall.png",
       "imagePreviewSrc": "/websites/punan_portal/assets/seawall-preview.jpg",
       "imageScreenSrc": "/websites/punan_portal/assets/seawall-screen.jpg",
-      "caption": "文件名是转载时自动生成的。评论里有人争论照片究竟是在经几路拍的。"
+      "caption": "转载图，文件名是自动生成的。原帖评论在争到底是在经几路拍的。"
     },
     {
       "id": "campus-autumn",
@@ -238,7 +238,7 @@
       "parentId": "pictures-folder",
       "modified": "2010-11-02 18:05",
       "imageSrc": "/websites/maishan_school/assets/thumb_courtyard_autumn_2010.jpg",
-      "caption": "盟杉中学官网活动照片。把它裁过一次，最后还是保存了原图。"
+      "caption": "来源：盟杉中学官网活动照片。裁过一版，后来还是留了原图。"
     },
     {
       "id": "cat-window-photo",
@@ -247,7 +247,7 @@
       "parentId": "qq-pictures-folder",
       "modified": "2010-11-08 17:06",
       "imageSrc": "/snapshots/MN-HOME-PC01-20101112-A/DSC00317.JPG",
-      "caption": "从顾遥的QQ消息中接收。照片很暗，窗边几乎什么也看不清。"
+      "caption": "顾遥QQ发来的。太暗了，窗边基本看不清。"
     },
     {
       "id": "cat-home-capture",
@@ -256,7 +256,7 @@
       "parentId": "qq-pictures-folder",
       "modified": "2010-11-08 16:58",
       "imageSrc": "/snapshots/MN-HOME-PC01-20101112-A/CameraCapture_20101108_1658.bmp",
-      "caption": "QQ摄像头抓拍。周恬家的书桌。"
+      "caption": "周恬QQ视频时的摄像头抓拍。她家书桌。"
     }
   ],
   "recycleBin": [
